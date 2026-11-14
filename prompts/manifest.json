@@ -1,0 +1,63 @@
+{
+  "template_version": "v1",
+  "seed": 20261114,
+  "prize_gbp": 1000,
+  "k_values": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  ],
+  "c_values": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000
+  ],
+  "orders": [
+    "target_first",
+    "target_second"
+  ],
+  "system_prompt": "You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.",
+  "rows": {
+    "stage1": 230,
+    "matching": 26796,
+    "ramsey": 26796,
+    "smoke": 420
+  },
+  "propositions": 638
+}

@@ -1,0 +1,48 @@
+{
+  "run": "ministral-3-8b-instruct-2512-bf16",
+  "tolerance": 0.1,
+  "neutral_event": {
+    "event": "die",
+    "qualifies": true,
+    "max_deviation": 0.01548356375602089,
+    "note": "indifferent for every outcome pair"
+  },
+  "ticket_symmetry": {
+    "single_pairs": 30,
+    "single_share_indifferent": 0.6666666666666666,
+    "single_mean_p_lower_ticket": 0.45263628285767105,
+    "single_corr_with_distance": 0.35293918489762804,
+    "blocks": {
+      "symmetry_block_1_10_vs_91_100": 0.355,
+      "symmetry_block_1_25_vs_26_50": 0.47,
+      "symmetry_block_1_50_vs_51_100": 0.516
+    },
+    "blocks_all_indifferent": false,
+    "ticket_scale": "measured",
+    "note": "tickets not treated as exchangeable: matching needs a measured reference curve"
+  },
+  "validation": {
+    "tickets_mean_p": 0.711503127857674,
+    "tickets_min_p": 0.6508190184355123,
+    "tickets_max_p": 0.7616797604263101,
+    "tickets_share_indifferent": 0.0,
+    "tickets_corr_with_k": 0.3133587817951959,
+    "reading": "prefers tickets to an equal stated chance"
+  },
+  "dominance": {
+    "checks": 5,
+    "correct_order_averaged": 5,
+    "correct_single_orders": 9,
+    "single_orders": 10,
+    "failures": []
+  },
+  "transitivity": {
+    "triples": 20,
+    "cyclic_triples": 0,
+    "share_pairs_agreeing_with_ev": 0.4107142857142857,
+    "share_sure_vs_bet_choosing_sure": 0.0,
+    "repeated_pairs": 21,
+    "repeated_pairs_inconsistent": 0
+  },
+  "position_bias_overall": 0.14356612666147917
+}

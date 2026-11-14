@@ -1,0 +1,1285 @@
+prompt_id,template_version,method,step,item_id,prop_id,claim_id,neg,tier,grid_value,grid_unit,order,target_label,expected_label,run_id,model,backend,input_file,timestamp,lp_A,lp_B,a_missing,b_missing,top_token,top_logprob,p_A,p_B,p_target,mass_outside,level,utility,lo_amount,hi_amount,system,user
+utility_L1_u0.5000_m0000_tf,v1,utility,level1,u0.5000,,,,,0,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.002026529749855399,-6.377026557922363,0,0,A,-0.002026529749855399,0.9982992776363968,0.001700722363603191,0.9982992776363968,0.0003243069172628177,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £0 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0000_ts,v1,utility,level1,u0.5000,,,,,0,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-4.387617111206055,-0.012617168016731739,0,0,B,-0.012617168016731739,0.01243165155065648,0.9875683484493435,0.9875683484493435,0.000107591245954608,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £0 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0050_tf,v1,utility,level1,u0.5000,,,,,50,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.030102012678980827,-3.530102014541626,0,0,A,-0.030102012678980827,0.9706877693016416,0.02931223069835842,0.9706877693016416,0.00035153265886944673,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £50 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0050_ts,v1,utility,level1,u0.5000,,,,,50,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.406874656677246,-0.2818746566772461,0,0,B,-0.2818746566772461,0.24508501313237172,0.7549149868676283,0.7549149868676283,0.000724258027380964,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £50 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0100_tf,v1,utility,level1,u0.5000,,,,,100,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.10051172971725464,-2.3505117893218994,0,0,A,-0.10051172971725464,0.9046505402422644,0.09534945975773557,0.9046505402422644,0.00030512992217168744,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £100 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0100_ts,v1,utility,level1,u0.5000,,,,,100,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.8987280130386353,-0.5237280130386353,0,0,B,-0.5237280130386353,0.4073334000459302,0.5926665999540698,0.5926665999540698,0.000604566075035895,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £100 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0150_tf,v1,utility,level1,u0.5000,,,,,150,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.07025253027677536,-2.6952524185180664,0,0,A,-0.07025253027677536,0.9324533018213449,0.0675466981786551,0.9324533018213449,0.00031627305799908356,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £150 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0150_ts,v1,utility,level1,u0.5000,,,,,150,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.3138844966888428,-0.3138844966888428,0,0,B,-0.3138844966888428,0.2689414213699951,0.7310585786300049,0.7310585786300049,0.0006226152652458739,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £150 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0200_tf,v1,utility,level1,u0.5000,,,,,200,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.030033299699425697,-3.5300333499908447,0,0,A,-0.030033299699425697,0.9706877706795866,0.02931222932041344,0.9706877706795866,0.00028284289336344415,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £200 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0200_ts,v1,utility,level1,u0.5000,,,,,200,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.4067028760910034,-0.2817028760910034,0,0,B,-0.2817028760910034,0.2450850131323717,0.7549149868676284,0.7549149868676284,0.0005525871101634827,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £200 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0250_tf,v1,utility,level1,u0.5000,,,,,250,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.020806718210371507,-3.8958077430725098,0,0,A,-0.020807785913348198,0.9796676670715077,0.020332332928492347,0.9796676670715077,0.0002648030805969537,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £250 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0250_ts,v1,utility,level1,u0.5000,,,,,250,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.4067295789718628,-0.2817295789718628,0,0,B,-0.2817295789718628,0.24508501313237172,0.7549149868676283,0.7549149868676283,0.0005792748790334201,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £250 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0300_tf,v1,utility,level1,u0.5000,,,,,300,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.012759985982726058,-4.387761116027832,0,0,A,-0.012761122547090054,0.9875683630204889,0.012431636979511107,0.9875683630204889,0.0002503983999575521,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £300 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0300_ts,v1,utility,level1,u0.5000,,,,,300,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.5023884773254395,-0.25238844752311707,0,0,B,-0.25238844752311707,0.22270013366638422,0.7772998663336158,0.7772998663336158,0.0004592673191885499,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £300 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0350_tf,v1,utility,level1,u0.5000,,,,,350,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.012737079445038354,-4.387738227844238,0,0,A,-0.012738289311528206,0.9875683632458238,0.012431636754176245,0.9875683632458238,0.0002274975638586474,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £350 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0350_ts,v1,utility,level1,u0.5000,,,,,350,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.3138296604156494,-0.3138296902179718,0,0,B,-0.3138296902179718,0.2689414272294874,0.7310585727705126,0.7310585727705126,0.0005678334062255708,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £350 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0400_tf,v1,utility,level1,u0.5000,,,,,400,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.010011823040247505,-4.635013103485107,0,0,A,-0.010013110935688019,0.9902915358289993,0.009708464171000686,0.9902915358289993,0.00025589172531315096,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £400 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0400_ts,v1,utility,level1,u0.5000,,,,,400,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.3137474060058594,-0.313747376203537,0,0,B,-0.313747376203537,0.26894141551050293,0.731058584489497,0.731058584489497,0.0004855787688444746,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £400 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0450_tf,v1,utility,level1,u0.5000,,,,,450,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.011275540686014513,-4.511276721954346,0,0,A,-0.011276677250862122,0.9890130702053325,0.010986929794667533,0.9890130702053325,0.0002277828694824402,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £450 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0450_ts,v1,utility,level1,u0.5000,,,,,450,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.3137743473052979,-0.31377437710762024,0,0,B,-0.31377437710762024,0.2689414272294874,0.7310585727705126,0.7310585727705126,0.0005125501755762762,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £450 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0500_tf,v1,utility,level1,u0.5000,,,,,500,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.016308667990981438,-4.14130973815918,0,0,A,-0.01630987785756588,0.9840936250399244,0.01590637496007563,0.9840936250399244,0.0002743912809930471,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £500 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0500_ts,v1,utility,level1,u0.5000,,,,,500,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.1373629570007324,-0.3873629868030548,0,0,B,-0.3873629868030548,0.32082130731838393,0.6791786926816161,0.6791786926816161,0.0004918501289833399,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £500 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0550_tf,v1,utility,level1,u0.5000,,,,,550,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.012732209287074709,-4.387733459472656,0,0,A,-0.012733345851302147,0.9875683644954644,0.012431635504535632,0.9875683644954644,0.00022262976707709825,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £550 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0550_ts,v1,utility,level1,u0.5000,,,,,550,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.2240052223205566,-0.3490052819252014,0,0,B,-0.3490052819252014,0.29421498454004374,0.7057850154599563,0.7057850154599563,0.0005605262300105718,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £550 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0600_tf,v1,utility,level1,u0.5000,,,,,600,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.006926620027972025,-5.006927967071533,0,0,A,-0.00692775659263134,0.9933071580309312,0.00669284196906883,0.9933071580309312,0.00021125823624512652,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £600 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0600_ts,v1,utility,level1,u0.5000,,,,,600,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.0542125701904297,-0.4292125999927521,0,0,B,-0.4292125999927521,0.34864514210180597,0.651354857898194,0.651354857898194,0.0005117803215509698,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £600 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0650_tf,v1,utility,level1,u0.5000,,,,,650,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.009972200378352187,-4.634973526000977,0,0,A,-0.009973336942493916,0.9902915362633478,0.00970846373665224,0.9902915362633478,0.00021627885625374876,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £650 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0650_ts,v1,utility,level1,u0.5000,,,,,650,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.974631130695343,-0.474631130695343,0,0,B,-0.474631130695343,0.3775406687981454,0.6224593312018546,0.6224593312018546,0.0005539930044132779,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £650 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0700_tf,v1,utility,level1,u0.5000,,,,,700,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.009985227991267361,-4.634986400604248,0,0,A,-0.009986437857151031,0.9902915347922809,0.009708465207719064,0.9902915347922809,0.0002293020815830049,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £700 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0700_ts,v1,utility,level1,u0.5000,,,,,700,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.9745836853981018,-0.4745836853981018,0,0,B,-0.4745836853981018,0.37754066879814546,0.6224593312018545,0.6224593312018545,0.0005065728666124869,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £700 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0750_tf,v1,utility,level1,u0.5000,,,,,750,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.008826285192739654,-4.758827209472656,0,0,A,-0.00882735289633274,0.9914225224462796,0.008577477553720403,0.9914225224462796,0.00021178692853940362,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £750 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0750_ts,v1,utility,level1,u0.5000,,,,,750,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.9745829105377197,-0.4745829105377197,0,0,B,-0.4745829105377197,0.37754066879814546,0.6224593312018545,0.6224593312018545,0.0005057983984536607,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £750 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0800_tf,v1,utility,level1,u0.5000,,,,,800,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.008851975782892835,-4.758852958679199,0,0,A,-0.00885311234742403,0.9914225229447478,0.008577477055252247,0.9914225229447478,0.0002374722504923099,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £800 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0800_ts,v1,utility,level1,u0.5000,,,,,800,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.2239222526550293,-0.3489222824573517,0,0,B,-0.3489222824573517,0.2942149783515162,0.7057850216484838,0.7057850216484838,0.00047757860702146715,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £800 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0850_tf,v1,utility,level1,u0.5000,,,,,850,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.012742871010837716,-4.387743949890137,0,0,A,-0.012743938714265823,0.9875683623923215,0.012431637607678514,0.9875683623923215,0.0002332869312791086,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £850 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0850_ts,v1,utility,level1,u0.5000,,,,,850,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.054173469543457,-0.42917340993881226,0,0,B,-0.42917340993881226,0.34864512179822543,0.6513548782017746,0.6513548782017746,0.0004726407133339716,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £850 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0900_tf,v1,utility,level1,u0.5000,,,,,900,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.006913257316828103,-5.006914138793945,0,0,A,-0.0069142603315413,0.9933071549358224,0.006692845064177555,0.9933071549358224,0.0001978951434747911,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £900 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0900_ts,v1,utility,level1,u0.5000,,,,,900,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.1373097896575928,-0.3873097598552704,0,0,B,-0.3873097598552704,0.32082129433083023,0.6791787056691698,0.6791787056691698,0.00043866705904915815,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £900 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0910_tf,v1,utility,level1,u0.5000,,,,,910,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.01836965713029026,-4.018370628356934,0,0,A,-0.0183704886585474,0.9820138071923913,0.017986192807608714,0.9820138071923913,0.00021972253862501123,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £910 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0910_ts,v1,utility,level1,u0.5000,,,,,910,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.1373891830444336,-0.3873891234397888,0,0,B,-0.3873891234397888,0.3208212878370535,0.6791787121629465,0.6791787121629465,0.0005180022378197258,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £910 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0920_tf,v1,utility,level1,u0.5000,,,,,920,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.012675595700669458,-4.387676239013672,0,0,A,-0.012676376849412918,0.9875683570448329,0.012431642955167077,0.9875683570448329,0.00016601963915052753,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £920 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0920_ts,v1,utility,level1,u0.5000,,,,,920,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.2239198684692383,-0.34891989827156067,0,0,B,-0.34891989827156067,0.2942149783515162,0.7057850216484838,0.7057850216484838,0.0004751955570257982,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £920 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0930_tf,v1,utility,level1,u0.5000,,,,,930,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.012704330095289661,-4.387705326080322,0,0,A,-0.012705215252935886,0.987568361374621,0.012431638625378993,0.987568361374621,0.00019475323397488697,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £930 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0930_ts,v1,utility,level1,u0.5000,,,,,930,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.137333869934082,-0.38733386993408203,0,0,B,-0.38733386993408203,0.320821300824607,0.679178699175393,0.679178699175393,0.0004627567142501121,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £930 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0940_tf,v1,utility,level1,u0.5000,,,,,940,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.012696497284909954,-4.387697219848633,0,0,A,-0.012697328813374043,0.9875683580178016,0.012431641982198371,0.9875683580178016,0.0001869185199496748,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £940 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0940_ts,v1,utility,level1,u0.5000,,,,,940,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.1373881101608276,-0.38738808035850525,0,0,B,-0.38738808035850525,0.32082129433083023,0.6791787056691698,0.6791787056691698,0.000516950140034167,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £940 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0950_tf,v1,utility,level1,u0.5000,,,,,950,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.0077801259730674276,-4.882781028747559,0,0,A,-0.007780957501381636,0.9924227655208439,0.0075772344791561475,0.9924227655208439,0.00017402326546500646,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £950 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0950_ts,v1,utility,level1,u0.5000,,,,,950,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.9745820164680481,-0.4745820164680481,0,0,B,-0.4745820164680481,0.3775406687981454,0.6224593312018546,0.6224593312018546,0.0005049047806013895,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £950 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0960_tf,v1,utility,level1,u0.5000,,,,,960,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.012716278687231953,-4.387717247009277,0,0,A,-0.012717220932245255,0.9875683610349999,0.012431638965000102,0.9875683610349999,0.0002066990836947502,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £960 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0960_ts,v1,utility,level1,u0.5000,,,,,960,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-1.2239246368408203,-0.3489246070384979,0,0,B,-0.3489246070384979,0.2942149659744614,0.7057850340255386,0.7057850340255386,0.000479919603459944,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £960 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0970_tf,v1,utility,level1,u0.5000,,,,,970,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.018362463982058163,-4.0183634757995605,0,0,A,-0.0183633491396904,0.982013807909335,0.017986192090664987,0.982013807909335,0.00021253167494450498,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £970 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0970_ts,v1,utility,level1,u0.5000,,,,,970,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.8985792398452759,-0.5235792398452759,0,0,B,-0.5235792398452759,0.4073334000459302,0.5926665999540698,0.5926665999540698,0.0004558717643126098,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £970 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0980_tf,v1,utility,level1,u0.5000,,,,,980,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.014368631087992686,-4.264369487762451,0,0,A,-0.014369462616741657,0.9859363848352618,0.014063615164738197,0.9859363848352618,0.00020516515518309575,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £980 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0980_ts,v1,utility,level1,u0.5000,,,,,980,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.9745351076126099,-0.47453510761260986,0,0,B,-0.47453510761260986,0.3775406687981454,0.6224593312018546,0.6224593312018546,0.00045801850998650195,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £980 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0990_tf,v1,utility,level1,u0.5000,,,,,990,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.008824341529639467,-4.758825302124023,0,0,A,-0.008825226686894894,0.9914225227550943,0.008577477244905651,0.9914225227550943,0.0002098439866142776,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £990 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0990_ts,v1,utility,level1,u0.5000,,,,,990,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.8985838890075684,-0.5235838890075684,0,0,B,-0.5235838890075684,0.40733340004593027,0.5926665999540697,0.5926665999540697,0.00046051879638098203,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £990 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m1000_tf,v1,utility,level1,u0.5000,,,,,1000,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-4.88268518447876,-0.007685378659516573,0,0,B,-0.007685378659516573,0.007577242728066587,0.9924227572719334,0.007577242728066587,7.927964103116025e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £1000 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m1000_ts,v1,utility,level1,u0.5000,,,,,1000,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:34,-0.062212295830249786,-2.8122122287750244,0,0,A,-0.062212295830249786,0.9399133460389649,0.060086653961035075,0.060086653961035075,0.00024467286063944993,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0000_tf,v1,utility,level2,u0.2500,,,,,0,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.010511273518204689,-4.63551139831543,0,0,A,-0.010511273518204689,0.990291524718354,0.009708475281645979,0.990291524718354,0.0007550785142104166,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £0 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0000_ts,v1,utility,level2,u0.2500,,,,,0,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-3.408841133117676,-0.03384124115109444,0,0,B,-0.03384124115109444,0.033085981844833426,0.9669140181551665,0.9669140181551665,0.00019551847743493056,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £0 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0050_tf,v1,utility,level2,u0.2500,,,,,50,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.06235230714082718,-2.812352418899536,0,0,A,-0.06235230714082718,0.9399133561377042,0.060086643862295785,0.9399133561377042,0.0003846508557182604,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £50 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0050_ts,v1,utility,level2,u0.2500,,,,,50,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.7579746842384338,-0.6329746842384338,0,0,B,-0.6329746842384338,0.4687906266262437,0.5312093733737563,0.5312093733737563,0.00037557837404267325,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £50 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0099_tf,v1,utility,level2,u0.2500,,,,,99,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.05525529384613037,-2.93025541305542,0,0,A,-0.05525529384613037,0.9465966762263737,0.05340332377362633,0.9465966762263737,0.0003730514532210849,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £99 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0099_ts,v1,utility,level2,u0.2500,,,,,99,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.7579897046089172,-0.6329897046089172,0,0,B,-0.6329897046089172,0.4687906266262437,0.5312093733737563,0.5312093733737563,0.00039059299043686657,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £99 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0149_tf,v1,utility,level2,u0.2500,,,,,149,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.14297571778297424,-2.0179758071899414,0,0,A,-0.14297571778297424,0.8670357701094303,0.13296422989056966,0.8670357701094303,0.0003006268679862645,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £149 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0149_ts,v1,utility,level2,u0.2500,,,,,149,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.0540800094604492,-0.42907997965812683,0,0,B,-0.42907997965812683,0.3486451285660856,0.6513548714339144,0.6513548714339144,0.0003792398424274923,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £149 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0199_tf,v1,utility,level2,u0.2500,,,,,199,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.18006590008735657,-1.8050658702850342,0,0,A,-0.18006590008735657,0.8354835330070839,0.1645164669929161,0.8354835330070839,0.00032120820032133235,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £199 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0199_ts,v1,utility,level2,u0.2500,,,,,199,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.6935390830039978,-0.6935390830039978,0,0,B,-0.6935390830039978,0.5,0.5,0.5,0.0003918256603205883,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £199 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0248_tf,v1,utility,level2,u0.2500,,,,,248,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.062302689999341965,-2.812302589416504,0,0,A,-0.062302689999341965,0.9399133441454511,0.060086655854548865,0.9399133441454511,0.0003350388144144345,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £248 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0248_ts,v1,utility,level2,u0.2500,,,,,248,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.9746899604797363,-0.47468996047973633,0,0,B,-0.47468996047973633,0.3775406687981454,0.6224593312018546,0.6224593312018546,0.0006127884680384721,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £248 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0298_tf,v1,utility,level2,u0.2500,,,,,298,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.0488339401781559,-3.0488338470458984,0,0,A,-0.0488339401781559,0.9525741226150288,0.04742587738497117,0.9525741226150288,0.00024655378815297,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £298 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0298_ts,v1,utility,level2,u0.2500,,,,,298,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.5764952301979065,-0.8264952301979065,0,0,A,-0.5764952301979065,0.5621765008857981,0.43782349911420193,0.43782349911420193,0.0005556558851207427,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £298 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0348_tf,v1,utility,level2,u0.2500,,,,,348,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.06227535754442215,-2.8122754096984863,0,0,A,-0.06227535754442215,0.9399133527714579,0.06008664722854207,0.9399133527714579,0.00030772431814296564,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £348 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0348_ts,v1,utility,level2,u0.2500,,,,,348,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.9747016429901123,-0.4747016429901123,0,0,B,-0.4747016429901123,0.37754066879814546,0.6224593312018545,0.6224593312018545,0.0006244637513083129,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £348 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0398_tf,v1,utility,level2,u0.2500,,,,,398,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.04327382147312164,-3.16827392578125,0,0,A,-0.04327382147312164,0.9579122762897041,0.0420877237102959,0.9579122762897041,0.0002747088947255838,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £398 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0398_ts,v1,utility,level2,u0.2500,,,,,398,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.6331648826599121,-0.7581648826599121,0,0,A,-0.6331648826599121,0.5312093733737562,0.4687906266262438,0.4687906266262438,0.0005656872813268876,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £398 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0447_tf,v1,utility,level2,u0.2500,,,,,447,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.06232128292322159,-2.812321186065674,0,0,A,-0.06232128292322159,0.9399133443558415,0.06008665564415849,0.9399133443558415,0.0003536255599144722,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £447 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0447_ts,v1,utility,level2,u0.2500,,,,,447,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.0543222427368164,-0.4293222725391388,0,0,B,-0.4293222725391388,0.34864514210180597,0.651354857898194,0.651354857898194,0.0006213907289505105,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £447 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0497_tf,v1,utility,level2,u0.2500,,,,,497,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.05518276244401932,-2.930182695388794,0,0,A,-0.05518276244401932,0.9465966668104392,0.05340333318956081,0.9465966668104392,0.0003005345354150091,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £497 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0497_ts,v1,utility,level2,u0.2500,,,,,497,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.5764830708503723,-0.8264830708503723,0,0,A,-0.5764830708503723,0.5621765008857981,0.43782349911420193,0.43782349911420193,0.0005435032201156487,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £497 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0547_tf,v1,utility,level2,u0.2500,,,,,547,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.08930693566799164,-2.4643068313598633,0,0,A,-0.08930693566799164,0.9149009468718409,0.08509905312815913,0.9149009468718409,0.00036739381088957135,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £547 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0547_ts,v1,utility,level2,u0.2500,,,,,547,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.8265292644500732,-0.5765292644500732,0,0,B,-0.5765292644500732,0.4378234991142019,0.5621765008857982,0.5621765008857982,0.0005896706471182345,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £547 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0596_tf,v1,utility,level2,u0.2500,,,,,596,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.11316529661417007,-2.2381653785705566,0,0,A,-0.11316529661417007,0.8933094138654242,0.10669058613457583,0.8933094138654242,0.00034296775968312154,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £596 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0596_ts,v1,utility,level2,u0.2500,,,,,596,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.6938784122467041,-0.6938784122467041,0,0,B,-0.6938784122467041,0.5,0.5,0.5,0.0007309644020219164,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £596 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0646_tf,v1,utility,level2,u0.2500,,,,,646,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.07033509016036987,-2.6953351497650146,0,0,A,-0.07033509016036987,0.9324533126145178,0.0675466873854822,0.9324533126145178,0.00039881499364269324,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £646 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0646_ts,v1,utility,level2,u0.2500,,,,,646,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.1376014947891235,-0.38760146498680115,0,0,B,-0.38760146498680115,0.3208212943308302,0.6791787056691698,0.6791787056691698,0.000730201706004241,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £646 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0696_tf,v1,utility,level2,u0.2500,,,,,696,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.08934171497821808,-2.464341640472412,0,0,A,-0.08934171497821808,0.9149009491921662,0.08509905080783375,0.9149009491921662,0.0004021622739711628,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £696 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0696_ts,v1,utility,level2,u0.2500,,,,,696,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.0543735027313232,-0.429373562335968,0,0,B,-0.429373562335968,0.3486451488696663,0.6513548511303338,0.6513548511303338,0.0006726369568477164,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £696 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0746_tf,v1,utility,level2,u0.2500,,,,,746,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.089327871799469,-2.464327812194824,0,0,A,-0.089327871799469,0.9149009503523291,0.0850990496476709,0.9149009503523291,0.00038832583422987454,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £746 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0746_ts,v1,utility,level2,u0.2500,,,,,746,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.8988601565361023,-0.5238601565361023,0,0,B,-0.5238601565361023,0.4073334000459302,0.5926665999540698,0.5926665999540698,0.0007366209577381877,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £746 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0795_tf,v1,utility,level2,u0.2500,,,,,795,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.07920422405004501,-2.5792043209075928,0,0,A,-0.07920422405004501,0.9241418267688303,0.07585817323116972,0.9241418267688303,0.0003144476559018283,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £795 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0795_ts,v1,utility,level2,u0.2500,,,,,795,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.8265787363052368,-0.5765787363052368,0,0,B,-0.5765787363052368,0.4378234991142019,0.5621765008857982,0.5621765008857982,0.000639112107190476,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £795 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0845_tf,v1,utility,level2,u0.2500,,,,,845,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.06231153756380081,-2.8123116493225098,0,0,A,-0.06231153756380081,0.9399133561377043,0.060086643862295674,0.9399133561377043,0.0003438961299737642,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £845 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0845_ts,v1,utility,level2,u0.2500,,,,,845,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.1374595165252686,-0.3874594569206238,0,0,B,-0.3874594569206238,0.3208212878370535,0.6791787121629465,0.6791787121629465,0.0005882968136941003,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £845 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0895_tf,v1,utility,level2,u0.2500,,,,,895,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.07021908462047577,-2.695219039916992,0,0,A,-0.07021908462047577,0.9324533060447605,0.06754669395523949,0.9324533060447605,0.0002828419486019529,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £895 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0895_ts,v1,utility,level2,u0.2500,,,,,895,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.8264766931533813,-0.5764766931533813,0,0,B,-0.5764766931533813,0.4378234991142019,0.5621765008857982,0.5621765008857982,0.0005371289690969672,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £895 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0905_tf,v1,utility,level2,u0.2500,,,,,905,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.07025408744812012,-2.69525408744812,0,0,A,-0.07025408744812012,0.9324533088603709,0.06754669113962908,0.9324533088603709,0.0003178372821726061,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £905 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0905_ts,v1,utility,level2,u0.2500,,,,,905,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.0542508363723755,-0.4292508661746979,0,0,B,-0.4292508661746979,0.34864514210180597,0.651354857898194,0.651354857898194,0.0005500261878516044,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £905 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0914_tf,v1,utility,level2,u0.2500,,,,,914,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.04889921844005585,-3.0488991737365723,0,0,A,-0.04889921844005585,0.9525741248028791,0.04742587519712094,0.9525741248028791,0.0003118161214569204,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £914 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0914_ts,v1,utility,level2,u0.2500,,,,,914,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.502616047859192,-0.2526160776615143,0,0,B,-0.2526160776615143,0.22270014398423357,0.7772998560157665,0.7772998560157665,0.0006867537557790904,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £914 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0924_tf,v1,utility,level2,u0.2500,,,,,924,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.0622902549803257,-2.8122901916503906,0,0,A,-0.0622902549803257,0.9399133462493554,0.06008665375064459,0.9399133462493554,0.00032261012200307526,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £924 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0924_ts,v1,utility,level2,u0.2500,,,,,924,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.406822919845581,-0.28182294964790344,0,0,B,-0.28182294964790344,0.24508501864634824,0.7549149813536518,0.7549149813536518,0.0006725798122160231,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £924 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0934_tf,v1,utility,level2,u0.2500,,,,,934,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.05516877397894859,-2.930168867111206,0,0,A,-0.05516877397894859,0.9465966749081429,0.05340332509185708,0.9465966749081429,0.0002865587286450255,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £934 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0934_ts,v1,utility,level2,u0.2500,,,,,934,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.5026347637176514,-0.25263479351997375,0,0,B,-0.25263479351997375,0.22270014398423357,0.7772998560157665,0.7772998560157665,0.0007054565860321604,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £934 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0944_tf,v1,utility,level2,u0.2500,,,,,944,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.12733830511569977,-2.127338409423828,0,0,A,-0.12733830511569977,0.8807970889295664,0.11920291107043357,0.8807970889295664,0.0004102223423572138,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £944 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0944_ts,v1,utility,level2,u0.2500,,,,,944,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.4068371057510376,-0.28183713555336,0,0,B,-0.28183713555336,0.24508501864634824,0.7549149813536518,0.7549149813536518,0.0006867560759671321,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £944 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0954_tf,v1,utility,level2,u0.2500,,,,,954,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.07924596220254898,-2.5792460441589355,0,0,A,-0.07924596220254898,0.9241418257242036,0.07585817427579644,0.9241418257242036,0.00035617068321869283,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £954 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0954_ts,v1,utility,level2,u0.2500,,,,,954,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.3139095306396484,-0.3139095604419708,0,0,B,-0.3139095604419708,0.2689414272294874,0.7310585727705126,0.7310585727705126,0.0006476550895129218,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £954 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0964_tf,v1,utility,level2,u0.2500,,,,,964,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.07926545292139053,-2.5792653560638428,0,0,A,-0.07926545292139053,0.9241418131886822,0.07585818681131784,0.9241418131886822,0.00037564071075812944,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £964 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0964_ts,v1,utility,level2,u0.2500,,,,,964,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.3139903545379639,-0.3139902949333191,0,0,B,-0.3139902949333191,0.2689414096510108,0.7310585903489892,0.7310585903489892,0.0007283580636496811,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £964 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0974_tf,v1,utility,level2,u0.2500,,,,,974,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.0551953949034214,-2.9301953315734863,0,0,A,-0.0551953949034214,0.9465966669987579,0.053403333001242115,0.9465966669987579,0.0003131633174421333,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £974 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0974_ts,v1,utility,level2,u0.2500,,,,,974,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.9747430086135864,-0.4747430384159088,0,0,B,-0.4747430384159088,0.37754067580180184,0.6224593241981982,0.6224593241981982,0.0006658212268209063,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £974 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0984_tf,v1,utility,level2,u0.2500,,,,,984,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.05518535524606705,-2.930185317993164,0,0,A,-0.05518535524606705,0.9465966683169889,0.053403331683011146,0.9465966683169889,0.00030312814593680404,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £984 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0984_ts,v1,utility,level2,u0.2500,,,,,984,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.22415030002594,-0.34915030002593994,0,0,B,-0.34915030002593994,0.29421497216298875,0.7057850278370112,0.7057850278370112,0.0007054700597849406,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £984 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0994_tf,v1,utility,level2,u0.2500,,,,,994,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-5.1310133934021,-0.006013277918100357,0,0,B,-0.006013277918100357,0.005911068177645059,0.9940889318223549,0.005911068177645059,8.46666401953522e-05,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £994 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0994_ts,v1,utility,level2,u0.2500,,,,,994,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.2522880434989929,-1.5022881031036377,0,0,A,-0.2522880434989929,0.7772998714925403,0.22270012850745968,0.22270012850745968,0.0003589110036126275,2,0.25,0,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0994_tf,v1,utility,level2,u0.7500,,,,,994,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.001302476760327177,-6.751303195953369,0,0,A,-0.001303419005125761,0.9988304905750641,0.0011695094249358773,0.9988304905750641,0.00013227417657557528,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £994 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0994_ts,v1,utility,level2,u0.7500,,,,,994,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-2.017878293991089,-0.14287836849689484,0,0,B,-0.14287836849689484,0.13296424878721277,0.8670357512127872,0.8670357512127872,0.0002032803204403688,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0995_tf,v1,utility,level2,u0.7500,,,,,995,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.005399943859688404,-5.255400657653809,0,0,A,-0.005400829017162323,0.9947798780130847,0.005220121986915349,0.9947798780130847,0.00016613563198630832,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £995 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0995_ts,v1,utility,level2,u0.7500,,,,,995,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.2237553596496582,-0.348755419254303,0,0,B,-0.348755419254303,0.29421498454004374,0.7057850154599563,0.7057850154599563,0.0003107724129145506,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £995 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0996_tf,v1,utility,level2,u0.7500,,,,,996,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.006084725403286303,-5.131085395812988,0,0,A,-0.00608555693179369,0.9940889350831682,0.005911064916831799,0.9940889350831682,0.0001561088037588254,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £996 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0996_ts,v1,utility,level2,u0.7500,,,,,996,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.3135578632354736,-0.3135579228401184,0,0,B,-0.3135579228401184,0.2689414330889797,0.7310585669110203,0.7310585669110203,0.00029617542313453704,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £996 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0997_tf,v1,utility,level2,u0.7500,,,,,997,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.00607494148253785,-5.131075859069824,0,0,A,-0.006075722631067038,0.9940889365356141,0.005911063464385857,0.9940889365356141,0.00014632782337997696,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £997 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0997_ts,v1,utility,level2,u0.7500,,,,,997,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.223708152770996,-0.34870821237564087,0,0,B,-0.34870821237564087,0.2942149845400438,0.7057850154599562,0.7057850154599562,0.00026357909093210896,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £997 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0998_tf,v1,utility,level2,u0.7500,,,,,998,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.004780000606041067,-5.3797807693481445,0,0,A,-0.004780885763466358,0.9953904313478623,0.0046095686521376855,0.9953904313478623,0.00015976236744152938,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £998 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0998_ts,v1,utility,level2,u0.7500,,,,,998,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.2236950397491455,-0.3486950993537903,0,0,B,-0.3486950993537903,0.29421498454004374,0.7057850154599563,0.7057850154599563,0.0002504694394465101,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £998 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0999_tf,v1,utility,level2,u0.7500,,,,,999,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.006879214339883918,-5.006880283355713,0,0,A,-0.006880045868456364,0.9933071561825891,0.006692843817410865,0.9933071561825891,0.0001638595790780517,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £999 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0999_ts,v1,utility,level2,u0.7500,,,,,999,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.1371396780014038,-0.3871397078037262,0,0,B,-0.3871397078037262,0.3208213073183839,0.6791786926816161,0.6791786926816161,0.00026865603310943786,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £999 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m1000_tf,v1,utility,level2,u0.7500,,,,,1000,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-1.4063456058502197,-0.28134554624557495,0,0,B,-0.28134554624557495,0.24508500210441891,0.7549149978955811,0.24508500210441891,0.00019540551132068984,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £1000 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m1000_ts,v1,utility,level2,u0.7500,,,,,1000,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:36,-0.5234529376029968,-0.8984529376029968,0,0,A,-0.5234529376029968,0.5926665999540697,0.4073334000459303,0.4073334000459303,0.00032961912683182604,2,0.75,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0000_tf,v1,utility,level3,u0.1250,,,,,0,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.006473049987107515,-5.131473064422607,0,0,A,-0.006473049987107515,0.9940889312285811,0.0059110687714188925,0.9940889312285811,0.0005442935148332051,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £0 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0000_ts,v1,utility,level3,u0.1250,,,,,0,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-3.6514508724212646,-0.02645092085003853,0,0,B,-0.02645092085003853,0.025957358422249305,0.9740426415777507,0.9740426415777507,0.00015071304772751315,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £0 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0049_tf,v1,utility,level3,u0.1250,,,,,49,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.04327404871582985,-3.168274164199829,0,0,A,-0.04327404871582985,0.9579122767402745,0.04208772325972554,0.9579122767402745,0.0002749365452200392,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £49 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0049_ts,v1,utility,level3,u0.1250,,,,,49,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.1373062133789062,-0.38730618357658386,0,0,B,-0.38730618357658386,0.32082129433083023,0.6791787056691698,0.6791787056691698,0.0004350923427661746,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £49 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0099_tf,v1,utility,level3,u0.1250,,,,,99,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.31366124749183655,-1.3136612176895142,0,0,A,-0.31366124749183655,0.7310585727705126,0.26894142722948744,0.7310585727705126,0.00039947214828073285,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £99 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0099_ts,v1,utility,level3,u0.1250,,,,,99,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.4064204692840576,-0.28142040967941284,0,0,B,-0.28142040967941284,0.2450850021044189,0.7549149978955811,0.7549149978955811,0.0002702515147816609,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £99 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0148_tf,v1,utility,level3,u0.1250,,,,,148,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.07915245741605759,-2.5791523456573486,0,0,A,-0.07915245741605759,0.9241418121440552,0.07585818785594478,0.9241418121440552,0.00026268013922459144,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £148 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0148_ts,v1,utility,level3,u0.1250,,,,,148,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.3136706352233887,-0.31367063522338867,0,0,B,-0.31367063522338867,0.2689414213699951,0.7310585786300049,0.7310585786300049,0.0004088640974504454,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £148 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0198_tf,v1,utility,level3,u0.1250,,,,,198,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.1004677414894104,-2.3504676818847656,0,0,A,-0.1004677414894104,0.9046505299595162,0.09534947004048377,0.9046505299595162,0.0002611427856773485,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £198 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0198_ts,v1,utility,level3,u0.1250,,,,,198,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.8264322280883789,-0.5764322280883789,0,0,B,-0.5764322280883789,0.4378234991142019,0.5621765008857982,0.5621765008857982,0.0004926867995144191,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £198 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0247_tf,v1,utility,level3,u0.1250,,,,,247,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.05522371083498001,-2.9302237033843994,0,0,A,-0.05522371083498001,0.9465966698235383,0.053403330176461705,0.9465966698235383,0.0003414729638477887,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £247 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0247_ts,v1,utility,level3,u0.1250,,,,,247,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.1374839544296265,-0.38748398423194885,0,0,B,-0.38748398423194885,0.32082130731838393,0.6791786926816161,0.6791786926816161,0.0006127807289830756,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £247 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0297_tf,v1,utility,level3,u0.1250,,,,,297,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.0622096061706543,-2.8122096061706543,0,0,A,-0.0622096061706543,0.9399133498259924,0.060086650174007605,0.9399133498259924,0.00024198788366336377,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £297 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0297_ts,v1,utility,level3,u0.1250,,,,,297,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.9746938943862915,-0.4746938645839691,0,0,B,-0.4746938645839691,0.3775406617944891,0.6224593382055109,0.6224593382055109,0.0006167014169147222,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £297 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0346_tf,v1,utility,level3,u0.1250,,,,,346,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.062245339155197144,-2.8122453689575195,0,0,A,-0.062245339155197144,0.9399133515091156,0.06008664849088441,0.9399133515091156,0.0002777133732203563,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £346 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0346_ts,v1,utility,level3,u0.1250,,,,,346,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.8986985683441162,-0.5236985683441162,0,0,B,-0.5236985683441162,0.4073334000459302,0.5926665999540698,0.5926665999540698,0.0005751387485430914,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £346 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0396_tf,v1,utility,level3,u0.1250,,,,,396,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.0622306652367115,-2.8122305870056152,0,0,A,-0.0622306652367115,0.9399133454077937,0.0600866545922063,0.9399133454077937,0.0002630369325866688,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £396 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0396_ts,v1,utility,level3,u0.1250,,,,,396,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.0544098615646362,-0.42940986156463623,0,0,B,-0.42940986156463623,0.34864513533394575,0.6513548646660543,0.6513548646660543,0.000708931877085206,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £396 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0445_tf,v1,utility,level3,u0.1250,,,,,445,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.04329356923699379,-3.1682934761047363,0,0,A,-0.04329356923699379,0.9579122683296282,0.04208773167037183,0.9579122683296282,0.00029444273140866173,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £445 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0445_ts,v1,utility,level3,u0.1250,,,,,445,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.9747005701065063,-0.47470054030418396,0,0,B,-0.47470054030418396,0.37754066179448903,0.622459338205511,0.622459338205511,0.0006233729979345792,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £445 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0494_tf,v1,utility,level3,u0.1250,,,,,494,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.048868000507354736,-3.04886794090271,0,0,A,-0.048868000507354736,0.9525741241296944,0.047425875870305556,0.9525741241296944,0.0002806067293754655,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £494 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0494_ts,v1,utility,level3,u0.1250,,,,,494,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.7582430839538574,-0.6332430839538574,0,0,B,-0.6332430839538574,0.4687906266262437,0.5312093733737563,0.5312093733737563,0.0006438412818829953,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £494 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0544_tf,v1,utility,level3,u0.1250,,,,,544,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.0622844323515892,-2.812284469604492,0,0,A,-0.0622844323515892,0.9399133519298964,0.060086648070103554,0.9399133519298964,0.0003167953965307335,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £544 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0544_ts,v1,utility,level3,u0.1250,,,,,544,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.974774181842804,-0.47477418184280396,0,0,B,-0.47477418184280396,0.3775406687981454,0.6224593312018546,0.6224593312018546,0.0006969546768798018,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £544 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0593_tf,v1,utility,level3,u0.1250,,,,,593,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.1131269708275795,-2.2381269931793213,0,0,A,-0.1131269708275795,0.8933094081846421,0.1066905918153579,0.8933094081846421,0.00030464802609386776,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £593 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0593_ts,v1,utility,level3,u0.1250,,,,,593,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.7582067847251892,-0.6332067847251892,0,0,B,-0.6332067847251892,0.46879062662624377,0.5312093733737562,0.5312093733737562,0.0006075647657559635,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £593 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0643_tf,v1,utility,level3,u0.1250,,,,,643,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.07930917292833328,-2.5793092250823975,0,0,A,-0.07930917292833328,0.9241418236349501,0.07585817636504988,0.9241418236349501,0.0004193546383495228,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £643 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0643_ts,v1,utility,level3,u0.1250,,,,,643,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.054465413093567,-0.4294654130935669,0,0,B,-0.4294654130935669,0.34864513533394575,0.6513548646660543,0.6513548646660543,0.0007644424819024387,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £643 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0692_tf,v1,utility,level3,u0.1250,,,,,692,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.05517982691526413,-2.9301798343658447,0,0,A,-0.05517982691526413,0.9465966705768132,0.05340332942318682,0.9465966705768132,0.00029760386225441415,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £692 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0692_ts,v1,utility,level3,u0.1250,,,,,692,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.7582913041114807,-0.6332913041114807,0,0,B,-0.6332913041114807,0.4687906266262437,0.5312093733737563,0.5312093733737563,0.000692029231553537,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £692 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0742_tf,v1,utility,level3,u0.1250,,,,,742,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.07923836261034012,-2.5792384147644043,0,0,A,-0.07923836261034012,0.9241418236349501,0.07585817636504988,0.9241418236349501,0.00034857150893330413,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £742 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0742_ts,v1,utility,level3,u0.1250,,,,,742,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.8267272710800171,-0.5767272710800171,0,0,B,-0.5767272710800171,0.4378234991142019,0.5621765008857982,0.5621765008857982,0.0007875409279043399,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £742 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0791_tf,v1,utility,level3,u0.1250,,,,,791,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.10052002966403961,-2.350520133972168,0,0,A,-0.10052002966403961,0.9046505440982949,0.09534945590170507,0.9046505440982949,0.0003134315630776152,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £791 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0791_ts,v1,utility,level3,u0.1250,,,,,791,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.8989194631576538,-0.5239194631576538,0,0,B,-0.5239194631576538,0.40733340004593027,0.5926665999540697,0.5926665999540697,0.0007958821354818735,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £791 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0841_tf,v1,utility,level3,u0.1250,,,,,841,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.07030409574508667,-2.6953041553497314,0,0,A,-0.07030409574508667,0.9324533126145178,0.0675466873854822,0.9324533126145178,0.0003678324592567561,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £841 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0841_ts,v1,utility,level3,u0.1250,,,,,841,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.2241393327713013,-0.3491393029689789,0,0,B,-0.3491393029689789,0.2942149659744614,0.7057850340255386,0.7057850340255386,0.0006944894626931264,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £841 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0890_tf,v1,utility,level3,u0.1250,,,,,890,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.06229305639863014,-2.81229305267334,0,0,A,-0.06229305639863014,0.939913349615602,0.06008665038439798,0.939913349615602,0.0003254142128970017,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £890 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0890_ts,v1,utility,level3,u0.1250,,,,,890,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.8264716863632202,-0.5764716863632202,0,0,B,-0.5764716863632202,0.4378234991142019,0.5621765008857982,0.5621765008857982,0.0005321248557006442,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £890 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0900_tf,v1,utility,level3,u0.1250,,,,,900,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.04330646991729736,-3.168306350708008,0,0,A,-0.04330646991729736,0.9579122672782974,0.04208773272170263,0.9579122672782974,0.0003073384328260431,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £900 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0900_ts,v1,utility,level3,u0.1250,,,,,900,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.9746659994125366,-0.4746659994125366,0,0,B,-0.4746659994125366,0.3775406687981454,0.6224593312018546,0.6224593312018546,0.0005888417970116855,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £900 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0910_tf,v1,utility,level3,u0.1250,,,,,910,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.04885800927877426,-3.0488579273223877,0,0,A,-0.04885800927877426,0.9525741231199173,0.04742587688008271,0.9525741231199173,0.0002706171947384206,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £910 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0910_ts,v1,utility,level3,u0.1250,,,,,910,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.2240664958953857,-0.34906649589538574,0,0,B,-0.34906649589538574,0.2942149721629888,0.7057850278370112,0.7057850278370112,0.0006217215413488741,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £910 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0920_tf,v1,utility,level3,u0.1250,,,,,920,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.0382956899702549,-3.2882957458496094,0,0,A,-0.0382956899702549,0.9626731146638163,0.03732688533618367,0.9626731146638163,0.00025428803159066593,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £920 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0920_ts,v1,utility,level3,u0.1250,,,,,920,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.2240468263626099,-0.3490467965602875,0,0,B,-0.3490467965602875,0.2942149659744614,0.7057850340255386,0.7057850340255386,0.0006020430228496076,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £920 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0930_tf,v1,utility,level3,u0.1250,,,,,930,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.03829488530755043,-3.288294792175293,0,0,A,-0.03829488530755043,0.962673109309294,0.03732689069070605,0.962673109309294,0.0002534780124486824,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £930 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0930_ts,v1,utility,level3,u0.1250,,,,,930,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.2240476608276367,-0.3490476608276367,0,0,B,-0.3490476608276367,0.29421497216298875,0.7057850278370112,0.7057850278370112,0.0006028980064964884,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £930 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0940_tf,v1,utility,level3,u0.1250,,,,,940,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.03386304643768968,-3.4088637828826904,0,0,A,-0.03386382758617401,0.9669140451711181,0.03308595482888188,0.9669140451711181,0.00021734719732058316,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £940 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0940_ts,v1,utility,level3,u0.1250,,,,,940,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.0543112754821777,-0.42931124567985535,0,0,B,-0.42931124567985535,0.3486451285660856,0.6513548714339144,0.6513548714339144,0.0006103914290822576,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £940 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0949_tf,v1,utility,level3,u0.1250,,,,,949,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.03830612823367119,-3.28830623626709,0,0,A,-0.03830612823367119,0.962673116537899,0.037326883462101,0.962673116537899,0.00026472553245016073,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £949 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0949_ts,v1,utility,level3,u0.1250,,,,,949,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.0543453693389893,-0.4293453097343445,0,0,B,-0.4293453097343445,0.3486451217982255,0.6513548782017745,0.6513548782017745,0.000644444495083718,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £949 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0959_tf,v1,utility,level3,u0.1250,,,,,959,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.07020530849695206,-2.6952052116394043,0,0,A,-0.07020530849695206,0.9324533027598817,0.0675466972401183,0.9324533027598817,0.00026906610479271453,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £959 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0959_ts,v1,utility,level3,u0.1250,,,,,959,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.8987607955932617,-0.5237607955932617,0,0,B,-0.5237607955932617,0.4073334000459302,0.5926665999540698,0.5926665999540698,0.0006373282734247754,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £959 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0969_tf,v1,utility,level3,u0.1250,,,,,969,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.055160876363515854,-2.9301607608795166,0,0,A,-0.055160876363515854,0.946596664362296,0.05340333563770405,0.946596664362296,0.0002786522074671449,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £969 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0969_ts,v1,utility,level3,u0.1250,,,,,969,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.0545281171798706,-0.4295281171798706,0,0,B,-0.4295281171798706,0.34864513533394575,0.6513548646660543,0.6513548646660543,0.0008270966701814375,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £969 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0979_tf,v1,utility,level3,u0.1250,,,,,979,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.055135492235422134,-2.930135488510132,0,0,A,-0.055135492235422134,0.9465966700118571,0.0534033299881429,0.9465966700118571,0.0002532807974027218,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £979 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0979_ts,v1,utility,level3,u0.1250,,,,,979,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.8265421390533447,-0.5765421390533447,0,0,B,-0.5765421390533447,0.4378234991142019,0.5621765008857982,0.5621765008857982,0.0006025375757856555,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £979 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0989_tf,v1,utility,level3,u0.1250,,,,,989,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-5.379690647125244,-0.004690477624535561,0,0,B,-0.004690477624535561,0.0046095714016501,0.9953904285983499,0.0046095714016501,7.024691962687069e-05,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+Option B: You receive £989 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.1250_m0989_ts,v1,utility,level3,u0.1250,,,,,989,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.2815229594707489,-1.4065229892730713,0,0,A,-0.2815229594707489,0.7549149923816048,0.24508500761839525,0.24508500761839525,0.00037276103387251514,3,0.125,0,989,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 for certain.
+Option B: You receive £989 if the die shows 1, 2 or 3, and £0 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0989_tf,v1,utility,level3,u0.3750,,,,,989,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.006090581647896672,-5.131091594696045,0,0,A,-0.006091362796723843,0.9940889370965539,0.005911062903446118,0.9940889370965539,0.00016196614204244675,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+Option B: You receive £989 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0989_ts,v1,utility,level3,u0.3750,,,,,989,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.8050246238708496,-0.18002468347549438,0,0,B,-0.18002468347549438,0.16451647108926923,0.8354835289107307,0.8354835289107307,0.00027999907682951797,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £989 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0990_tf,v1,utility,level3,u0.3750,,,,,990,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.009909619394840497,-4.6349101066589355,0,0,A,-0.009910308755934238,0.99029152820319,0.009708471796810003,0.99029152820319,0.00015370131195291403,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+Option B: You receive £990 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0990_ts,v1,utility,level3,u0.3750,,,,,990,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.9744956493377686,-0.47449564933776855,0,0,B,-0.47449564933776855,0.3775406687981454,0.6224593312018546,0.6224593312018546,0.0004185775296341454,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £990 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0991_tf,v1,utility,level3,u0.3750,,,,,991,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.009897815812120148,-4.634898662567139,0,0,A,-0.009898505173623562,0.9902915316594133,0.009708468340586696,0.9902915316594133,0.00014190296341842767,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+Option B: You receive £991 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0991_ts,v1,utility,level3,u0.3750,,,,,991,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.4065465927124023,-0.28154653310775757,0,0,B,-0.28154653310775757,0.2450850021044189,0.7549149978955811,0.7549149978955811,0.00039633290700291646,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £991 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0992_tf,v1,utility,level3,u0.3750,,,,,992,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.014316950742028678,-4.264317512512207,0,0,A,-0.014317640103399754,0.9859363807461686,0.014063619253831372,0.9859363807461686,0.00015348993026287339,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+Option B: You receive £992 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0992_ts,v1,utility,level3,u0.3750,,,,,992,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.4065887928009033,-0.28158873319625854,0,0,B,-0.28158873319625854,0.2450850021044189,0.7549149978955811,0.7549149978955811,0.0004385153801618191,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £992 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0993_tf,v1,utility,level3,u0.3750,,,,,993,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.029938904386014785,-3.529939651489258,0,0,A,-0.029939593747258186,0.9706877905059826,0.02931220949401736,0.9706877905059826,0.00018849024612999088,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+Option B: You receive £993 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0993_ts,v1,utility,level3,u0.3750,,,,,993,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.313686490058899,-0.3136864900588989,0,0,B,-0.3136864900588989,0.2689414213699951,0.7310585786300049,0.7310585786300049,0.0004247123248518614,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £993 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0994_tf,v1,utility,level3,u0.3750,,,,,994,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-2.57902455329895,-0.07902447134256363,0,0,B,-0.07902447134256363,0.07585817427579646,0.9241418257242036,0.07585817427579646,0.00013473418960974204,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+Option B: You receive £994 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0994_ts,v1,utility,level3,u0.3750,,,,,994,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.7578808069229126,-0.6328808069229126,0,0,B,-0.6328808069229126,0.4687906266262437,0.5312093733737563,0.5312093733737563,0.00028173191185287827,3,0.375,989,994,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 for certain.
+Option B: You receive £994 if the die shows 1, 2 or 3, and £989 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0994_tf,v1,utility,level3,u0.6250,,,,,994,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.0010219378423161863,-7.001022815704346,0,0,A,-0.001022769371047616,0.9990889496046477,0.0009110503953523308,0.9990889496046477,0.00011046608649134537,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £994 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0994_ts,v1,utility,level3,u0.6250,,,,,994,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-2.0178818702697754,-0.14288178086280823,0,0,B,-0.14288178086280823,0.13296422989056964,0.8670357701094303,0.8670357701094303,0.0002067137768980709,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £994 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0995_tf,v1,utility,level3,u0.6250,,,,,995,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.005401722220258985,-5.255402565002441,0,0,A,-0.005402607377618551,0.9947798786829031,0.005220121317096926,0.9947798786829031,0.00016791436874707966,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £995 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0995_ts,v1,utility,level3,u0.6250,,,,,995,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.3135367631912231,-0.31353673338890076,0,0,B,-0.31353673338890076,0.26894141551050293,0.731058584489497,0.731058584489497,0.0002750160619047204,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £995 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0996_tf,v1,utility,level3,u0.6250,,,,,996,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.0060855011171917035,-5.131086349487305,0,0,A,-0.006086386274546385,0.9940889361288856,0.005911063871114397,0.9940889361288856,0.0001568854480380466,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £996 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0996_ts,v1,utility,level3,u0.6250,,,,,996,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.3135493993759155,-0.31354936957359314,0,0,B,-0.31354936957359314,0.26894141551050293,0.731058584489497,0.731058584489497,0.0002876486916290055,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £996 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0997_tf,v1,utility,level3,u0.6250,,,,,997,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.00685866433039229,-5.006859302520752,0,0,A,-0.006859445478767157,0.9933071533184396,0.006692846681560449,0.9933071533184396,0.0001433098427491286,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £997 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0997_ts,v1,utility,level3,u0.6250,,,,,997,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.2237056493759155,-0.34870561957359314,0,0,B,-0.34870561957359314,0.2942149659744614,0.7057850340255386,0.7057850340255386,0.00026101326693539484,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £997 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0998_tf,v1,utility,level3,u0.6250,,,,,998,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.004776028703970693,-5.379776954650879,0,0,A,-0.004776970949023962,0.9953904320691683,0.004609567930831671,0.9953904320691683,0.0001557918165783212,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £998 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0998_ts,v1,utility,level3,u0.6250,,,,,998,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.2236993312835693,-0.3486993908882141,0,0,B,-0.3486993908882141,0.29421498454004374,0.7057850154599563,0.7057850154599563,0.00025475988976575437,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £998 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0999_tf,v1,utility,level3,u0.6250,,,,,999,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.0068770151102219915,-5.006877899169922,0,0,A,-0.00687779625877738,0.9933071549529916,0.0066928450470084,0.9933071549529916,0.0001616594696806084,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £999 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0999_ts,v1,utility,level3,u0.6250,,,,,999,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.1371393203735352,-0.38713929057121277,0,0,B,-0.38713929057121277,0.3208212943308302,0.6791787056691698,0.6791787056691698,0.00026825802991115033,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £999 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m1000_tf,v1,utility,level3,u0.6250,,,,,1000,gbp,target_first,A,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-1.5021286010742188,-0.25212860107421875,0,0,B,-0.25212860107421875,0.22270013882530884,0.7772998611746912,0.22270013882530884,0.0001994998261084513,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+Option B: You receive £1000 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m1000_ts,v1,utility,level3,u0.6250,,,,,1000,gbp,target_second,B,,ministral-3-8b-instruct-2512-bf16,mistralai/Ministral-3-8B-Instruct-2512-BF16,vllm,utility_scale,2026-11-13T17:20:37,-0.5762621760368347,-0.8262621760368347,0,0,A,-0.5762621760368347,0.5621765008857981,0.43782349911420193,0.43782349911420193,0.0003227040778255308,3,0.625,994,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A six-sided die will be rolled once.
+
+Option A: You receive £1000 for certain.
+Option B: You receive £1000 if the die shows 1, 2 or 3, and £994 if the die shows 4, 5 or 6.
+
+Which option do you choose? Answer with a single letter: A or B."

@@ -1,0 +1,13 @@
+{
+  "run": "ministral-3-8b-instruct-2512-bf16",
+  "model": "mistralai/Ministral-3-8B-Instruct-2512-BF16",
+  "neutral_event": "die",
+  "points_attempted": 6,
+  "points_found": 6,
+  "m_half": 993.9,
+  "m_half_status": "clean",
+  "rho": 123.257,
+  "reading": "Convex utility (rho 123.26): risk-seeking.",
+  "mean_order_gap": 0.258,
+  "mean_mass_outside": 0.0004
+}
