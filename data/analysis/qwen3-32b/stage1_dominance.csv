@@ -1,0 +1,6 @@
+choice_id,p_first,p_second,p_mean,order_gap,correct_first,correct_second,correct_mean,target_desc,other_desc
+dominance_neutral_coin,0.9999999715466528,0.9999869928746358,0.9999934822106442,1.297867201699443e-05,True,True,True,"You receive £1000 if the coin lands heads, and nothing otherwise.","You receive £500 if the coin lands heads, and nothing otherwise."
+dominance_neutral_die,0.9999724642957668,0.9996646500100204,0.9998185571528936,0.00030781428574644387,True,True,True,"You receive £1000 if the die shows 1, 2 or 3, and nothing otherwise.","You receive £500 if the die shows 1, 2 or 3, and nothing otherwise."
+dominance_neutral_disc,0.9999982396561572,0.1824255193614458,0.5912118795088015,0.8175727202947114,True,False,True,"You receive £1000 if the disc lands ZOJ side up, and nothing otherwise.","You receive £500 if the disc lands ZOJ side up, and nothing otherwise."
+dominance_sure_600_vs_400,0.9999999895325984,0.9999994956523514,0.9999997425924749,4.938802470322301e-07,True,True,True,You receive £600 for certain.,You receive £400 for certain.
+dominance_tickets_60_vs_40,0.9999962733607158,0.9999785550413584,0.9999874142010371,1.7718319357484802e-05,True,True,True,"You receive £1000 if the ticket drawn is one of tickets 1 to 60, and nothing otherwise.","You receive £1000 if the ticket drawn is one of tickets 1 to 40, and nothing otherwise."

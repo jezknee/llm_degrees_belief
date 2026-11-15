@@ -1,0 +1,40 @@
+claim_id,tier,estimate,b_p,b_not_p,sum,dutch_book_loss,text
+chance_02,chance,matching,0.856179775280899,0.05263157894736841,0.9088113542282673,0.09118864577173269,"A fair twenty-sided die, rolled once, will show more than 2."
+chance_02,chance,ramsey_linear,0.85,0.049999999999999996,0.9,0.09999999999999998,"A fair twenty-sided die, rolled once, will show more than 2."
+chance_07,chance,matching,0.35,0.6505050505050505,1.0005050505050503,0.0005050505050503418,"A fair six-sided die, rolled once, will show 5 or higher."
+chance_07,chance,ramsey_linear,0.34444444444444444,0.6499999999999999,0.9944444444444444,0.005555555555555647,"A fair six-sided die, rolled once, will show 5 or higher."
+chance_17,chance,matching,0.35,0.6499999999999999,0.9999999999999999,1.1102230246251565e-16,A single spin of a fair European roulette wheel will land on a number from 1 to 12.
+chance_17,chance,ramsey_linear,0.35,0.6499999999999999,0.9999999999999999,1.1102230246251565e-16,A single spin of a fair European roulette wheel will land on a number from 1 to 12.
+chance_18,chance,matching,0.04864864864864865,0.9513089005235602,0.9999575491722088,4.245082779119613e-05,"A fair coin, tossed 4 times, will land heads every time."
+chance_18,chance,ramsey_linear,0.049999999999999996,0.95,1.0,0.0,"A fair coin, tossed 4 times, will land heads every time."
+fact_4928,fact,matching,0.0,0.0375,0.0375,0.9625,Sports Cars Illustrated publishes a yearly 10Best.
+fact_4928,fact,ramsey_linear,0.0,0.0,0.0,1.0,Sports Cars Illustrated publishes a yearly 10Best.
+fact_5250,fact,matching,0.6,1.0,1.6,0.6000000000000001,The first vehicle to reach outer space was the Vostok 1.
+fact_5250,fact,ramsey_linear,0.3,1.0,1.3,0.30000000000000004,The first vehicle to reach outer space was the Vostok 1.
+fact_5506,fact,matching,1.0,0.0,1.0,0.0,"Bird migration is the regular seasonal movement, often north and south along a flyway, between breeding and wintering grounds."
+fact_5506,fact,ramsey_linear,1.0,0.0,1.0,0.0,"Bird migration is the regular seasonal movement, often north and south along a flyway, between breeding and wintering grounds."
+fact_6614,fact,matching,1.0,0.2,1.2,0.19999999999999996,The world's per-capita gross domestic product grew by a factor of three during the 20th century.
+fc_kalshi_KXLLM1-26DEC31-GOOG,forecast,matching,0.08333333333333333,0.4375,0.5208333333333334,0.47916666666666663,"Google has the top-ranked LLM on Dec 31, 2026."
+fc_kalshi_KXLLM1-26DEC31-GOOG,forecast,ramsey_linear,0.1,0.44,0.54,0.45999999999999996,"Google has the top-ranked LLM on Dec 31, 2026."
+fc_kalshi_SENATEIA-26-D,forecast,matching,0.04999999999999999,0.75,0.8,0.19999999999999996,A representative of the Democratic party is sworn in as a Senator of Iowa for the term beginning in 2027.
+fc_kalshi_SENATEIA-26-D,forecast,ramsey_linear,0.028985507246376826,0.16382978723404257,0.1928152944804194,0.8071847055195807,A representative of the Democratic party is sworn in as a Senator of Iowa for the term beginning in 2027.
+fc_metaculus_43274,forecast,matching,0.15000000000000002,0.17692307692307693,0.326923076923077,0.673076923076923,Professor Layton and the New World of Steam will be publicly released before 2027.
+fc_metaculus_43274,forecast,ramsey_linear,0.1,0.16666666666666669,0.2666666666666667,0.7333333333333333,Professor Layton and the New World of Steam will be publicly released before 2027.
+fc_metaculus_43315,forecast,matching,0.07142857142857142,0.06666666666666665,0.13809523809523808,0.861904761904762,"In 2026, a peer-reviewed paper or major-organization publication estimates Sudan war excess mortality at more than 200,000 deaths."
+fc_metaculus_43315,forecast,ramsey_linear,0.2,0.02500000000000001,0.22500000000000003,0.7749999999999999,"In 2026, a peer-reviewed paper or major-organization publication estimates Sudan war excess mortality at more than 200,000 deaths."
+kuq_1713,kuq,matching,0.0,1.0,1.0,0.0,There exists a comprehensive science that explains all of the benefits of a high-fiber diet.
+kuq_1713,kuq,ramsey_linear,0.0,0.6599999999999999,0.6599999999999999,0.3400000000000001,There exists a comprehensive science that explains all of the benefits of a high-fiber diet.
+kuq_1949,kuq,matching,1.0,0.0,1.0,0.0,Some species of fish can grow to more than 100 centimeters in length.
+kuq_1949,kuq,ramsey_linear,1.0,0.0,1.0,0.0,Some species of fish can grow to more than 100 centimeters in length.
+kuq_2085,kuq,matching,0.049999999999999996,0.05050505050505051,0.10050505050505051,0.8994949494949495,The US dollar will be worth more than the British pound before 2030.
+kuq_2085,kuq,ramsey_linear,0.07142857142857142,0.0620253164556962,0.13345388788426762,0.8665461121157324,The US dollar will be worth more than the British pound before 2030.
+kuq_87,kuq,matching,0.875,0.0,0.875,0.125,"If STEM education had never been invented, the global technological advancement would have been significantly slower than it is today."
+kuq_87,kuq,ramsey_linear,1.0,0.0,1.0,0.0,"If STEM education had never been invented, the global technological advancement would have been significantly slower than it is today."
+part_chance_d10_e1,partition,matching,0.2625,0.6561797752808989,0.9186797752808988,0.08132022471910116,"A fair ten-sided die, rolled once, will show a number from 1 to 3."
+part_chance_d10_e1,partition,ramsey_linear,0.25,0.6499999999999999,0.8999999999999999,0.10000000000000009,"A fair ten-sided die, rolled once, will show a number from 1 to 3."
+part_chance_roulette_e2,partition,matching,0.45,0.5499999999999999,1.0,0.0,A single spin of a fair European roulette wheel will land on a number from 1 to 18.
+part_chance_roulette_e2,partition,ramsey_linear,0.45,0.5499999999999999,1.0,0.0,A single spin of a fair European roulette wheel will land on a number from 1 to 18.
+part_fact_partition_4559_e2,partition,matching,0.0,1.0,1.0,0.0,A group of lions is called a secondary pride.
+part_fact_partition_4559_e2,partition,ramsey_linear,0.0,1.0,1.0,0.0,A group of lions is called a secondary pride.
+part_kuq_partition_1071_e3,partition,matching,0.2727272727272727,0.04999999999999999,0.3227272727272727,0.6772727272727272,Robots will be available in everyone's home after 2050 or never.
+part_kuq_partition_1071_e3,partition,ramsey_linear,0.8,0.04285714285714286,0.8428571428571429,0.15714285714285714,Robots will be available in everyone's home after 2050 or never.

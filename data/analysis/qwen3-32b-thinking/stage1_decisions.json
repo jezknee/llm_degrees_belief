@@ -1,0 +1,48 @@
+{
+  "run": "qwen3-32b-thinking",
+  "tolerance": 0.1,
+  "neutral_event": {
+    "event": "disc",
+    "qualifies": true,
+    "max_deviation": 5.551115123125783e-17,
+    "note": "indifferent for every outcome pair"
+  },
+  "ticket_symmetry": {
+    "single_pairs": 30,
+    "single_share_indifferent": 1.0,
+    "single_mean_p_lower_ticket": 0.49999999999999994,
+    "single_corr_with_distance": null,
+    "blocks": {
+      "symmetry_block_1_10_vs_91_100": 0.5,
+      "symmetry_block_1_25_vs_26_50": 0.5,
+      "symmetry_block_1_50_vs_51_100": 0.5
+    },
+    "blocks_all_indifferent": true,
+    "ticket_scale": "k/100",
+    "note": "tickets treated as exchangeable: read ticket bets as k/100"
+  },
+  "validation": {
+    "tickets_mean_p": 0.8316666666666667,
+    "tickets_min_p": 0.5833333333333333,
+    "tickets_max_p": 0.9166666666666666,
+    "tickets_share_indifferent": 0.2,
+    "tickets_corr_with_k": 0.0916117368659588,
+    "reading": "prefers tickets to an equal stated chance"
+  },
+  "dominance": {
+    "checks": 5,
+    "correct_order_averaged": 5,
+    "correct_single_orders": 10,
+    "single_orders": 10,
+    "failures": []
+  },
+  "transitivity": {
+    "triples": 20,
+    "cyclic_triples": 0,
+    "share_pairs_agreeing_with_ev": 1.0,
+    "share_sure_vs_bet_choosing_sure": 0.5384615384615384,
+    "repeated_pairs": 21,
+    "repeated_pairs_inconsistent": 0
+  },
+  "position_bias_overall": 0.27507246376811595
+}

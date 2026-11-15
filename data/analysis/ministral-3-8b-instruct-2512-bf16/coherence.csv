@@ -1,0 +1,954 @@
+claim_id,tier,estimate,b_p,b_not_p,sum,dutch_book_loss,text
+chance_00,chance,matching,1.0,1.0,2.0,1.0,A fair spinner with eight equal sections numbered 1 to 8 will not stop on 8.
+chance_00,chance,ramsey_linear,1.0,1.0,2.0,1.0,A fair spinner with eight equal sections numbered 1 to 8 will not stop on 8.
+chance_00,chance,ramsey_utility,1.0,1.0,2.0,1.0,A fair spinner with eight equal sections numbered 1 to 8 will not stop on 8.
+chance_01,chance,matching,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will total exactly 7."
+chance_01,chance,ramsey_linear,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will total exactly 7."
+chance_01,chance,ramsey_utility,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will total exactly 7."
+chance_02,chance,matching,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 2."
+chance_02,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 2."
+chance_02,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 2."
+chance_03,chance,matching,0.2902763656909552,1.0,1.2902763656909553,0.2902763656909553,"A fair coin, tossed 2 times, will land heads every time."
+chance_03,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair coin, tossed 2 times, will land heads every time."
+chance_03,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair coin, tossed 2 times, will land heads every time."
+chance_04,chance,matching,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will not be a spade.
+chance_04,chance,ramsey_linear,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will not be a spade.
+chance_04,chance,ramsey_utility,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will not be a spade.
+chance_05,chance,matching,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be red.
+chance_05,chance,ramsey_linear,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be red.
+chance_05,chance,ramsey_utility,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be red.
+chance_06,chance,matching,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 3 or higher."
+chance_06,chance,ramsey_linear,1.0,0.07476156216535834,1.0747615621653583,0.07476156216535834,"A fair six-sided die, rolled once, will show 3 or higher."
+chance_06,chance,ramsey_utility,1.0,0.009506416128707241,1.0095064161287073,0.009506416128707285,"A fair six-sided die, rolled once, will show 3 or higher."
+chance_07,chance,matching,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 5 or higher."
+chance_07,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 5 or higher."
+chance_07,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 5 or higher."
+chance_08,chance,matching,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will show a double."
+chance_08,chance,ramsey_linear,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will show a double."
+chance_08,chance,ramsey_utility,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will show a double."
+chance_09,chance,matching,0.8249999969209254,1.0,1.8249999969209254,0.8249999969209254,"A fair coin, tossed 3 times, will land heads every time."
+chance_09,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair coin, tossed 3 times, will land heads every time."
+chance_09,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair coin, tossed 3 times, will land heads every time."
+chance_10,chance,matching,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 5."
+chance_10,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 5."
+chance_10,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 5."
+chance_11,chance,matching,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 15."
+chance_11,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 15."
+chance_11,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 15."
+chance_12,chance,matching,1.0,1.0,2.0,1.0,"A fair coin, tossed once, will land heads."
+chance_12,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair coin, tossed once, will land heads."
+chance_12,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair coin, tossed once, will land heads."
+chance_13,chance,matching,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 18."
+chance_13,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 18."
+chance_13,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 18."
+chance_14,chance,matching,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a non-zero even number.
+chance_14,chance,ramsey_linear,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a non-zero even number.
+chance_14,chance,ramsey_utility,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a non-zero even number.
+chance_15,chance,matching,1.0,0.32571671220541176,1.3257167122054119,0.3257167122054119,"Two fair six-sided dice, rolled together, will total more than 3."
+chance_15,chance,ramsey_linear,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will total more than 3."
+chance_15,chance,ramsey_utility,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will total more than 3."
+chance_16,chance,matching,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a red number.
+chance_16,chance,ramsey_linear,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a red number.
+chance_16,chance,ramsey_utility,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a red number.
+chance_17,chance,matching,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a number from 1 to 12.
+chance_17,chance,ramsey_linear,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a number from 1 to 12.
+chance_17,chance,ramsey_utility,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a number from 1 to 12.
+chance_18,chance,matching,1.0,1.0,2.0,1.0,"A fair coin, tossed 4 times, will land heads every time."
+chance_18,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair coin, tossed 4 times, will land heads every time."
+chance_18,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair coin, tossed 4 times, will land heads every time."
+chance_19,chance,matching,1.0,1.0,2.0,1.0,"A fair spinner with eight equal sections numbered 1 to 8 will stop on 1, 2 or 3."
+chance_19,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair spinner with eight equal sections numbered 1 to 8 will stop on 1, 2 or 3."
+chance_19,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair spinner with eight equal sections numbered 1 to 8 will stop on 1, 2 or 3."
+chance_20,chance,matching,1.0,0.337479003645562,1.337479003645562,0.33747900364556194,"A fair coin, tossed 2 times, will land heads at least once."
+chance_20,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair coin, tossed 2 times, will land heads at least once."
+chance_20,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair coin, tossed 2 times, will land heads at least once."
+chance_21,chance,matching,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 2 or higher."
+chance_21,chance,ramsey_linear,1.0,0.058115107238829095,1.058115107238829,0.05811510723882907,"A fair six-sided die, rolled once, will show 2 or higher."
+chance_21,chance,ramsey_utility,1.0,0.007389711728532443,1.0073897117285324,0.007389711728532422,"A fair six-sided die, rolled once, will show 2 or higher."
+chance_22,chance,matching,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will total 10 or more."
+chance_22,chance,ramsey_linear,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will total 10 or more."
+chance_22,chance,ramsey_utility,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will total 10 or more."
+chance_23,chance,matching,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 6 or higher."
+chance_23,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 6 or higher."
+chance_23,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 6 or higher."
+chance_24,chance,matching,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be an ace.
+chance_24,chance,ramsey_linear,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be an ace.
+chance_24,chance,ramsey_utility,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be an ace.
+chance_25,chance,matching,1.0,0.32448510409741127,1.3244851040974113,0.32448510409741127,"A fair coin, tossed 3 times, will land heads at least once."
+chance_25,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair coin, tossed 3 times, will land heads at least once."
+chance_25,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair coin, tossed 3 times, will land heads at least once."
+chance_26,chance,matching,1.0,1.0,2.0,1.0,"A card drawn at random from a shuffled 52-card deck will be a jack, queen or king."
+chance_26,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A card drawn at random from a shuffled 52-card deck will be a jack, queen or king."
+chance_26,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A card drawn at random from a shuffled 52-card deck will be a jack, queen or king."
+chance_27,chance,matching,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a club.
+chance_27,chance,ramsey_linear,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a club.
+chance_27,chance,ramsey_utility,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a club.
+chance_28,chance,matching,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 10."
+chance_28,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 10."
+chance_28,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 10."
+chance_29,chance,matching,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 4 or higher."
+chance_29,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 4 or higher."
+chance_29,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 4 or higher."
+fact_3468,fact,matching,1.0,1.0,2.0,1.0,Meryl Streep is an actress in Liebestraum who is also a visual artist.
+fact_3468,fact,ramsey_linear,1.0,1.0,2.0,1.0,Meryl Streep is an actress in Liebestraum who is also a visual artist.
+fact_3468,fact,ramsey_utility,1.0,1.0,2.0,1.0,Meryl Streep is an actress in Liebestraum who is also a visual artist.
+fact_3543,fact,matching,1.0,1.0,2.0,1.0,The bridge spanning the River Truyere near Ruynes-en-Margeride was built by a graduate of Harvard University.
+fact_3543,fact,ramsey_linear,1.0,1.0,2.0,1.0,The bridge spanning the River Truyere near Ruynes-en-Margeride was built by a graduate of Harvard University.
+fact_3543,fact,ramsey_utility,1.0,1.0,2.0,1.0,The bridge spanning the River Truyere near Ruynes-en-Margeride was built by a graduate of Harvard University.
+fact_3572,fact,matching,1.0,1.0,2.0,1.0,Ronaldinho won his first FIFA World Player of the Year award in 2004.
+fact_3572,fact,ramsey_linear,1.0,1.0,2.0,1.0,Ronaldinho won his first FIFA World Player of the Year award in 2004.
+fact_3572,fact,ramsey_utility,1.0,1.0,2.0,1.0,Ronaldinho won his first FIFA World Player of the Year award in 2004.
+fact_3701,fact,matching,1.0,1.0,2.0,1.0,Jim Sharman and Chris Columbus are not from the same nationality.
+fact_3701,fact,ramsey_linear,1.0,1.0,2.0,1.0,Jim Sharman and Chris Columbus are not from the same nationality.
+fact_3701,fact,ramsey_utility,1.0,1.0,2.0,1.0,Jim Sharman and Chris Columbus are not from the same nationality.
+fact_3895,fact,matching,1.0,1.0,2.0,1.0,Caesars Entertainment Corporation owned and operated the MGM Grand Hotel that was the site of the worst disaster in the history of Nevada.
+fact_3895,fact,ramsey_linear,1.0,1.0,2.0,1.0,Caesars Entertainment Corporation owned and operated the MGM Grand Hotel that was the site of the worst disaster in the history of Nevada.
+fact_3895,fact,ramsey_utility,1.0,1.0,2.0,1.0,Caesars Entertainment Corporation owned and operated the MGM Grand Hotel that was the site of the worst disaster in the history of Nevada.
+fact_3909,fact,matching,1.0,1.0,2.0,1.0,Link richness is a quality possessed by American websites.
+fact_3909,fact,ramsey_linear,1.0,1.0,2.0,1.0,Link richness is a quality possessed by American websites.
+fact_3909,fact,ramsey_utility,1.0,1.0,2.0,1.0,Link richness is a quality possessed by American websites.
+fact_3918,fact,matching,1.0,1.0,2.0,1.0,"Sir Manuel Richard Hornibrook headed construction projects including a multi-venue performing arts centre in Sydney, New South Wales, Australia."
+fact_3918,fact,ramsey_linear,1.0,1.0,2.0,1.0,"Sir Manuel Richard Hornibrook headed construction projects including a multi-venue performing arts centre in Sydney, New South Wales, Australia."
+fact_3918,fact,ramsey_utility,1.0,1.0,2.0,1.0,"Sir Manuel Richard Hornibrook headed construction projects including a multi-venue performing arts centre in Sydney, New South Wales, Australia."
+fact_4015,fact,matching,1.0,1.0,2.0,1.0,The Messerschmitt 109TL was proposed as a backup for a fighter version of a plane nicknamed Stuka.
+fact_4015,fact,ramsey_linear,1.0,1.0,2.0,1.0,The Messerschmitt 109TL was proposed as a backup for a fighter version of a plane nicknamed Stuka.
+fact_4015,fact,ramsey_utility,1.0,1.0,2.0,1.0,The Messerschmitt 109TL was proposed as a backup for a fighter version of a plane nicknamed Stuka.
+fact_4160,fact,matching,1.0,1.0,2.0,1.0,Mozart composed thirty symphonies.
+fact_4160,fact,ramsey_linear,1.0,1.0,2.0,1.0,Mozart composed thirty symphonies.
+fact_4160,fact,ramsey_utility,1.0,1.0,2.0,1.0,Mozart composed thirty symphonies.
+fact_4207,fact,matching,1.0,1.0,2.0,1.0,Robert Shaw played Police Chief Martin Brody in the 1978 film 'Jaws 2'.
+fact_4207,fact,ramsey_linear,0.07500000000000005,1.0,1.075,0.07499999999999996,Robert Shaw played Police Chief Martin Brody in the 1978 film 'Jaws 2'.
+fact_4207,fact,ramsey_utility,0.009536735041411587,1.0,1.0095367350414115,0.009536735041411504,Robert Shaw played Police Chief Martin Brody in the 1978 film 'Jaws 2'.
+fact_4325,fact,matching,1.0,1.0,2.0,1.0,The liquid inside a coconut is soda.
+fact_4325,fact,ramsey_linear,0.04552334938447794,1.0,1.045523349384478,0.045523349384477996,The liquid inside a coconut is soda.
+fact_4325,fact,ramsey_utility,0.005788588283698308,1.0,1.0057885882836983,0.005788588283698326,The liquid inside a coconut is soda.
+fact_4473,fact,matching,1.0,1.0,2.0,1.0,"The discovery of the Earth-like planet with the greatest potential for harbouring life found so far, announced in late September 2010, is HD 40307 g."
+fact_4473,fact,ramsey_linear,1.0,1.0,2.0,1.0,"The discovery of the Earth-like planet with the greatest potential for harbouring life found so far, announced in late September 2010, is HD 40307 g."
+fact_4473,fact,ramsey_utility,1.0,1.0,2.0,1.0,"The discovery of the Earth-like planet with the greatest potential for harbouring life found so far, announced in late September 2010, is HD 40307 g."
+fact_4524,fact,matching,1.0,1.0,2.0,1.0,"According to the song, a girl's best friend is diamonds."
+fact_4524,fact,ramsey_linear,1.0,1.0,2.0,1.0,"According to the song, a girl's best friend is diamonds."
+fact_4524,fact,ramsey_utility,1.0,1.0,2.0,1.0,"According to the song, a girl's best friend is diamonds."
+fact_4556,fact,matching,1.0,1.0,2.0,1.0,Mozzarella is the most commonly used cheese on pizza.
+fact_4556,fact,ramsey_linear,1.0,1.0,2.0,1.0,Mozzarella is the most commonly used cheese on pizza.
+fact_4556,fact,ramsey_utility,1.0,1.0,2.0,1.0,Mozzarella is the most commonly used cheese on pizza.
+fact_4614,fact,matching,1.0,1.0,2.0,1.0,The great auk was found in Britain until nearly 200 years ago.
+fact_4614,fact,ramsey_linear,1.0,1.0,2.0,1.0,The great auk was found in Britain until nearly 200 years ago.
+fact_4614,fact,ramsey_utility,1.0,1.0,2.0,1.0,The great auk was found in Britain until nearly 200 years ago.
+fact_4708,fact,matching,1.0,1.0,2.0,1.0,Cicero was the tutor to the Emperor Nero.
+fact_4708,fact,ramsey_linear,1.0,1.0,2.0,1.0,Cicero was the tutor to the Emperor Nero.
+fact_4708,fact,ramsey_utility,1.0,1.0,2.0,1.0,Cicero was the tutor to the Emperor Nero.
+fact_4815,fact,matching,1.0,1.0,2.0,1.0,New Jersey is nicknamed the 'Garden State'.
+fact_4815,fact,ramsey_linear,1.0,1.0,2.0,1.0,New Jersey is nicknamed the 'Garden State'.
+fact_4815,fact,ramsey_utility,1.0,1.0,2.0,1.0,New Jersey is nicknamed the 'Garden State'.
+fact_4830,fact,matching,1.0,1.0,2.0,1.0,The 1993 film starring Sylvester Stallone is 'Cliffhanger'.
+fact_4830,fact,ramsey_linear,1.0,1.0,2.0,1.0,The 1993 film starring Sylvester Stallone is 'Cliffhanger'.
+fact_4830,fact,ramsey_utility,1.0,1.0,2.0,1.0,The 1993 film starring Sylvester Stallone is 'Cliffhanger'.
+fact_4928,fact,matching,1.0,1.0,2.0,1.0,Sports Cars Illustrated publishes a yearly 10Best.
+fact_4928,fact,ramsey_linear,1.0,1.0,2.0,1.0,Sports Cars Illustrated publishes a yearly 10Best.
+fact_4928,fact,ramsey_utility,1.0,1.0,2.0,1.0,Sports Cars Illustrated publishes a yearly 10Best.
+fact_4936,fact,matching,1.0,1.0,2.0,1.0,Voyager 1 is the space probe launched in 1977 that is set to reach the edge of the known solar system and be the first man-made object to experience interstellar space.
+fact_4936,fact,ramsey_linear,1.0,1.0,2.0,1.0,Voyager 1 is the space probe launched in 1977 that is set to reach the edge of the known solar system and be the first man-made object to experience interstellar space.
+fact_4936,fact,ramsey_utility,1.0,1.0,2.0,1.0,Voyager 1 is the space probe launched in 1977 that is set to reach the edge of the known solar system and be the first man-made object to experience interstellar space.
+fact_4959,fact,matching,0.3298332826757289,1.0,1.3298332826757289,0.32983328267572887,The average SAT score at Notre Dame when Edward Malloy became president was 1300.
+fact_4959,fact,ramsey_linear,1.0,1.0,2.0,1.0,The average SAT score at Notre Dame when Edward Malloy became president was 1300.
+fact_4959,fact,ramsey_utility,1.0,1.0,2.0,1.0,The average SAT score at Notre Dame when Edward Malloy became president was 1300.
+fact_5023,fact,matching,0.18975906628650344,1.0,1.1897590662865034,0.1897590662865034,The National Disaster Relief Commission initiated the emergency contingency plan.
+fact_5023,fact,ramsey_linear,0.09999999811660928,1.0,1.0999999981166093,0.09999999811660931,The National Disaster Relief Commission initiated the emergency contingency plan.
+fact_5023,fact,ramsey_utility,0.012715646482396798,1.0,1.0127156464823968,0.012715646482396759,The National Disaster Relief Commission initiated the emergency contingency plan.
+fact_5062,fact,matching,0.33670849792776486,1.0,1.3367084979277648,0.3367084979277648,Sunlight is converted into electricity using wind turbines.
+fact_5092,fact,matching,1.0,1.0,2.0,1.0,Some of the best Portuguese wines include Vinho Tinto.
+fact_5092,fact,ramsey_linear,1.0,1.0,2.0,1.0,Some of the best Portuguese wines include Vinho Tinto.
+fact_5092,fact,ramsey_utility,1.0,1.0,2.0,1.0,Some of the best Portuguese wines include Vinho Tinto.
+fact_5200,fact,matching,1.0,1.0,2.0,1.0,The roots of 'commensal' come from Greek.
+fact_5200,fact,ramsey_linear,1.0,1.0,2.0,1.0,The roots of 'commensal' come from Greek.
+fact_5200,fact,ramsey_utility,1.0,1.0,2.0,1.0,The roots of 'commensal' come from Greek.
+fact_5250,fact,matching,1.0,1.0,2.0,1.0,The first vehicle to reach outer space was the Vostok 1.
+fact_5250,fact,ramsey_linear,1.0,1.0,2.0,1.0,The first vehicle to reach outer space was the Vostok 1.
+fact_5250,fact,ramsey_utility,1.0,1.0,2.0,1.0,The first vehicle to reach outer space was the Vostok 1.
+fact_5429,fact,matching,0.33329452174761615,1.0,1.3332945217476162,0.3332945217476162,The World Bank backed a structural reform program.
+fact_5429,fact,ramsey_linear,1.0,1.0,2.0,1.0,The World Bank backed a structural reform program.
+fact_5429,fact,ramsey_utility,1.0,1.0,2.0,1.0,The World Bank backed a structural reform program.
+fact_5444,fact,matching,1.0,1.0,2.0,1.0,Dopamine plays a large role in drug abuse.
+fact_5444,fact,ramsey_linear,1.0,1.0,2.0,1.0,Dopamine plays a large role in drug abuse.
+fact_5444,fact,ramsey_utility,1.0,1.0,2.0,1.0,Dopamine plays a large role in drug abuse.
+fact_5469,fact,matching,0.7164162717004484,1.0,1.7164162717004485,0.7164162717004485,Engineered wood products meet application-specific performance requirements.
+fact_5469,fact,ramsey_linear,1.0,1.0,2.0,1.0,Engineered wood products meet application-specific performance requirements.
+fact_5469,fact,ramsey_utility,1.0,1.0,2.0,1.0,Engineered wood products meet application-specific performance requirements.
+fact_5501,fact,matching,1.0,1.0,2.0,1.0,The monsoon season occurs in New Delhi during the winter.
+fact_5501,fact,ramsey_linear,0.0,1.0,1.0,0.0,The monsoon season occurs in New Delhi during the winter.
+fact_5501,fact,ramsey_utility,0.0,1.0,1.0,0.0,The monsoon season occurs in New Delhi during the winter.
+fact_5506,fact,matching,1.0,1.0,2.0,1.0,"Bird migration is the regular seasonal movement, often north and south along a flyway, between breeding and wintering grounds."
+fact_5506,fact,ramsey_linear,1.0,1.0,2.0,1.0,"Bird migration is the regular seasonal movement, often north and south along a flyway, between breeding and wintering grounds."
+fact_5506,fact,ramsey_utility,1.0,1.0,2.0,1.0,"Bird migration is the regular seasonal movement, often north and south along a flyway, between breeding and wintering grounds."
+fact_5566,fact,matching,1.0,1.0,2.0,1.0,People in France eat more olive oil than in most western countries.
+fact_5566,fact,ramsey_linear,1.0,1.0,2.0,1.0,People in France eat more olive oil than in most western countries.
+fact_5566,fact,ramsey_utility,1.0,1.0,2.0,1.0,People in France eat more olive oil than in most western countries.
+fact_5588,fact,matching,1.0,1.0,2.0,1.0,A sizeable and rapidly growing Orthodox community is currently located in New Jersey.
+fact_5588,fact,ramsey_linear,1.0,1.0,2.0,1.0,A sizeable and rapidly growing Orthodox community is currently located in New Jersey.
+fact_5588,fact,ramsey_utility,1.0,1.0,2.0,1.0,A sizeable and rapidly growing Orthodox community is currently located in New Jersey.
+fact_5669,fact,matching,1.0,1.0,2.0,1.0,"Polyculture farmers are generally less dependent on capital, biotechnology and energy."
+fact_5669,fact,ramsey_linear,1.0,1.0,2.0,1.0,"Polyculture farmers are generally less dependent on capital, biotechnology and energy."
+fact_5669,fact,ramsey_utility,1.0,1.0,2.0,1.0,"Polyculture farmers are generally less dependent on capital, biotechnology and energy."
+fact_5747,fact,matching,1.0,1.0,2.0,1.0,British of the 19th century wanted India to be assimilated to Britain as soon as possible.
+fact_5747,fact,ramsey_linear,1.0,1.0,2.0,1.0,British of the 19th century wanted India to be assimilated to Britain as soon as possible.
+fact_5747,fact,ramsey_utility,1.0,1.0,2.0,1.0,British of the 19th century wanted India to be assimilated to Britain as soon as possible.
+fact_5807,fact,matching,1.0,1.0,2.0,1.0,Seattle ranked 5th largest in size of economy in 2010.
+fact_5807,fact,ramsey_linear,1.0,1.0,2.0,1.0,Seattle ranked 5th largest in size of economy in 2010.
+fact_5807,fact,ramsey_utility,1.0,1.0,2.0,1.0,Seattle ranked 5th largest in size of economy in 2010.
+fact_5858,fact,matching,1.0,1.0,2.0,1.0,Montevideo is classified as a Beta World City.
+fact_5858,fact,ramsey_linear,1.0,1.0,2.0,1.0,Montevideo is classified as a Beta World City.
+fact_5858,fact,ramsey_utility,1.0,1.0,2.0,1.0,Montevideo is classified as a Beta World City.
+fact_5912,fact,matching,1.0,1.0,2.0,1.0,Many wrestlers have music and lyrics specially written for their ring entrance.
+fact_5912,fact,ramsey_linear,1.0,1.0,2.0,1.0,Many wrestlers have music and lyrics specially written for their ring entrance.
+fact_5912,fact,ramsey_utility,1.0,1.0,2.0,1.0,Many wrestlers have music and lyrics specially written for their ring entrance.
+fact_6089,fact,matching,1.0,1.0,2.0,1.0,Research Triangle Park was established in the 20th century.
+fact_6089,fact,ramsey_linear,1.0,1.0,2.0,1.0,Research Triangle Park was established in the 20th century.
+fact_6089,fact,ramsey_utility,1.0,1.0,2.0,1.0,Research Triangle Park was established in the 20th century.
+fact_6149,fact,matching,0.31293800800333804,1.0,1.312938008003338,0.31293800800333793,Supply-side economics tried to increase the amount of money in the market by increasing government spending.
+fact_6149,fact,ramsey_linear,0.07485455540324104,1.0,1.074854555403241,0.07485455540324093,Supply-side economics tried to increase the amount of money in the market by increasing government spending.
+fact_6149,fact,ramsey_utility,0.009518240820311644,1.0,1.0095182408203116,0.009518240820311608,Supply-side economics tried to increase the amount of money in the market by increasing government spending.
+fact_6154,fact,matching,1.0,1.0,2.0,1.0,The Czech word 'robota' means labor.
+fact_6154,fact,ramsey_linear,1.0,1.0,2.0,1.0,The Czech word 'robota' means labor.
+fact_6154,fact,ramsey_utility,1.0,1.0,2.0,1.0,The Czech word 'robota' means labor.
+fact_6237,fact,matching,0.23213768612091396,1.0,1.232137686120914,0.2321376861209139,The origin of Hindu philosophy is ancient Greece.
+fact_6271,fact,matching,1.0,1.0,2.0,1.0,The gasoline crises hurt the Auto industry.
+fact_6271,fact,ramsey_linear,1.0,1.0,2.0,1.0,The gasoline crises hurt the Auto industry.
+fact_6271,fact,ramsey_utility,1.0,1.0,2.0,1.0,The gasoline crises hurt the Auto industry.
+fact_6290,fact,matching,1.0,1.0,2.0,1.0,A key qualifier for determining good governance is economic growth.
+fact_6290,fact,ramsey_linear,1.0,1.0,2.0,1.0,A key qualifier for determining good governance is economic growth.
+fact_6290,fact,ramsey_utility,1.0,1.0,2.0,1.0,A key qualifier for determining good governance is economic growth.
+fact_6303,fact,matching,1.0,1.0,2.0,1.0,The Mughal dynasty captured most of central India.
+fact_6303,fact,ramsey_linear,1.0,1.0,2.0,1.0,The Mughal dynasty captured most of central India.
+fact_6303,fact,ramsey_utility,1.0,1.0,2.0,1.0,The Mughal dynasty captured most of central India.
+fact_6604,fact,matching,1.0,1.0,2.0,1.0,Thomas Edison's electrical supply provided 110 volts.
+fact_6604,fact,ramsey_linear,1.0,1.0,2.0,1.0,Thomas Edison's electrical supply provided 110 volts.
+fact_6604,fact,ramsey_utility,1.0,1.0,2.0,1.0,Thomas Edison's electrical supply provided 110 volts.
+fact_6614,fact,matching,1.0,1.0,2.0,1.0,The world's per-capita gross domestic product grew by a factor of three during the 20th century.
+fact_6614,fact,ramsey_linear,1.0,1.0,2.0,1.0,The world's per-capita gross domestic product grew by a factor of three during the 20th century.
+fact_6614,fact,ramsey_utility,1.0,1.0,2.0,1.0,The world's per-capita gross domestic product grew by a factor of three during the 20th century.
+fact_6638,fact,matching,1.0,1.0,2.0,1.0,"Defining pain is a challenge because it is a complex, subjective phenomenon."
+fact_6638,fact,ramsey_linear,1.0,1.0,2.0,1.0,"Defining pain is a challenge because it is a complex, subjective phenomenon."
+fact_6638,fact,ramsey_utility,1.0,1.0,2.0,1.0,"Defining pain is a challenge because it is a complex, subjective phenomenon."
+fact_6832,fact,matching,0.0,1.0,1.0,0.0,The Earth will be transformed into a paradise without sickness or death.
+fact_6832,fact,ramsey_linear,0.0,1.0,1.0,0.0,The Earth will be transformed into a paradise without sickness or death.
+fact_6832,fact,ramsey_utility,0.0,1.0,1.0,0.0,The Earth will be transformed into a paradise without sickness or death.
+fact_6850,fact,matching,1.0,1.0,2.0,1.0,The Constable's force was called Gendarmerie in French.
+fact_6850,fact,ramsey_linear,1.0,1.0,2.0,1.0,The Constable's force was called Gendarmerie in French.
+fact_6850,fact,ramsey_utility,1.0,1.0,2.0,1.0,The Constable's force was called Gendarmerie in French.
+fc_kalshi_HOUSEME2-26-D,forecast,matching,1.0,1.0,2.0,1.0,The House member sworn in for ME-02 for the term beginning in 2027 is a member of the Democratic party.
+fc_kalshi_HOUSEME2-26-D,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The House member sworn in for ME-02 for the term beginning in 2027 is a member of the Democratic party.
+fc_kalshi_HOUSEME2-26-D,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The House member sworn in for ME-02 for the term beginning in 2027 is a member of the Democratic party.
+fc_kalshi_HOUSEMI10-26-D,forecast,matching,1.0,1.0,2.0,1.0,Christina Hines is the Democratic member sworn in for the House race for MI-10 for the term beginning in 2027.
+fc_kalshi_HOUSEMI10-26-D,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Christina Hines is the Democratic member sworn in for the House race for MI-10 for the term beginning in 2027.
+fc_kalshi_HOUSEMI10-26-D,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Christina Hines is the Democratic member sworn in for the House race for MI-10 for the term beginning in 2027.
+fc_kalshi_KX1SONGJUSTINBIEBER-DEC2726,forecast,matching,1.0,1.0,2.0,1.0,"Justin Bieber has a #1 song on the Billboard Hot 100 by the Billboard issue for the week of Dec 27, 2026."
+fc_kalshi_KX1SONGJUSTINBIEBER-DEC2726,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Justin Bieber has a #1 song on the Billboard Hot 100 by the Billboard issue for the week of Dec 27, 2026."
+fc_kalshi_KX1SONGJUSTINBIEBER-DEC2726,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Justin Bieber has a #1 song on the Billboard Hot 100 by the Billboard issue for the week of Dec 27, 2026."
+fc_kalshi_KXAPTROT-26DEC1708-T2250,forecast,matching,0.04999999919526813,0.26251890632806285,0.312518905523331,0.6874810944766689,"The CIF Rotterdam 88.5% APT price (SMM-WU-APT-003) will be above $2,250/MTU on Dec 17, 2026."
+fc_kalshi_KXAPTROT-26DEC1708-T2250,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The CIF Rotterdam 88.5% APT price (SMM-WU-APT-003) will be above $2,250/MTU on Dec 17, 2026."
+fc_kalshi_KXAPTROT-26DEC1708-T2250,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The CIF Rotterdam 88.5% APT price (SMM-WU-APT-003) will be above $2,250/MTU on Dec 17, 2026."
+fc_kalshi_KXCBDSWISS-26DEC10-H25,forecast,matching,0.32533507704557074,1.0,1.3253350770455707,0.32533507704557074,The Swiss National Bank will hike the primary policy rate by 1-25bps at the December monetary policy assessment on 2026-12-10.
+fc_kalshi_KXCBDSWISS-26DEC10-H25,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The Swiss National Bank will hike the primary policy rate by 1-25bps at the December monetary policy assessment on 2026-12-10.
+fc_kalshi_KXCBDSWISS-26DEC10-H25,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The Swiss National Bank will hike the primary policy rate by 1-25bps at the December monetary policy assessment on 2026-12-10.
+fc_kalshi_KXCPI-26NOV-T0.2,forecast,matching,1.0,1.0,2.0,1.0,The Consumer Price Index (CPI) will increase by more than 0.2% in November 2026.
+fc_kalshi_KXCPI-26NOV-T0.2,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The Consumer Price Index (CPI) will increase by more than 0.2% in November 2026.
+fc_kalshi_KXCPI-26NOV-T0.2,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The Consumer Price Index (CPI) will increase by more than 0.2% in November 2026.
+fc_kalshi_KXCPICOREYOY-26DEC-T2.7,forecast,matching,1.0,1.0,2.0,1.0,The rate of core CPI inflation will be above 2.7% for the year ending in December 2026.
+fc_kalshi_KXCPICOREYOY-26DEC-T2.7,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The rate of core CPI inflation will be above 2.7% for the year ending in December 2026.
+fc_kalshi_KXCPICOREYOY-26DEC-T2.7,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The rate of core CPI inflation will be above 2.7% for the year ending in December 2026.
+fc_kalshi_KXCPICOREYOY-26NOV-T2.7,forecast,matching,1.0,1.0,2.0,1.0,The rate of core CPI inflation will be above 2.7% for the year ending in November 2026.
+fc_kalshi_KXCPICOREYOY-26NOV-T2.7,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The rate of core CPI inflation will be above 2.7% for the year ending in November 2026.
+fc_kalshi_KXCPICOREYOY-26NOV-T2.7,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The rate of core CPI inflation will be above 2.7% for the year ending in November 2026.
+fc_kalshi_KXCPIYOY-26NOV-T3.9,forecast,matching,1.0,1.0,2.0,1.0,The rate of CPI inflation will be above 3.9% for the year ending in November 2026.
+fc_kalshi_KXCPIYOY-26NOV-T3.9,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The rate of CPI inflation will be above 3.9% for the year ending in November 2026.
+fc_kalshi_KXCPIYOY-26NOV-T3.9,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The rate of CPI inflation will be above 3.9% for the year ending in November 2026.
+fc_kalshi_KXCPIYOY-26NOV-T4.0,forecast,matching,0.6749999999999999,1.0,1.6749999999999998,0.6749999999999998,The rate of CPI inflation will be above 4.0% for the year ending in November 2026.
+fc_kalshi_KXCPIYOY-26NOV-T4.0,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The rate of CPI inflation will be above 4.0% for the year ending in November 2026.
+fc_kalshi_KXCPIYOY-26NOV-T4.0,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The rate of CPI inflation will be above 4.0% for the year ending in November 2026.
+fc_kalshi_KXCRYPTOSTRUCTURE-27JAN-28,forecast,matching,1.0,1.0,2.0,1.0,"A crypto market structure bill that establishes a comprehensive regulatory framework for digital assets, delineates regulatory authority between federal agencies, and creates definitions for digital assets has become law before Jan 1, 2028."
+fc_kalshi_KXCRYPTOSTRUCTURE-27JAN-28,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A crypto market structure bill that establishes a comprehensive regulatory framework for digital assets, delineates regulatory authority between federal agencies, and creates definitions for digital assets has become law before Jan 1, 2028."
+fc_kalshi_KXCRYPTOSTRUCTURE-27JAN-28,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A crypto market structure bill that establishes a comprehensive regulatory framework for digital assets, delineates regulatory authority between federal agencies, and creates definitions for digital assets has become law before Jan 1, 2028."
+fc_kalshi_KXFEDDECISION-26DEC-H0,forecast,matching,1.0,1.0,2.0,1.0,The Federal Reserve will not hike rates by 0bps at their December 2026 meeting.
+fc_kalshi_KXFEDDECISION-26DEC-H0,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The Federal Reserve will not hike rates by 0bps at their December 2026 meeting.
+fc_kalshi_KXFEDDECISION-26DEC-H0,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The Federal Reserve will not hike rates by 0bps at their December 2026 meeting.
+fc_kalshi_KXGOLDDIRY-26DEC31H1700-T4300,forecast,matching,1.0,1.0,2.0,1.0,"The close price of Gold on December 31, 2026 at 05:00 PM EST is above 4300 USD/t.oz."
+fc_kalshi_KXGOLDDIRY-26DEC31H1700-T4300,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The close price of Gold on December 31, 2026 at 05:00 PM EST is above 4300 USD/t.oz."
+fc_kalshi_KXGOLDDIRY-26DEC31H1700-T4300,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The close price of Gold on December 31, 2026 at 05:00 PM EST is above 4300 USD/t.oz."
+fc_kalshi_KXHARRISSTATEGOP-26NOV03-E2,forecast,matching,0.21273940305313563,1.0,1.2127394030531355,0.21273940305313555,"The number of 2026 U.S. Senate and gubernatorial general elections held in the 19 states that Kamala Harris carried in the 2024 presidential election, won by a nominee of the Republican Party, is exactly 2 at the November 3, 2026 general election."
+fc_kalshi_KXHARRISSTATEGOP-26NOV03-E2,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The number of 2026 U.S. Senate and gubernatorial general elections held in the 19 states that Kamala Harris carried in the 2024 presidential election, won by a nominee of the Republican Party, is exactly 2 at the November 3, 2026 general election."
+fc_kalshi_KXHARRISSTATEGOP-26NOV03-E2,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The number of 2026 U.S. Senate and gubernatorial general elections held in the 19 states that Kamala Harris carried in the 2024 presidential election, won by a nominee of the Republican Party, is exactly 2 at the November 3, 2026 general election."
+fc_kalshi_KXHOUSERACE-NE01-26-D,forecast,matching,1.0,1.0,2.0,1.0,Chris Backemeyer is a member of the Democratic party and is sworn in as the House member for NE-01 for the term beginning in 2027.
+fc_kalshi_KXHOUSERACE-NE01-26-D,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Chris Backemeyer is a member of the Democratic party and is sworn in as the House member for NE-01 for the term beginning in 2027.
+fc_kalshi_KXHOUSERACE-NE01-26-D,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Chris Backemeyer is a member of the Democratic party and is sworn in as the House member for NE-01 for the term beginning in 2027.
+fc_kalshi_KXHOUSERACE-OH07-26-D,forecast,matching,1.0,1.0,2.0,1.0,The House member sworn in for OH-07 for the term beginning in 2027 is a member of the Democratic Party.
+fc_kalshi_KXHOUSERACE-OH07-26-D,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The House member sworn in for OH-07 for the term beginning in 2027 is a member of the Democratic Party.
+fc_kalshi_KXHOUSERACE-OH07-26-D,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The House member sworn in for OH-07 for the term beginning in 2027 is a member of the Democratic Party.
+fc_kalshi_KXHOUSERACE-WA04-26-R,forecast,matching,1.0,1.0,2.0,1.0,Amanda McKinney is the Republican member sworn in for the House race for WA-04 for the term beginning in 2027.
+fc_kalshi_KXHOUSERACE-WA04-26-R,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Amanda McKinney is the Republican member sworn in for the House race for WA-04 for the term beginning in 2027.
+fc_kalshi_KXHOUSERACE-WA04-26-R,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Amanda McKinney is the Republican member sworn in for the House race for WA-04 for the term beginning in 2027.
+fc_kalshi_KXINXMAXY-01JAN2027-7999.99,forecast,matching,1.0,1.0,2.0,1.0,"The maximum S&P 500 value will reach 7999.99 or above between Jan 1, 2026 and Jan 1, 2027."
+fc_kalshi_KXINXMAXY-01JAN2027-7999.99,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The maximum S&P 500 value will reach 7999.99 or above between Jan 1, 2026 and Jan 1, 2027."
+fc_kalshi_KXINXMAXY-01JAN2027-7999.99,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The maximum S&P 500 value will reach 7999.99 or above between Jan 1, 2026 and Jan 1, 2027."
+fc_kalshi_KXIRONMAN-27JAN01,forecast,matching,1.0,1.0,2.0,1.0,"Robert Downey Jr. reprises his role as Iron Man in a Marvel feature film by December 31, 2026."
+fc_kalshi_KXIRONMAN-27JAN01,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Robert Downey Jr. reprises his role as Iron Man in a Marvel feature film by December 31, 2026."
+fc_kalshi_KXIRONMAN-27JAN01,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Robert Downey Jr. reprises his role as Iron Man in a Marvel feature film by December 31, 2026."
+fc_kalshi_KXLLM1-26DEC31-GOOG,forecast,matching,1.0,1.0,2.0,1.0,"Google has the top-ranked LLM on Dec 31, 2026."
+fc_kalshi_KXLLM1-26DEC31-GOOG,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Google has the top-ranked LLM on Dec 31, 2026."
+fc_kalshi_KXLLM1-26DEC31-GOOG,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Google has the top-ranked LLM on Dec 31, 2026."
+fc_kalshi_KXNCAAFB12QUAL-26-OKST,forecast,matching,1.0,1.0,2.0,1.0,Oklahoma St. qualifies for the 2026 College Football Big 12 Championship Game.
+fc_kalshi_KXNCAAFB12QUAL-26-OKST,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Oklahoma St. qualifies for the 2026 College Football Big 12 Championship Game.
+fc_kalshi_KXNCAAFB12QUAL-26-OKST,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Oklahoma St. qualifies for the 2026 College Football Big 12 Championship Game.
+fc_kalshi_KXNEWTAIPEIMAYOR-26NOV28-SCHO,forecast,matching,0.27538219082610166,1.0,1.2753821908261016,0.2753821908261016,Su Chiao-hui wins the 2026 New Taipei mayoral election.
+fc_kalshi_KXNEWTAIPEIMAYOR-26NOV28-SCHO,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Su Chiao-hui wins the 2026 New Taipei mayoral election.
+fc_kalshi_KXNEWTAIPEIMAYOR-26NOV28-SCHO,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Su Chiao-hui wins the 2026 New Taipei mayoral election.
+fc_kalshi_KXPAPER-15DEC26-T285,forecast,matching,1.0,1.0,2.0,1.0,The Producer Price Index for Paper in November 2026 is above 285.
+fc_kalshi_KXPAPER-15DEC26-T285,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The Producer Price Index for Paper in November 2026 is above 285.
+fc_kalshi_KXPAPER-15DEC26-T285,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The Producer Price Index for Paper in November 2026 is above 285.
+fc_kalshi_KXRT-AVE-75,forecast,matching,1.0,1.0,2.0,1.0,Avengers: Doomsday has a Tomatometer score above 75 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-AVE-75,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Avengers: Doomsday has a Tomatometer score above 75 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-AVE-75,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Avengers: Doomsday has a Tomatometer score above 75 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-AVE-85,forecast,matching,1.0,1.0,2.0,1.0,Avengers: Doomsday has a Tomatometer score above 85 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-AVE-85,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Avengers: Doomsday has a Tomatometer score above 85 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-AVE-85,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Avengers: Doomsday has a Tomatometer score above 85 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-DUNE-80,forecast,matching,1.0,1.0,2.0,1.0,Dune: Part Three has a Tomatometer score above 80 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-DUNE-80,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Dune: Part Three has a Tomatometer score above 80 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-DUNE-80,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Dune: Part Three has a Tomatometer score above 80 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-DUNE-85,forecast,matching,1.0,1.0,2.0,1.0,Dune: Part Three has a Tomatometer score above 85 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-DUNE-85,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Dune: Part Three has a Tomatometer score above 85 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-DUNE-85,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Dune: Part Three has a Tomatometer score above 85 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-DUNE-90,forecast,matching,1.0,1.0,2.0,1.0,Dune: Part Three has a Tomatometer score above 90 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-DUNE-90,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Dune: Part Three has a Tomatometer score above 90 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-DUNE-90,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Dune: Part Three has a Tomatometer score above 90 on the Monday after wide release at 10:00 AM ET.
+fc_kalshi_KXRT-EBE-55,forecast,matching,1.0,1.0,2.0,1.0,"The Tomatometer score of Ebenezer is above 55 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-EBE-55,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The Tomatometer score of Ebenezer is above 55 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-EBE-55,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The Tomatometer score of Ebenezer is above 55 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-EBE-60,forecast,matching,1.0,1.0,2.0,1.0,"The Tomatometer score of Ebenezer is above 60 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-EBE-60,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The Tomatometer score of Ebenezer is above 60 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-EBE-60,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The Tomatometer score of Ebenezer is above 60 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-EBE-65,forecast,matching,1.0,1.0,2.0,1.0,"The Tomatometer score of Ebenezer is above 65 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-EBE-65,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The Tomatometer score of Ebenezer is above 65 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-EBE-65,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The Tomatometer score of Ebenezer is above 65 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HEX-45,forecast,matching,1.0,1.0,2.0,1.0,"The Tomatometer score of Hexed is above 45 on November 30, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HEX-45,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The Tomatometer score of Hexed is above 45 on November 30, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HEX-45,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The Tomatometer score of Hexed is above 45 on November 30, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HEX-60,forecast,matching,1.0,1.0,2.0,1.0,"Hexed has a Tomatometer score above 60 on November 30, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HEX-60,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Hexed has a Tomatometer score above 60 on November 30, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HEX-60,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Hexed has a Tomatometer score above 60 on November 30, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HOWT-70,forecast,matching,1.0,1.0,2.0,1.0,"The Tomatometer score of How to Rob a Bank will be above 70 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HOWT-70,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The Tomatometer score of How to Rob a Bank will be above 70 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HOWT-70,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The Tomatometer score of How to Rob a Bank will be above 70 on November 16, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HUN-70,forecast,matching,1.0,1.0,2.0,1.0,"The Hunger Games: Sunrise on the Reaping has a Tomatometer score above 70 on Nov 23, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HUN-70,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The Hunger Games: Sunrise on the Reaping has a Tomatometer score above 70 on Nov 23, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HUN-70,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The Hunger Games: Sunrise on the Reaping has a Tomatometer score above 70 on Nov 23, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HUN-85,forecast,matching,1.0,1.0,2.0,1.0,"The Hunger Games: Sunrise on the Reaping has a Tomatometer score above 85 on November 23, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HUN-85,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The Hunger Games: Sunrise on the Reaping has a Tomatometer score above 85 on November 23, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-HUN-85,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The Hunger Games: Sunrise on the Reaping has a Tomatometer score above 85 on November 23, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-IPL-85,forecast,matching,1.0,1.0,2.0,1.0,"I Play Rocky has a Tomatometer score above 85 on November 23, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-IPL-85,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"I Play Rocky has a Tomatometer score above 85 on November 23, 2026 at 10:00 AM ET."
+fc_kalshi_KXRT-IPL-85,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"I Play Rocky has a Tomatometer score above 85 on November 23, 2026 at 10:00 AM ET."
+fc_kalshi_KXTAIPEIMAYOR-26NOV28-SPY,forecast,matching,0.32533507416311835,1.0,1.3253350741631182,0.32533507416311824,Shen Bo-yang wins the 2026 Taipei mayoral election.
+fc_kalshi_KXTAIPEIMAYOR-26NOV28-SPY,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Shen Bo-yang wins the 2026 Taipei mayoral election.
+fc_kalshi_KXTAIPEIMAYOR-26NOV28-SPY,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Shen Bo-yang wins the 2026 Taipei mayoral election.
+fc_kalshi_KXUSDX-26-T104,forecast,matching,1.0,1.0,2.0,1.0,"The U.S. dollar index (DXY) is above 104 at any time between Issuance and Dec 31, 2026, inclusive."
+fc_kalshi_KXUSDX-26-T104,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The U.S. dollar index (DXY) is above 104 at any time between Issuance and Dec 31, 2026, inclusive."
+fc_kalshi_KXUSDX-26-T104,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The U.S. dollar index (DXY) is above 104 at any time between Issuance and Dec 31, 2026, inclusive."
+fc_kalshi_KXYOUTHUN-26DEC04-T7.5,forecast,matching,1.0,1.0,2.0,1.0,The unemployment rate for ages 16 to 24 (seasonally adjusted) for 2026 is below 7.5% in any Employment Situation release published in calendar year 2026.
+fc_kalshi_KXYOUTHUN-26DEC04-T7.5,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The unemployment rate for ages 16 to 24 (seasonally adjusted) for 2026 is below 7.5% in any Employment Situation release published in calendar year 2026.
+fc_kalshi_KXYOUTHUN-26DEC04-T7.5,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The unemployment rate for ages 16 to 24 (seasonally adjusted) for 2026 is below 7.5% in any Employment Situation release published in calendar year 2026.
+fc_kalshi_SENATEFLS-26-R,forecast,matching,0.33010898226444835,1.0,1.3301089822644483,0.3301089822644483,"A representative of the Republican party is sworn in as a Senator of Florida pursuant to the Class III (special election) held on November 3, 2026."
+fc_kalshi_SENATEFLS-26-R,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A representative of the Republican party is sworn in as a Senator of Florida pursuant to the Class III (special election) held on November 3, 2026."
+fc_kalshi_SENATEFLS-26-R,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A representative of the Republican party is sworn in as a Senator of Florida pursuant to the Class III (special election) held on November 3, 2026."
+fc_kalshi_SENATEIA-26-D,forecast,matching,1.0,1.0,2.0,1.0,A representative of the Democratic party is sworn in as a Senator of Iowa for the term beginning in 2027.
+fc_kalshi_SENATEIA-26-D,forecast,ramsey_linear,1.0,1.0,2.0,1.0,A representative of the Democratic party is sworn in as a Senator of Iowa for the term beginning in 2027.
+fc_kalshi_SENATEIA-26-D,forecast,ramsey_utility,1.0,1.0,2.0,1.0,A representative of the Democratic party is sworn in as a Senator of Iowa for the term beginning in 2027.
+fc_kalshi_SENATEOHS-26-D,forecast,matching,1.0,1.0,2.0,1.0,"Sherrod Brown is sworn in as a Senator of Ohio pursuant to the Class III (special election) held on November 3, 2026."
+fc_kalshi_SENATEOHS-26-D,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Sherrod Brown is sworn in as a Senator of Ohio pursuant to the Class III (special election) held on November 3, 2026."
+fc_kalshi_SENATEOHS-26-D,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Sherrod Brown is sworn in as a Senator of Ohio pursuant to the Class III (special election) held on November 3, 2026."
+fc_metaculus_1385,forecast,matching,1.0,1.0,2.0,1.0,"By January 1st, 2027, psilocybin will be an accepted treatment for end-of-life anxiety/depression in the US or UK."
+fc_metaculus_1385,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"By January 1st, 2027, psilocybin will be an accepted treatment for end-of-life anxiety/depression in the US or UK."
+fc_metaculus_1385,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"By January 1st, 2027, psilocybin will be an accepted treatment for end-of-life anxiety/depression in the US or UK."
+fc_metaculus_15134,forecast,matching,1.0,1.0,2.0,1.0,"A successful, commercial eVTOL aircraft flight with at least one ticketed passenger takes place in Dubai, UAE before January 1, 2027."
+fc_metaculus_15134,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A successful, commercial eVTOL aircraft flight with at least one ticketed passenger takes place in Dubai, UAE before January 1, 2027."
+fc_metaculus_15134,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A successful, commercial eVTOL aircraft flight with at least one ticketed passenger takes place in Dubai, UAE before January 1, 2027."
+fc_metaculus_15492,forecast,matching,1.0,1.0,2.0,1.0,"An enacted law or judicial ruling eliminates California's ability to receive waivers to set its own emissions standards for motor vehicles before January 1, 2027."
+fc_metaculus_15492,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"An enacted law or judicial ruling eliminates California's ability to receive waivers to set its own emissions standards for motor vehicles before January 1, 2027."
+fc_metaculus_15492,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"An enacted law or judicial ruling eliminates California's ability to receive waivers to set its own emissions standards for motor vehicles before January 1, 2027."
+fc_metaculus_28395,forecast,matching,1.0,1.0,2.0,1.0,"The World Health Organization will add moxidectin to its prequalification list before January 1, 2027."
+fc_metaculus_28395,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The World Health Organization will add moxidectin to its prequalification list before January 1, 2027."
+fc_metaculus_28395,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The World Health Organization will add moxidectin to its prequalification list before January 1, 2027."
+fc_metaculus_36478,forecast,matching,1.0,1.0,2.0,1.0,"A United States government agency confirms that a free-ranging wild animal in the contiguous United States has been infected by the New World screwworm before 00:00 GMT on January 1, 2027."
+fc_metaculus_36478,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A United States government agency confirms that a free-ranging wild animal in the contiguous United States has been infected by the New World screwworm before 00:00 GMT on January 1, 2027."
+fc_metaculus_36478,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A United States government agency confirms that a free-ranging wild animal in the contiguous United States has been infected by the New World screwworm before 00:00 GMT on January 1, 2027."
+fc_metaculus_38955,forecast,matching,1.0,1.0,2.0,1.0,"The City of Gulf Breeze confirms that the Montrose and Florida Avenue septic-to-sewer project is fully completed by December 31, 2026."
+fc_metaculus_38955,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The City of Gulf Breeze confirms that the Montrose and Florida Avenue septic-to-sewer project is fully completed by December 31, 2026."
+fc_metaculus_38955,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The City of Gulf Breeze confirms that the Montrose and Florida Avenue septic-to-sewer project is fully completed by December 31, 2026."
+fc_metaculus_38957,forecast,matching,1.0,1.0,2.0,1.0,"The City of Gulf Breeze confirms that the Bay Cliffs septic-to-sewer project is fully completed by December 31, 2026."
+fc_metaculus_38957,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The City of Gulf Breeze confirms that the Bay Cliffs septic-to-sewer project is fully completed by December 31, 2026."
+fc_metaculus_38957,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The City of Gulf Breeze confirms that the Bay Cliffs septic-to-sewer project is fully completed by December 31, 2026."
+fc_metaculus_39159,forecast,matching,1.0,1.0,2.0,1.0,"Before January 1, 2027, the current CEO of OpenAI, Meta, or Alphabet publicly commits to specific limitations on their company’s AI system autonomy, including concrete technical limitations, verifiable oversight mechanisms, and explicit autonomy boundaries."
+fc_metaculus_39159,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Before January 1, 2027, the current CEO of OpenAI, Meta, or Alphabet publicly commits to specific limitations on their company’s AI system autonomy, including concrete technical limitations, verifiable oversight mechanisms, and explicit autonomy boundaries."
+fc_metaculus_39159,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Before January 1, 2027, the current CEO of OpenAI, Meta, or Alphabet publicly commits to specific limitations on their company’s AI system autonomy, including concrete technical limitations, verifiable oversight mechanisms, and explicit autonomy boundaries."
+fc_metaculus_40289,forecast,matching,1.0,1.0,2.0,1.0,"The S&P 500 has a decline of more than 10% in any rolling 5 trading day period before January 1, 2027."
+fc_metaculus_40289,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The S&P 500 has a decline of more than 10% in any rolling 5 trading day period before January 1, 2027."
+fc_metaculus_40289,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The S&P 500 has a decline of more than 10% in any rolling 5 trading day period before January 1, 2027."
+fc_metaculus_40543,forecast,matching,1.0,1.0,2.0,1.0,"A Russian-developed LLM will appear in the top 100 on the LMArena Overall Text Leaderboard at any point after November 1, 2025 and before January 1, 2027."
+fc_metaculus_40543,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A Russian-developed LLM will appear in the top 100 on the LMArena Overall Text Leaderboard at any point after November 1, 2025 and before January 1, 2027."
+fc_metaculus_40543,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A Russian-developed LLM will appear in the top 100 on the LMArena Overall Text Leaderboard at any point after November 1, 2025 and before January 1, 2027."
+fc_metaculus_40767,forecast,matching,1.0,1.0,2.0,1.0,"Before January 1, 2027, shares of at least four of the Magnificent Seven stocks (Apple, Microsoft, Alphabet, Amazon, Nvidia, Meta Platforms, and Tesla) close more than 50% below their all-time high close price."
+fc_metaculus_40767,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Before January 1, 2027, shares of at least four of the Magnificent Seven stocks (Apple, Microsoft, Alphabet, Amazon, Nvidia, Meta Platforms, and Tesla) close more than 50% below their all-time high close price."
+fc_metaculus_40767,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Before January 1, 2027, shares of at least four of the Magnificent Seven stocks (Apple, Microsoft, Alphabet, Amazon, Nvidia, Meta Platforms, and Tesla) close more than 50% below their all-time high close price."
+fc_metaculus_40969,forecast,matching,1.0,1.0,2.0,1.0,"A song largely created by AI will chart in the top 20 of the Billboard Hot 100 on a weekly chart released before January 1, 2027."
+fc_metaculus_40969,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A song largely created by AI will chart in the top 20 of the Billboard Hot 100 on a weekly chart released before January 1, 2027."
+fc_metaculus_40969,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A song largely created by AI will chart in the top 20 of the Billboard Hot 100 on a weekly chart released before January 1, 2027."
+fc_metaculus_40976,forecast,matching,1.0,1.0,2.0,1.0,"Mike Johnson remains Speaker of the US House of Representatives from December 13, 2025, continuously until January 3, 2027."
+fc_metaculus_40976,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Mike Johnson remains Speaker of the US House of Representatives from December 13, 2025, continuously until January 3, 2027."
+fc_metaculus_40976,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Mike Johnson remains Speaker of the US House of Representatives from December 13, 2025, continuously until January 3, 2027."
+fc_metaculus_41130,forecast,matching,1.0,1.0,2.0,1.0,"The S&P 500 index will be greater than 7,500 at the close of regular trading on the final trading day of 2026."
+fc_metaculus_41130,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The S&P 500 index will be greater than 7,500 at the close of regular trading on the final trading day of 2026."
+fc_metaculus_41130,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The S&P 500 index will be greater than 7,500 at the close of regular trading on the final trading day of 2026."
+fc_metaculus_41193,forecast,matching,1.0,1.0,2.0,1.0,"The United States federal government enacts a law or executive order introducing at least one new AI safety requirement on any private entity developing or deploying AI models after December 31, 2025 and before January 1, 2027."
+fc_metaculus_41193,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The United States federal government enacts a law or executive order introducing at least one new AI safety requirement on any private entity developing or deploying AI models after December 31, 2025 and before January 1, 2027."
+fc_metaculus_41193,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The United States federal government enacts a law or executive order introducing at least one new AI safety requirement on any private entity developing or deploying AI models after December 31, 2025 and before January 1, 2027."
+fc_metaculus_41365,forecast,matching,1.0,1.0,2.0,1.0,"Before January 1, 2027, credible sources report that the Trump administration has formally attempted to withdraw from or suspend U.S. participation in at least one of the following international arms control agreements: New START, CWC, NPT, CTBT, BWC, CCW, or OST."
+fc_metaculus_41365,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Before January 1, 2027, credible sources report that the Trump administration has formally attempted to withdraw from or suspend U.S. participation in at least one of the following international arms control agreements: New START, CWC, NPT, CTBT, BWC, CCW, or OST."
+fc_metaculus_41365,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Before January 1, 2027, credible sources report that the Trump administration has formally attempted to withdraw from or suspend U.S. participation in at least one of the following international arms control agreements: New START, CWC, NPT, CTBT, BWC, CCW, or OST."
+fc_metaculus_41526,forecast,matching,1.0,1.0,2.0,1.0,The closing value of the exchange rate from the Euro (EUR) to Dollar (USD) on the last trading day of 2026 is higher than 1.1747.
+fc_metaculus_41526,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The closing value of the exchange rate from the Euro (EUR) to Dollar (USD) on the last trading day of 2026 is higher than 1.1747.
+fc_metaculus_41526,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The closing value of the exchange rate from the Euro (EUR) to Dollar (USD) on the last trading day of 2026 is higher than 1.1747.
+fc_metaculus_42666,forecast,matching,1.0,1.0,2.0,1.0,"The Communist Party of Cuba ceases to exercise de facto governing control over Cuba before January 1, 2027."
+fc_metaculus_42666,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The Communist Party of Cuba ceases to exercise de facto governing control over Cuba before January 1, 2027."
+fc_metaculus_42666,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The Communist Party of Cuba ceases to exercise de facto governing control over Cuba before January 1, 2027."
+fc_metaculus_43119,forecast,matching,1.0,1.0,2.0,1.0,"A new bilateral trade agreement between the US and China is signed and jointly announced by government officials from both countries before January 1, 2027, and published on official government websites."
+fc_metaculus_43119,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A new bilateral trade agreement between the US and China is signed and jointly announced by government officials from both countries before January 1, 2027, and published on official government websites."
+fc_metaculus_43119,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A new bilateral trade agreement between the US and China is signed and jointly announced by government officials from both countries before January 1, 2027, and published on official government websites."
+fc_metaculus_43274,forecast,matching,1.0,1.0,2.0,1.0,Professor Layton and the New World of Steam will be publicly released before 2027.
+fc_metaculus_43274,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Professor Layton and the New World of Steam will be publicly released before 2027.
+fc_metaculus_43274,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Professor Layton and the New World of Steam will be publicly released before 2027.
+fc_metaculus_43315,forecast,matching,1.0,1.0,2.0,1.0,"In 2026, a peer-reviewed paper or major-organization publication estimates Sudan war excess mortality at more than 200,000 deaths."
+fc_metaculus_43315,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"In 2026, a peer-reviewed paper or major-organization publication estimates Sudan war excess mortality at more than 200,000 deaths."
+fc_metaculus_43315,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"In 2026, a peer-reviewed paper or major-organization publication estimates Sudan war excess mortality at more than 200,000 deaths."
+fc_metaculus_43980,forecast,matching,1.0,1.0,2.0,1.0,"U.S. District Judge Eleanor L. Ross will cease to hold her position in the United States District Court for the Northern District of Georgia before January 1, 2027."
+fc_metaculus_43980,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"U.S. District Judge Eleanor L. Ross will cease to hold her position in the United States District Court for the Northern District of Georgia before January 1, 2027."
+fc_metaculus_43980,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"U.S. District Judge Eleanor L. Ross will cease to hold her position in the United States District Court for the Northern District of Georgia before January 1, 2027."
+fc_metaculus_44176,forecast,matching,1.0,1.0,2.0,1.0,"The closing value of the S&P 500 Index on December 31, 2026 is 8,000.00 or higher."
+fc_metaculus_44176,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The closing value of the S&P 500 Index on December 31, 2026 is 8,000.00 or higher."
+fc_metaculus_44176,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The closing value of the S&P 500 Index on December 31, 2026 is 8,000.00 or higher."
+fc_metaculus_44191,forecast,matching,1.0,1.0,2.0,1.0,At least one monthly estimate of 'AI Support' according to AI Daily is below zero during 2026.
+fc_metaculus_44191,forecast,ramsey_linear,1.0,1.0,2.0,1.0,At least one monthly estimate of 'AI Support' according to AI Daily is below zero during 2026.
+fc_metaculus_44191,forecast,ramsey_utility,1.0,1.0,2.0,1.0,At least one monthly estimate of 'AI Support' according to AI Daily is below zero during 2026.
+fc_metaculus_44364,forecast,matching,1.0,1.0,2.0,1.0,"The U.S. Securities and Exchange Commission will adopt a final rule permitting optional semiannual reporting before December 31, 2026."
+fc_metaculus_44364,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The U.S. Securities and Exchange Commission will adopt a final rule permitting optional semiannual reporting before December 31, 2026."
+fc_metaculus_44364,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The U.S. Securities and Exchange Commission will adopt a final rule permitting optional semiannual reporting before December 31, 2026."
+fc_metaculus_44553,forecast,matching,1.0,1.0,2.0,1.0,"Nigeria's official headline year-over-year inflation rate, as published by the National Bureau of Statistics (NBS), will be less than 15.0% in at least one monthly release during 2026."
+fc_metaculus_44553,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Nigeria's official headline year-over-year inflation rate, as published by the National Bureau of Statistics (NBS), will be less than 15.0% in at least one monthly release during 2026."
+fc_metaculus_44553,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Nigeria's official headline year-over-year inflation rate, as published by the National Bureau of Statistics (NBS), will be less than 15.0% in at least one monthly release during 2026."
+fc_metaculus_44883,forecast,matching,1.0,1.0,2.0,1.0,"A final determination in USTR's Section 301 industrial-overcapacity investigation results in the imposition of new tariffs or trade measures specifically targeting China before January 1, 2027."
+fc_metaculus_44883,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A final determination in USTR's Section 301 industrial-overcapacity investigation results in the imposition of new tariffs or trade measures specifically targeting China before January 1, 2027."
+fc_metaculus_44883,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A final determination in USTR's Section 301 industrial-overcapacity investigation results in the imposition of new tariffs or trade measures specifically targeting China before January 1, 2027."
+fc_metaculus_45421,forecast,matching,1.0,1.0,2.0,1.0,"At least one additional U.S. state enacts a cage-free egg requirement before July 1, 2027."
+fc_metaculus_45421,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"At least one additional U.S. state enacts a cage-free egg requirement before July 1, 2027."
+fc_metaculus_45421,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"At least one additional U.S. state enacts a cage-free egg requirement before July 1, 2027."
+fc_metaculus_45423,forecast,matching,1.0,1.0,2.0,1.0,"Waymo has achieved at least 1,000,000 paid, fully autonomous passenger rides during a single consecutive seven-day period before 2027."
+fc_metaculus_45423,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Waymo has achieved at least 1,000,000 paid, fully autonomous passenger rides during a single consecutive seven-day period before 2027."
+fc_metaculus_45423,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Waymo has achieved at least 1,000,000 paid, fully autonomous passenger rides during a single consecutive seven-day period before 2027."
+fc_metaculus_45806,forecast,matching,1.0,1.0,2.0,1.0,"Voting in a national presidential election takes place inside South Sudan on at least one officially designated polling day before January 1, 2027."
+fc_metaculus_45806,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Voting in a national presidential election takes place inside South Sudan on at least one officially designated polling day before January 1, 2027."
+fc_metaculus_45806,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Voting in a national presidential election takes place inside South Sudan on at least one officially designated polling day before January 1, 2027."
+fc_metaculus_45855,forecast,matching,0.3167526880853816,1.0,1.3167526880853817,0.3167526880853817,"At least 100 United States ground troops are located within the internationally recognized borders of Iran for more than 5 consecutive days before December 1, 2026."
+fc_metaculus_45855,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"At least 100 United States ground troops are located within the internationally recognized borders of Iran for more than 5 consecutive days before December 1, 2026."
+fc_metaculus_45855,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"At least 100 United States ground troops are located within the internationally recognized borders of Iran for more than 5 consecutive days before December 1, 2026."
+fc_metaculus_45856,forecast,matching,1.0,1.0,2.0,1.0,"On a single day after September 30, 2026 and before December 1, 2026, 48 or more ships transit through the Strait of Hormuz."
+fc_metaculus_45856,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"On a single day after September 30, 2026 and before December 1, 2026, 48 or more ships transit through the Strait of Hormuz."
+fc_metaculus_45856,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"On a single day after September 30, 2026 and before December 1, 2026, 48 or more ships transit through the Strait of Hormuz."
+fc_metaculus_45876,forecast,matching,1.0,1.0,2.0,1.0,"Donald Trump and Vladimir Putin meet in person before December 1, 2026."
+fc_metaculus_45876,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Donald Trump and Vladimir Putin meet in person before December 1, 2026."
+fc_metaculus_45876,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Donald Trump and Vladimir Putin meet in person before December 1, 2026."
+fc_metaculus_7819,forecast,matching,1.0,1.0,2.0,1.0,"A terrorist attack that kills at least 10 people has been conducted against a NATO nation by December 31, 2026, carried out by a member of the Afghan Taliban or a terrorist organization funded, supported, or protected by the Afghan Taliban."
+fc_metaculus_7819,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A terrorist attack that kills at least 10 people has been conducted against a NATO nation by December 31, 2026, carried out by a member of the Afghan Taliban or a terrorist organization funded, supported, or protected by the Afghan Taliban."
+fc_metaculus_7819,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A terrorist attack that kills at least 10 people has been conducted against a NATO nation by December 31, 2026, carried out by a member of the Afghan Taliban or a terrorist organization funded, supported, or protected by the Afghan Taliban."
+fc_metaculus_8602,forecast,matching,1.0,1.0,2.0,1.0,The combination of semaglutide and cagrilintide is approved for the treatment of obesity by the FDA or EMA by 2027-01-01.
+fc_metaculus_8602,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The combination of semaglutide and cagrilintide is approved for the treatment of obesity by the FDA or EMA by 2027-01-01.
+fc_metaculus_8602,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The combination of semaglutide and cagrilintide is approved for the treatment of obesity by the FDA or EMA by 2027-01-01.
+fc_polymarket_0x0fcfcfc35d71424c0693c717d2e3bc9b8992910835d124d80cd2f01498f1d3dc,forecast,matching,0.33333333333333326,1.0,1.3333333333333333,0.33333333333333326,"Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and December 31, 2027."
+fc_polymarket_0x0fcfcfc35d71424c0693c717d2e3bc9b8992910835d124d80cd2f01498f1d3dc,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and December 31, 2027."
+fc_polymarket_0x0fcfcfc35d71424c0693c717d2e3bc9b8992910835d124d80cd2f01498f1d3dc,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and December 31, 2027."
+fc_polymarket_0x1bed80a6572846b8733ae9d11213e3fa50c00633e9dff7e54b659661e2155fae,forecast,matching,1.0,1.0,2.0,1.0,"At least one Binance 1-minute candle for Solana (SOL/USDT) from the creation of this market through 11:59 PM ET on December 31, 2026, has a final 'High' price equal to or above $90 or a final 'Low' price equal to or below $90."
+fc_polymarket_0x1bed80a6572846b8733ae9d11213e3fa50c00633e9dff7e54b659661e2155fae,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"At least one Binance 1-minute candle for Solana (SOL/USDT) from the creation of this market through 11:59 PM ET on December 31, 2026, has a final 'High' price equal to or above $90 or a final 'Low' price equal to or below $90."
+fc_polymarket_0x1bed80a6572846b8733ae9d11213e3fa50c00633e9dff7e54b659661e2155fae,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"At least one Binance 1-minute candle for Solana (SOL/USDT) from the creation of this market through 11:59 PM ET on December 31, 2026, has a final 'High' price equal to or above $90 or a final 'Low' price equal to or below $90."
+fc_polymarket_0x1d64e87444a527dc7363c4c4f9b1ba3d4096944d4e15f98ebb0c6ec065efc63b,forecast,matching,1.0,1.0,2.0,1.0,"Donald Trump will meet with Mohammed bin Salman in person at least once between January 1, 2026, and December 31, 2026."
+fc_polymarket_0x1d64e87444a527dc7363c4c4f9b1ba3d4096944d4e15f98ebb0c6ec065efc63b,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Donald Trump will meet with Mohammed bin Salman in person at least once between January 1, 2026, and December 31, 2026."
+fc_polymarket_0x1d64e87444a527dc7363c4c4f9b1ba3d4096944d4e15f98ebb0c6ec065efc63b,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Donald Trump will meet with Mohammed bin Salman in person at least once between January 1, 2026, and December 31, 2026."
+fc_polymarket_0x2bfd658e7b304060c39d6739dd394427fadaddb51c0b0b0503bd1e2659bbf262,forecast,matching,1.0,1.0,2.0,1.0,"Chung Tung-chin will be the next Magistrate of Miaoli County following the election on November 28, 2026."
+fc_polymarket_0x2bfd658e7b304060c39d6739dd394427fadaddb51c0b0b0503bd1e2659bbf262,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Chung Tung-chin will be the next Magistrate of Miaoli County following the election on November 28, 2026."
+fc_polymarket_0x2bfd658e7b304060c39d6739dd394427fadaddb51c0b0b0503bd1e2659bbf262,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Chung Tung-chin will be the next Magistrate of Miaoli County following the election on November 28, 2026."
+fc_polymarket_0x2d858f0a25a61dfde6485f3d8e75aed397bed616c3e458b66e10e642fb2f9759,forecast,matching,0.31006199942081236,1.0,1.3100619994208125,0.3100619994208125,"Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and November 30, 2026."
+fc_polymarket_0x2d858f0a25a61dfde6485f3d8e75aed397bed616c3e458b66e10e642fb2f9759,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and November 30, 2026."
+fc_polymarket_0x2d858f0a25a61dfde6485f3d8e75aed397bed616c3e458b66e10e642fb2f9759,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and November 30, 2026."
+fc_polymarket_0x2e0dfa54cabf126a876d11530463ca033b6b4d3a7ad6164c908c4bd89802204a,forecast,matching,1.0,1.0,2.0,1.0,"José Maria Neves wins the Cape Verde presidential election on November 15, 2026 or in the second round on November 29, 2026."
+fc_polymarket_0x2e0dfa54cabf126a876d11530463ca033b6b4d3a7ad6164c908c4bd89802204a,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"José Maria Neves wins the Cape Verde presidential election on November 15, 2026 or in the second round on November 29, 2026."
+fc_polymarket_0x2e0dfa54cabf126a876d11530463ca033b6b4d3a7ad6164c908c4bd89802204a,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"José Maria Neves wins the Cape Verde presidential election on November 15, 2026 or in the second round on November 29, 2026."
+fc_polymarket_0x326df6a10a6cdd74bdc1ef77906037e90b1f1d6dd1fdcbf6580aea62de094a96,forecast,matching,1.0,1.0,2.0,1.0,"Between January 1 and December 31, 2026, 1 to 100 individuals will purchase Gold Cards as part of Donald Trump's announced plan."
+fc_polymarket_0x326df6a10a6cdd74bdc1ef77906037e90b1f1d6dd1fdcbf6580aea62de094a96,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Between January 1 and December 31, 2026, 1 to 100 individuals will purchase Gold Cards as part of Donald Trump's announced plan."
+fc_polymarket_0x326df6a10a6cdd74bdc1ef77906037e90b1f1d6dd1fdcbf6580aea62de094a96,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Between January 1 and December 31, 2026, 1 to 100 individuals will purchase Gold Cards as part of Donald Trump's announced plan."
+fc_polymarket_0x3377edf8e5a1c9bf41b2a3e88e3c0576f0e2972808cc027c87d5344a57b9ba81,forecast,matching,1.0,1.0,2.0,1.0,"The popular initiative ‘Yes to fair federal taxation for married couples – To finally put an end to marriage discrimination!’ is approved in Switzerland’s November 29, 2026 popular vote."
+fc_polymarket_0x3377edf8e5a1c9bf41b2a3e88e3c0576f0e2972808cc027c87d5344a57b9ba81,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The popular initiative ‘Yes to fair federal taxation for married couples – To finally put an end to marriage discrimination!’ is approved in Switzerland’s November 29, 2026 popular vote."
+fc_polymarket_0x3377edf8e5a1c9bf41b2a3e88e3c0576f0e2972808cc027c87d5344a57b9ba81,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The popular initiative ‘Yes to fair federal taxation for married couples – To finally put an end to marriage discrimination!’ is approved in Switzerland’s November 29, 2026 popular vote."
+fc_polymarket_0x43a4dad7ff30bfa8b131013e8b11d12f619a1c3ce37661beab3d9147c6eab203,forecast,matching,1.0,1.0,2.0,1.0,Labor will win the second-most seats in the 2026 Victorian state election.
+fc_polymarket_0x43a4dad7ff30bfa8b131013e8b11d12f619a1c3ce37661beab3d9147c6eab203,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Labor will win the second-most seats in the 2026 Victorian state election.
+fc_polymarket_0x43a4dad7ff30bfa8b131013e8b11d12f619a1c3ce37661beab3d9147c6eab203,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Labor will win the second-most seats in the 2026 Victorian state election.
+fc_polymarket_0x4d68a4d422c2b79cdba8ed95d228fa90c706265d0d38f4b6db39fbd858b4a99a,forecast,matching,1.0,1.0,2.0,1.0,"The USS George Washington departed the CENTCOM area of responsibility by November 30, 2026."
+fc_polymarket_0x4d68a4d422c2b79cdba8ed95d228fa90c706265d0d38f4b6db39fbd858b4a99a,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The USS George Washington departed the CENTCOM area of responsibility by November 30, 2026."
+fc_polymarket_0x4d68a4d422c2b79cdba8ed95d228fa90c706265d0d38f4b6db39fbd858b4a99a,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The USS George Washington departed the CENTCOM area of responsibility by November 30, 2026."
+fc_polymarket_0x55eda2831f1369b028fb05c7e2392bbe2274f9c332388a7801c2430e3aac3579,forecast,matching,1.0,1.0,2.0,1.0,"At least one TradingView 1 minute candle for STRC between the market creation and December 31, 2027, has a final 'High' value of at least $100."
+fc_polymarket_0x55eda2831f1369b028fb05c7e2392bbe2274f9c332388a7801c2430e3aac3579,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"At least one TradingView 1 minute candle for STRC between the market creation and December 31, 2027, has a final 'High' value of at least $100."
+fc_polymarket_0x55eda2831f1369b028fb05c7e2392bbe2274f9c332388a7801c2430e3aac3579,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"At least one TradingView 1 minute candle for STRC between the market creation and December 31, 2027, has a final 'High' value of at least $100."
+fc_polymarket_0x5f5cf92636c3644a6221fba15d00e8aab9d539c17a0d25d8ae8d15220cbd2cb9,forecast,matching,1.0,1.0,2.0,1.0,Democrats have a seat count of 235 or more in the House and a seat count of 51 or more in the Senate as a result of the 2026 midterm elections.
+fc_polymarket_0x5f5cf92636c3644a6221fba15d00e8aab9d539c17a0d25d8ae8d15220cbd2cb9,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Democrats have a seat count of 235 or more in the House and a seat count of 51 or more in the Senate as a result of the 2026 midterm elections.
+fc_polymarket_0x5f5cf92636c3644a6221fba15d00e8aab9d539c17a0d25d8ae8d15220cbd2cb9,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Democrats have a seat count of 235 or more in the House and a seat count of 51 or more in the Senate as a result of the 2026 midterm elections.
+fc_polymarket_0x60b8efcdc90f3e209a0c325d5bff56145d83aed9e064714aa941aa2c4552644a,forecast,matching,0.03972661907518765,1.0,1.0397266190751877,0.03972661907518771,"Russia captures all of Bilytske, Donetsk Oblast by December 31, 2027, as indicated by continuous shading under the Assessed Russian-Controlled Terrain or Assessed Russian Advances layers on the ISW map."
+fc_polymarket_0x60b8efcdc90f3e209a0c325d5bff56145d83aed9e064714aa941aa2c4552644a,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Russia captures all of Bilytske, Donetsk Oblast by December 31, 2027, as indicated by continuous shading under the Assessed Russian-Controlled Terrain or Assessed Russian Advances layers on the ISW map."
+fc_polymarket_0x60b8efcdc90f3e209a0c325d5bff56145d83aed9e064714aa941aa2c4552644a,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Russia captures all of Bilytske, Donetsk Oblast by December 31, 2027, as indicated by continuous shading under the Assessed Russian-Controlled Terrain or Assessed Russian Advances layers on the ISW map."
+fc_polymarket_0x654a72888c510cea03e517f65e199003d322294d3669c902cb31d59433dc5b89,forecast,matching,0.44999999700704085,1.0,1.449999997007041,0.44999999700704096,"Chang Chi-kai will be elected as the Mayor of Chiayi City in the election held on November 28, 2026."
+fc_polymarket_0x654a72888c510cea03e517f65e199003d322294d3669c902cb31d59433dc5b89,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Chang Chi-kai will be elected as the Mayor of Chiayi City in the election held on November 28, 2026."
+fc_polymarket_0x654a72888c510cea03e517f65e199003d322294d3669c902cb31d59433dc5b89,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Chang Chi-kai will be elected as the Mayor of Chiayi City in the election held on November 28, 2026."
+fc_polymarket_0x6693ebfeb4a1476a79f7c1581b59da9186ff138f6664a4f5b9817e0974839733,forecast,matching,0.04999999820659238,1.0,1.0499999982065924,0.0499999982065924,"Iran will target the United Arab Emirates through a qualifying military action by November 30, 2026."
+fc_polymarket_0x6693ebfeb4a1476a79f7c1581b59da9186ff138f6664a4f5b9817e0974839733,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Iran will target the United Arab Emirates through a qualifying military action by November 30, 2026."
+fc_polymarket_0x6693ebfeb4a1476a79f7c1581b59da9186ff138f6664a4f5b9817e0974839733,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Iran will target the United Arab Emirates through a qualifying military action by November 30, 2026."
+fc_polymarket_0x6c783a56758368cb7ebdd383a368ab39728d3475d36a561626176657faaeb564,forecast,matching,1.0,1.0,2.0,1.0,"One or more IAEA officials physically visited the Isfahan Nuclear Technology Center, Fordow Fuel Enrichment Plant, or Natanz Nuclear Facility in Iran by December 31, 2027."
+fc_polymarket_0x6c783a56758368cb7ebdd383a368ab39728d3475d36a561626176657faaeb564,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"One or more IAEA officials physically visited the Isfahan Nuclear Technology Center, Fordow Fuel Enrichment Plant, or Natanz Nuclear Facility in Iran by December 31, 2027."
+fc_polymarket_0x6c783a56758368cb7ebdd383a368ab39728d3475d36a561626176657faaeb564,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"One or more IAEA officials physically visited the Isfahan Nuclear Technology Center, Fordow Fuel Enrichment Plant, or Natanz Nuclear Facility in Iran by December 31, 2027."
+fc_polymarket_0x6d4ce755aea297d7a5ce8e17612d852363e3aec79e360c4676b49f3c57e3f230,forecast,matching,1.0,1.0,2.0,1.0,"The Popular initiative ‘For a restriction on fireworks’ is approved in Switzerland’s November 29, 2026 popular vote."
+fc_polymarket_0x6d4ce755aea297d7a5ce8e17612d852363e3aec79e360c4676b49f3c57e3f230,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The Popular initiative ‘For a restriction on fireworks’ is approved in Switzerland’s November 29, 2026 popular vote."
+fc_polymarket_0x6d4ce755aea297d7a5ce8e17612d852363e3aec79e360c4676b49f3c57e3f230,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The Popular initiative ‘For a restriction on fireworks’ is approved in Switzerland’s November 29, 2026 popular vote."
+fc_polymarket_0x6d7203b2161a636a6ad554a986400e29411aecfdb51f91416a0ef9f7b6685e3b,forecast,matching,1.0,1.0,2.0,1.0,"At least one Binance 1-minute candle for Bitcoin (BTC/USDT) from the creation of this market through 11:59 PM ET on December 31, 2026, has a final 'High' price equal to or above $70,000."
+fc_polymarket_0x6d7203b2161a636a6ad554a986400e29411aecfdb51f91416a0ef9f7b6685e3b,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"At least one Binance 1-minute candle for Bitcoin (BTC/USDT) from the creation of this market through 11:59 PM ET on December 31, 2026, has a final 'High' price equal to or above $70,000."
+fc_polymarket_0x6d7203b2161a636a6ad554a986400e29411aecfdb51f91416a0ef9f7b6685e3b,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"At least one Binance 1-minute candle for Bitcoin (BTC/USDT) from the creation of this market through 11:59 PM ET on December 31, 2026, has a final 'High' price equal to or above $70,000."
+fc_polymarket_0x6dc48af20a509575041a8bc3694c1f259f6054dc6835a9dcd73abf879b416459,forecast,matching,1.0,1.0,2.0,1.0,"Majid Takht-Ravanchi attends a formal senior-level round of peace talks between representatives of the United States and Iran by December 31, 2026."
+fc_polymarket_0x6dc48af20a509575041a8bc3694c1f259f6054dc6835a9dcd73abf879b416459,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Majid Takht-Ravanchi attends a formal senior-level round of peace talks between representatives of the United States and Iran by December 31, 2026."
+fc_polymarket_0x6dc48af20a509575041a8bc3694c1f259f6054dc6835a9dcd73abf879b416459,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Majid Takht-Ravanchi attends a formal senior-level round of peace talks between representatives of the United States and Iran by December 31, 2026."
+fc_polymarket_0x6f626526b2d0b10ea3e89425d6a044565a2ae4e9944331c84f1ca9e6fc1b9c5d,forecast,matching,1.0,1.0,2.0,1.0,Adama Barrow wins the 2026 Gambian presidential election.
+fc_polymarket_0x6f626526b2d0b10ea3e89425d6a044565a2ae4e9944331c84f1ca9e6fc1b9c5d,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Adama Barrow wins the 2026 Gambian presidential election.
+fc_polymarket_0x6f626526b2d0b10ea3e89425d6a044565a2ae4e9944331c84f1ca9e6fc1b9c5d,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Adama Barrow wins the 2026 Gambian presidential election.
+fc_polymarket_0x719da011baed5f543e28d07c9ce08dc8d0ea946b64f9a4609176b1c969bd4a45,forecast,matching,0.09999998807143617,1.0,1.0999999880714362,0.09999998807143617,"The Houthis have established primary military control over Al-Qahira Castle in Taiz city by December 31, 2026."
+fc_polymarket_0x719da011baed5f543e28d07c9ce08dc8d0ea946b64f9a4609176b1c969bd4a45,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The Houthis have established primary military control over Al-Qahira Castle in Taiz city by December 31, 2026."
+fc_polymarket_0x719da011baed5f543e28d07c9ce08dc8d0ea946b64f9a4609176b1c969bd4a45,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The Houthis have established primary military control over Al-Qahira Castle in Taiz city by December 31, 2026."
+fc_polymarket_0x7263b71ab53522cf98045ea0745a6f61ebd36430ffd1b3ba95630cb25489d61b,forecast,matching,0.23341980103651833,1.0,1.2334198010365183,0.23341980103651827,"Pakistan conducts a qualifying military action against Afghanistan by November 15, 2026."
+fc_polymarket_0x7263b71ab53522cf98045ea0745a6f61ebd36430ffd1b3ba95630cb25489d61b,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Pakistan conducts a qualifying military action against Afghanistan by November 15, 2026."
+fc_polymarket_0x7263b71ab53522cf98045ea0745a6f61ebd36430ffd1b3ba95630cb25489d61b,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Pakistan conducts a qualifying military action against Afghanistan by November 15, 2026."
+fc_polymarket_0x7d1cc102572a444d63434870de17a9752794d4575f16d24a85f03d7d6753d290,forecast,matching,1.0,1.0,2.0,1.0,The Joint List will win 12 or more seats in the 2026 Knesset elections.
+fc_polymarket_0x7d1cc102572a444d63434870de17a9752794d4575f16d24a85f03d7d6753d290,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The Joint List will win 12 or more seats in the 2026 Knesset elections.
+fc_polymarket_0x7d1cc102572a444d63434870de17a9752794d4575f16d24a85f03d7d6753d290,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The Joint List will win 12 or more seats in the 2026 Knesset elections.
+fc_polymarket_0x7d542d01581ab32518a4131ef852dbc5167697c8dd9600f3fb0c24df2a417ce1,forecast,matching,1.0,1.0,2.0,1.0,"Russian diesel fuel is imported to the United States between market creation and November 30, 2026, 11:59 PM ET under the agreement announced on October 9, 2026."
+fc_polymarket_0x7d542d01581ab32518a4131ef852dbc5167697c8dd9600f3fb0c24df2a417ce1,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Russian diesel fuel is imported to the United States between market creation and November 30, 2026, 11:59 PM ET under the agreement announced on October 9, 2026."
+fc_polymarket_0x7d542d01581ab32518a4131ef852dbc5167697c8dd9600f3fb0c24df2a417ce1,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Russian diesel fuel is imported to the United States between market creation and November 30, 2026, 11:59 PM ET under the agreement announced on October 9, 2026."
+fc_polymarket_0x7f4b4b3a2f029fb382f0d715960f7e9d41ae3ea6d1d78a40b297a7f8f9b5387f,forecast,matching,0.2664162651843757,1.0,1.2664162651843758,0.2664162651843758,David Makhura will officially assume the role of Mayor of Johannesburg following the 2026 South African municipal elections.
+fc_polymarket_0x7f4b4b3a2f029fb382f0d715960f7e9d41ae3ea6d1d78a40b297a7f8f9b5387f,forecast,ramsey_linear,1.0,1.0,2.0,1.0,David Makhura will officially assume the role of Mayor of Johannesburg following the 2026 South African municipal elections.
+fc_polymarket_0x7f4b4b3a2f029fb382f0d715960f7e9d41ae3ea6d1d78a40b297a7f8f9b5387f,forecast,ramsey_utility,1.0,1.0,2.0,1.0,David Makhura will officially assume the role of Mayor of Johannesburg following the 2026 South African municipal elections.
+fc_polymarket_0x7feed8b54455649edb84e97b80cc1f3ac65bee7eed317f3ef393463d58b8102a,forecast,matching,0.32499999999999996,1.0,1.325,0.32499999999999996,"A qualifying senior-level diplomatic meeting between the United States and Iran will begin in any country by December 31, 2026."
+fc_polymarket_0x7feed8b54455649edb84e97b80cc1f3ac65bee7eed317f3ef393463d58b8102a,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A qualifying senior-level diplomatic meeting between the United States and Iran will begin in any country by December 31, 2026."
+fc_polymarket_0x7feed8b54455649edb84e97b80cc1f3ac65bee7eed317f3ef393463d58b8102a,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A qualifying senior-level diplomatic meeting between the United States and Iran will begin in any country by December 31, 2026."
+fc_polymarket_0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8,forecast,matching,1.0,1.0,2.0,1.0,The upper bound of the target federal funds rate will increase by 25 basis points after the Federal Reserve's December 2026 meeting.
+fc_polymarket_0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The upper bound of the target federal funds rate will increase by 25 basis points after the Federal Reserve's December 2026 meeting.
+fc_polymarket_0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The upper bound of the target federal funds rate will increase by 25 basis points after the Federal Reserve's December 2026 meeting.
+fc_polymarket_0xa01d48a973e40770719dab42faf1aeae5da4376d9eca46e77265c7551d1be0f7,forecast,matching,1.0,1.0,2.0,1.0,"Delcy Rodríguez will officially hold the position of head of state of Venezuela on December 31, 2026 at 12 PM ET."
+fc_polymarket_0xa01d48a973e40770719dab42faf1aeae5da4376d9eca46e77265c7551d1be0f7,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Delcy Rodríguez will officially hold the position of head of state of Venezuela on December 31, 2026 at 12 PM ET."
+fc_polymarket_0xa01d48a973e40770719dab42faf1aeae5da4376d9eca46e77265c7551d1be0f7,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Delcy Rodríguez will officially hold the position of head of state of Venezuela on December 31, 2026 at 12 PM ET."
+fc_polymarket_0xa2739ba4bc05fe9791b3a3e437104254625ed5a8e9b43f96aef4255e1757e618,forecast,matching,1.0,1.0,2.0,1.0,"Donald Trump and Vladimir Putin will meet in China between the creation of this market and December 31, 2026, 11:59 PM ET."
+fc_polymarket_0xa2739ba4bc05fe9791b3a3e437104254625ed5a8e9b43f96aef4255e1757e618,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Donald Trump and Vladimir Putin will meet in China between the creation of this market and December 31, 2026, 11:59 PM ET."
+fc_polymarket_0xa2739ba4bc05fe9791b3a3e437104254625ed5a8e9b43f96aef4255e1757e618,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Donald Trump and Vladimir Putin will meet in China between the creation of this market and December 31, 2026, 11:59 PM ET."
+fc_polymarket_0xa9104f56e519ebd4b67445d3f1d848c731246d164667c16076ccf5cd3c2cbae7,forecast,matching,1.0,1.0,2.0,1.0,S8UL Esports wins the 2026 Esports Content Group of the Year Award.
+fc_polymarket_0xa9104f56e519ebd4b67445d3f1d848c731246d164667c16076ccf5cd3c2cbae7,forecast,ramsey_linear,1.0,1.0,2.0,1.0,S8UL Esports wins the 2026 Esports Content Group of the Year Award.
+fc_polymarket_0xa9104f56e519ebd4b67445d3f1d848c731246d164667c16076ccf5cd3c2cbae7,forecast,ramsey_utility,1.0,1.0,2.0,1.0,S8UL Esports wins the 2026 Esports Content Group of the Year Award.
+fc_polymarket_0xa9aa873b222923b2ef53f9a2525fd953590572d8d6331277c7cbbc9d52367f53,forecast,matching,1.0,1.0,2.0,1.0,"The USD exchange rate on December 31, 2026, will be between 3.5M and 4.0M Iranian rials according to Bonbast."
+fc_polymarket_0xa9aa873b222923b2ef53f9a2525fd953590572d8d6331277c7cbbc9d52367f53,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The USD exchange rate on December 31, 2026, will be between 3.5M and 4.0M Iranian rials according to Bonbast."
+fc_polymarket_0xa9aa873b222923b2ef53f9a2525fd953590572d8d6331277c7cbbc9d52367f53,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The USD exchange rate on December 31, 2026, will be between 3.5M and 4.0M Iranian rials according to Bonbast."
+fc_polymarket_0xafefe6fc14ffb9bd92f2ad0578696345ed3484a566d393c16e717ccdc67c68ec,forecast,matching,1.0,1.0,2.0,1.0,"Variational will officially launch a governance token that is actively and publicly transferable and tradable by December 31, 2026."
+fc_polymarket_0xafefe6fc14ffb9bd92f2ad0578696345ed3484a566d393c16e717ccdc67c68ec,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Variational will officially launch a governance token that is actively and publicly transferable and tradable by December 31, 2026."
+fc_polymarket_0xafefe6fc14ffb9bd92f2ad0578696345ed3484a566d393c16e717ccdc67c68ec,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Variational will officially launch a governance token that is actively and publicly transferable and tradable by December 31, 2026."
+fc_polymarket_0xc0f076bc4d90a44df34a729277e9d1f294f0cb60d2c3b1b3800908b1e15b923b,forecast,matching,1.0,1.0,2.0,1.0,The Kuomintang (KMT) wins the most head of local government elections in the 2026 Taiwan local elections.
+fc_polymarket_0xc0f076bc4d90a44df34a729277e9d1f294f0cb60d2c3b1b3800908b1e15b923b,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The Kuomintang (KMT) wins the most head of local government elections in the 2026 Taiwan local elections.
+fc_polymarket_0xc0f076bc4d90a44df34a729277e9d1f294f0cb60d2c3b1b3800908b1e15b923b,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The Kuomintang (KMT) wins the most head of local government elections in the 2026 Taiwan local elections.
+fc_polymarket_0xc57bc9d0d9890815aa31d498d57af5d2d6e8d5245fd5ab104dfd7aed8c7b7081,forecast,matching,1.0,1.0,2.0,1.0,"Donald Trump will meet with Vladimir Putin in person at least once between January 1, 2026, and December 31, 2026."
+fc_polymarket_0xc57bc9d0d9890815aa31d498d57af5d2d6e8d5245fd5ab104dfd7aed8c7b7081,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Donald Trump will meet with Vladimir Putin in person at least once between January 1, 2026, and December 31, 2026."
+fc_polymarket_0xc57bc9d0d9890815aa31d498d57af5d2d6e8d5245fd5ab104dfd7aed8c7b7081,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Donald Trump will meet with Vladimir Putin in person at least once between January 1, 2026, and December 31, 2026."
+fc_polymarket_0xca1e85ca4d0aef640f05810e7b4adf20c9d4a4fe6b9ea24f4f4d087c72ce7bf3,forecast,matching,0.2832906009047728,1.0,1.2832906009047729,0.28329060090477287,"The French government explicitly claims that the authorities of a foreign country deliberately caused or facilitated the unrest that began in France on October 17, 2026, by November 30, 2026."
+fc_polymarket_0xca1e85ca4d0aef640f05810e7b4adf20c9d4a4fe6b9ea24f4f4d087c72ce7bf3,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The French government explicitly claims that the authorities of a foreign country deliberately caused or facilitated the unrest that began in France on October 17, 2026, by November 30, 2026."
+fc_polymarket_0xca1e85ca4d0aef640f05810e7b4adf20c9d4a4fe6b9ea24f4f4d087c72ce7bf3,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The French government explicitly claims that the authorities of a foreign country deliberately caused or facilitated the unrest that began in France on October 17, 2026, by November 30, 2026."
+fc_polymarket_0xca394e0db041f91ac2d69f3ea06efdfc8643acb0d2751283bd594e7b8bd581f9,forecast,matching,0.2668752906677534,1.0,1.2668752906677534,0.2668752906677534,"A state of ceasefire remains in effect between Israel and Iran through November 15, 2026, 11:59 PM Iran Standard Time."
+fc_polymarket_0xca394e0db041f91ac2d69f3ea06efdfc8643acb0d2751283bd594e7b8bd581f9,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A state of ceasefire remains in effect between Israel and Iran through November 15, 2026, 11:59 PM Iran Standard Time."
+fc_polymarket_0xca394e0db041f91ac2d69f3ea06efdfc8643acb0d2751283bd594e7b8bd581f9,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A state of ceasefire remains in effect between Israel and Iran through November 15, 2026, 11:59 PM Iran Standard Time."
+fc_polymarket_0xe0f049a6321da8e5a5dc0f45e4f9326e8c7a2c6196459a8bf053da6319987601,forecast,matching,1.0,1.0,2.0,1.0,Reservists – New Economic Party will win less than 2.75% of the vote in the 2026 Knesset elections.
+fc_polymarket_0xe0f049a6321da8e5a5dc0f45e4f9326e8c7a2c6196459a8bf053da6319987601,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Reservists – New Economic Party will win less than 2.75% of the vote in the 2026 Knesset elections.
+fc_polymarket_0xe0f049a6321da8e5a5dc0f45e4f9326e8c7a2c6196459a8bf053da6319987601,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Reservists – New Economic Party will win less than 2.75% of the vote in the 2026 Knesset elections.
+fc_polymarket_0xe96dbaceb816e80063bec945a76ac915cba4341bdf1ef704f722bfc9054aad09,forecast,matching,0.31252262396025743,1.0,1.3125226239602574,0.31252262396025743,Anthropic will have the highest IPO market capitalization in U.S. dollars based on the official closing price on its first trading day in 2026.
+fc_polymarket_0xe96dbaceb816e80063bec945a76ac915cba4341bdf1ef704f722bfc9054aad09,forecast,ramsey_linear,1.0,1.0,2.0,1.0,Anthropic will have the highest IPO market capitalization in U.S. dollars based on the official closing price on its first trading day in 2026.
+fc_polymarket_0xe96dbaceb816e80063bec945a76ac915cba4341bdf1ef704f722bfc9054aad09,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Anthropic will have the highest IPO market capitalization in U.S. dollars based on the official closing price on its first trading day in 2026.
+fc_polymarket_0xec10a736a52480e4cc689cfcdf2a5a5f2bacb86aa84c1dd1163b3809010eb297,forecast,matching,0.28754870124931914,1.0,1.2875487012493192,0.2875487012493192,"Susie Wiles ceases to be the White House Chief of Staff for any period of time between market creation and December 31, 2026."
+fc_polymarket_0xec10a736a52480e4cc689cfcdf2a5a5f2bacb86aa84c1dd1163b3809010eb297,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Susie Wiles ceases to be the White House Chief of Staff for any period of time between market creation and December 31, 2026."
+fc_polymarket_0xec10a736a52480e4cc689cfcdf2a5a5f2bacb86aa84c1dd1163b3809010eb297,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Susie Wiles ceases to be the White House Chief of Staff for any period of time between market creation and December 31, 2026."
+fc_polymarket_0xf036481613a53faafdc7638824e5dfab03b4dda5b9bf13fbdfa2075e2d4a8bea,forecast,matching,0.33358373738032,1.0,1.3335837373803199,0.3335837373803199,"The United States government officially announces the end of its naval blockade on Iranian ships and ships of Iranian customers by November 15, 2026."
+fc_polymarket_0xf036481613a53faafdc7638824e5dfab03b4dda5b9bf13fbdfa2075e2d4a8bea,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The United States government officially announces the end of its naval blockade on Iranian ships and ships of Iranian customers by November 15, 2026."
+fc_polymarket_0xf036481613a53faafdc7638824e5dfab03b4dda5b9bf13fbdfa2075e2d4a8bea,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The United States government officially announces the end of its naval blockade on Iranian ships and ships of Iranian customers by November 15, 2026."
+fc_polymarket_0xfc98aa62bdcc0568c31fb97c6ef36f17e8675276dc42828194738b2273612328,forecast,matching,1.0,1.0,2.0,1.0,"Bitmine will announce that it holds more than 7M ETH before December 31, 2026."
+fc_polymarket_0xfc98aa62bdcc0568c31fb97c6ef36f17e8675276dc42828194738b2273612328,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Bitmine will announce that it holds more than 7M ETH before December 31, 2026."
+fc_polymarket_0xfc98aa62bdcc0568c31fb97c6ef36f17e8675276dc42828194738b2273612328,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Bitmine will announce that it holds more than 7M ETH before December 31, 2026."
+fc_polymarket_0xfcc06c62976788d674df65604c5d140968f4df651c9d818393e809fa93baeb7f,forecast,matching,1.0,1.0,2.0,1.0,"Hsieh Kuo-liang will be the next Mayor of Keelung following the election on November 28, 2026."
+fc_polymarket_0xfcc06c62976788d674df65604c5d140968f4df651c9d818393e809fa93baeb7f,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Hsieh Kuo-liang will be the next Mayor of Keelung following the election on November 28, 2026."
+fc_polymarket_0xfcc06c62976788d674df65604c5d140968f4df651c9d818393e809fa93baeb7f,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Hsieh Kuo-liang will be the next Mayor of Keelung following the election on November 28, 2026."
+kuq_1009,kuq,matching,1.0,1.0,2.0,1.0,Aerospace technology will be used in more than 50% of forestry management practices by 2030.
+kuq_1009,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Aerospace technology will be used in more than 50% of forestry management practices by 2030.
+kuq_1009,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Aerospace technology will be used in more than 50% of forestry management practices by 2030.
+kuq_1010,kuq,matching,1.0,1.0,2.0,1.0,"If Adolf Hitler had been captured alive, he would have faced a trial for his war crimes."
+kuq_1010,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If Adolf Hitler had been captured alive, he would have faced a trial for his war crimes."
+kuq_1010,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If Adolf Hitler had been captured alive, he would have faced a trial for his war crimes."
+kuq_1029,kuq,matching,1.0,1.0,2.0,1.0,The Kansas City Chiefs would have won fewer than 5 games in the 2022 NFL season without Patrick Mahomes.
+kuq_1029,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The Kansas City Chiefs would have won fewer than 5 games in the 2022 NFL season without Patrick Mahomes.
+kuq_1029,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The Kansas City Chiefs would have won fewer than 5 games in the 2022 NFL season without Patrick Mahomes.
+kuq_1032,kuq,matching,1.0,1.0,2.0,1.0,"If carbon emissions do not negatively affect the environment, then carbon pricing in transportation will be implemented by 2040."
+kuq_1032,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If carbon emissions do not negatively affect the environment, then carbon pricing in transportation will be implemented by 2040."
+kuq_1032,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If carbon emissions do not negatively affect the environment, then carbon pricing in transportation will be implemented by 2040."
+kuq_1042,kuq,matching,1.0,1.0,2.0,1.0,There exists an ideal space agriculture automation method that will be widely adopted by 2030.
+kuq_1042,kuq,ramsey_linear,1.0,1.0,2.0,1.0,There exists an ideal space agriculture automation method that will be widely adopted by 2030.
+kuq_1042,kuq,ramsey_utility,1.0,1.0,2.0,1.0,There exists an ideal space agriculture automation method that will be widely adopted by 2030.
+kuq_107,kuq,matching,1.0,1.0,2.0,1.0,"If the air force is eliminated, their pilots will be placed in the army by 2030."
+kuq_107,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If the air force is eliminated, their pilots will be placed in the army by 2030."
+kuq_107,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If the air force is eliminated, their pilots will be placed in the army by 2030."
+kuq_1088,kuq,matching,1.0,1.0,2.0,1.0,Robots will be employed in banks before 2035.
+kuq_1088,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Robots will be employed in banks before 2035.
+kuq_1088,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Robots will be employed in banks before 2035.
+kuq_1091,kuq,matching,1.0,1.0,2.0,1.0,Telemedicine will become the norm for administering physicals before 2030.
+kuq_1091,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Telemedicine will become the norm for administering physicals before 2030.
+kuq_1091,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Telemedicine will become the norm for administering physicals before 2030.
+kuq_1106,kuq,matching,1.0,1.0,2.0,1.0,Anger in humans originates primarily from biological processes.
+kuq_1106,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Anger in humans originates primarily from biological processes.
+kuq_1106,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Anger in humans originates primarily from biological processes.
+kuq_1192,kuq,matching,1.0,1.0,2.0,1.0,Some people require more than 48 hours of rest after working out.
+kuq_1192,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Some people require more than 48 hours of rest after working out.
+kuq_1192,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Some people require more than 48 hours of rest after working out.
+kuq_1209,kuq,matching,1.0,1.0,2.0,1.0,Severance pay is not subject to federal income tax in the United States.
+kuq_1209,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Severance pay is not subject to federal income tax in the United States.
+kuq_1209,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Severance pay is not subject to federal income tax in the United States.
+kuq_1218,kuq,matching,1.0,1.0,2.0,1.0,Design culture in product development is superior to cultures in other trades in at least 60% of cases.
+kuq_1218,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Design culture in product development is superior to cultures in other trades in at least 60% of cases.
+kuq_1218,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Design culture in product development is superior to cultures in other trades in at least 60% of cases.
+kuq_123,kuq,matching,1.0,1.0,2.0,1.0,Innovations can occur without the presence of money.
+kuq_123,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Innovations can occur without the presence of money.
+kuq_123,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Innovations can occur without the presence of money.
+kuq_1230,kuq,matching,1.0,1.0,2.0,1.0,Wellness tourism will decline by more than 10% before 2025.
+kuq_1230,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Wellness tourism will decline by more than 10% before 2025.
+kuq_1230,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Wellness tourism will decline by more than 10% before 2025.
+kuq_1240,kuq,matching,1.0,1.0,2.0,1.0,AI will completely take over the creation of concept art before 2030.
+kuq_1240,kuq,ramsey_linear,1.0,1.0,2.0,1.0,AI will completely take over the creation of concept art before 2030.
+kuq_1240,kuq,ramsey_utility,1.0,1.0,2.0,1.0,AI will completely take over the creation of concept art before 2030.
+kuq_1278,kuq,matching,1.0,1.0,2.0,1.0,Public health policy will become stricter before 2035.
+kuq_1278,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Public health policy will become stricter before 2035.
+kuq_1278,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Public health policy will become stricter before 2035.
+kuq_1286,kuq,matching,1.0,1.0,2.0,1.0,The next Don DeLillo novel will achieve higher sales than his previous most successful novel.
+kuq_1286,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The next Don DeLillo novel will achieve higher sales than his previous most successful novel.
+kuq_1286,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The next Don DeLillo novel will achieve higher sales than his previous most successful novel.
+kuq_1287,kuq,matching,1.0,1.0,2.0,1.0,The repertory theatre industry will grow by the year 2100 compared to today.
+kuq_1287,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The repertory theatre industry will grow by the year 2100 compared to today.
+kuq_1287,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The repertory theatre industry will grow by the year 2100 compared to today.
+kuq_1298,kuq,matching,1.0,1.0,2.0,1.0,Zombies will take over society before the year 2100.
+kuq_1298,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Zombies will take over society before the year 2100.
+kuq_1298,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Zombies will take over society before the year 2100.
+kuq_1330,kuq,matching,1.0,1.0,2.0,1.0,Modular design will be incorporated in architecture by the year 2030.
+kuq_1330,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Modular design will be incorporated in architecture by the year 2030.
+kuq_1330,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Modular design will be incorporated in architecture by the year 2030.
+kuq_1345,kuq,matching,1.0,1.0,2.0,1.0,AI gaming programs will be able to comprehend player's emotions by the year 2030.
+kuq_1345,kuq,ramsey_linear,1.0,1.0,2.0,1.0,AI gaming programs will be able to comprehend player's emotions by the year 2030.
+kuq_1345,kuq,ramsey_utility,1.0,1.0,2.0,1.0,AI gaming programs will be able to comprehend player's emotions by the year 2030.
+kuq_1371,kuq,matching,0.6749999999999999,1.0,1.6749999999999998,0.6749999999999998,My great-grandfather was involved in the Salem Witch Trials.
+kuq_1371,kuq,ramsey_linear,1.0,1.0,2.0,1.0,My great-grandfather was involved in the Salem Witch Trials.
+kuq_1371,kuq,ramsey_utility,1.0,1.0,2.0,1.0,My great-grandfather was involved in the Salem Witch Trials.
+kuq_1482,kuq,matching,1.0,1.0,2.0,1.0,Organizations provide assistance during disaster relief efforts more than 50% of the time.
+kuq_1482,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Organizations provide assistance during disaster relief efforts more than 50% of the time.
+kuq_1482,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Organizations provide assistance during disaster relief efforts more than 50% of the time.
+kuq_1559,kuq,matching,1.0,1.0,2.0,1.0,The man weighs more than 70 kilograms.
+kuq_1559,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The man weighs more than 70 kilograms.
+kuq_1559,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The man weighs more than 70 kilograms.
+kuq_1573,kuq,matching,1.0,1.0,2.0,1.0,Petrol cannot be safely stored in an open place due to the risk of fire and evaporation.
+kuq_1573,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Petrol cannot be safely stored in an open place due to the risk of fire and evaporation.
+kuq_1573,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Petrol cannot be safely stored in an open place due to the risk of fire and evaporation.
+kuq_1636,kuq,matching,1.0,1.0,2.0,1.0,"If AI never existed, consumer goods would have been less technologically advanced than they are today."
+kuq_1636,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If AI never existed, consumer goods would have been less technologically advanced than they are today."
+kuq_1636,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If AI never existed, consumer goods would have been less technologically advanced than they are today."
+kuq_1713,kuq,matching,1.0,1.0,2.0,1.0,There exists a comprehensive science that explains all of the benefits of a high-fiber diet.
+kuq_1713,kuq,ramsey_linear,1.0,1.0,2.0,1.0,There exists a comprehensive science that explains all of the benefits of a high-fiber diet.
+kuq_1713,kuq,ramsey_utility,1.0,1.0,2.0,1.0,There exists a comprehensive science that explains all of the benefits of a high-fiber diet.
+kuq_1852,kuq,matching,1.0,1.0,2.0,1.0,There exists a specific aquavit wine that is considered the best among experts.
+kuq_1852,kuq,ramsey_linear,1.0,1.0,2.0,1.0,There exists a specific aquavit wine that is considered the best among experts.
+kuq_1852,kuq,ramsey_utility,1.0,1.0,2.0,1.0,There exists a specific aquavit wine that is considered the best among experts.
+kuq_187,kuq,matching,1.0,1.0,2.0,1.0,The ideal color of sand and garden for a beach house to create a relaxing coastal ambiance is light beige.
+kuq_187,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The ideal color of sand and garden for a beach house to create a relaxing coastal ambiance is light beige.
+kuq_187,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The ideal color of sand and garden for a beach house to create a relaxing coastal ambiance is light beige.
+kuq_1899,kuq,matching,1.0,1.0,2.0,1.0,The most important part of design is functionality.
+kuq_1899,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The most important part of design is functionality.
+kuq_1899,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The most important part of design is functionality.
+kuq_1906,kuq,matching,1.0,1.0,2.0,1.0,There exists a single most meaningful FPS game moment that can be identified by a perfectly informed judge.
+kuq_1906,kuq,ramsey_linear,1.0,1.0,2.0,1.0,There exists a single most meaningful FPS game moment that can be identified by a perfectly informed judge.
+kuq_1906,kuq,ramsey_utility,1.0,1.0,2.0,1.0,There exists a single most meaningful FPS game moment that can be identified by a perfectly informed judge.
+kuq_1942,kuq,matching,1.0,1.0,2.0,1.0,At least one new technology or innovation will be developed to reduce the carbon footprint of maritime transport before 2035.
+kuq_1942,kuq,ramsey_linear,1.0,1.0,2.0,1.0,At least one new technology or innovation will be developed to reduce the carbon footprint of maritime transport before 2035.
+kuq_1942,kuq,ramsey_utility,1.0,1.0,2.0,1.0,At least one new technology or innovation will be developed to reduce the carbon footprint of maritime transport before 2035.
+kuq_1949,kuq,matching,1.0,1.0,2.0,1.0,Some species of fish can grow to more than 100 centimeters in length.
+kuq_1949,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Some species of fish can grow to more than 100 centimeters in length.
+kuq_1949,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Some species of fish can grow to more than 100 centimeters in length.
+kuq_1959,kuq,matching,0.3443920126825346,1.0,1.3443920126825346,0.3443920126825346,There are more than 10 undiscovered archival secrets that alter public perceptions.
+kuq_1959,kuq,ramsey_linear,1.0,1.0,2.0,1.0,There are more than 10 undiscovered archival secrets that alter public perceptions.
+kuq_1959,kuq,ramsey_utility,1.0,1.0,2.0,1.0,There are more than 10 undiscovered archival secrets that alter public perceptions.
+kuq_197,kuq,matching,1.0,1.0,2.0,1.0,The purpose of suffering is to facilitate personal growth in at least 50% of individuals who experience it.
+kuq_197,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The purpose of suffering is to facilitate personal growth in at least 50% of individuals who experience it.
+kuq_197,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The purpose of suffering is to facilitate personal growth in at least 50% of individuals who experience it.
+kuq_1994,kuq,matching,1.0,1.0,2.0,1.0,"By the year 2040, sitcoms will predominantly feature virtual reality elements."
+kuq_1994,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"By the year 2040, sitcoms will predominantly feature virtual reality elements."
+kuq_1994,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"By the year 2040, sitcoms will predominantly feature virtual reality elements."
+kuq_2023,kuq,matching,1.0,1.0,2.0,1.0,"If there had never been user-generated content in email marketing in e-commerce, the overall effectiveness of email marketing campaigns would have been significantly lower than it is today."
+kuq_2023,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If there had never been user-generated content in email marketing in e-commerce, the overall effectiveness of email marketing campaigns would have been significantly lower than it is today."
+kuq_2023,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If there had never been user-generated content in email marketing in e-commerce, the overall effectiveness of email marketing campaigns would have been significantly lower than it is today."
+kuq_2035,kuq,matching,1.0,1.0,2.0,1.0,"If there was no personalization in the beauty industry, consumer satisfaction would decrease significantly by 2030."
+kuq_2035,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If there was no personalization in the beauty industry, consumer satisfaction would decrease significantly by 2030."
+kuq_2035,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If there was no personalization in the beauty industry, consumer satisfaction would decrease significantly by 2030."
+kuq_2085,kuq,matching,1.0,1.0,2.0,1.0,The US dollar will be worth more than the British pound before 2030.
+kuq_2085,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The US dollar will be worth more than the British pound before 2030.
+kuq_2085,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The US dollar will be worth more than the British pound before 2030.
+kuq_2124,kuq,matching,1.0,1.0,2.0,1.0,"If Everest is not the highest mountain, then K2 is the highest mountain."
+kuq_2124,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If Everest is not the highest mountain, then K2 is the highest mountain."
+kuq_2124,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If Everest is not the highest mountain, then K2 is the highest mountain."
+kuq_2186,kuq,matching,1.0,1.0,2.0,1.0,Pharmaceutical companies will have a measurable negative impact on the environment before 2035.
+kuq_2186,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Pharmaceutical companies will have a measurable negative impact on the environment before 2035.
+kuq_2186,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Pharmaceutical companies will have a measurable negative impact on the environment before 2035.
+kuq_246,kuq,matching,1.0,1.0,2.0,1.0,Equal pay will be achieved in all countries before the year 2050.
+kuq_246,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Equal pay will be achieved in all countries before the year 2050.
+kuq_246,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Equal pay will be achieved in all countries before the year 2050.
+kuq_3242,kuq,matching,1.0,1.0,2.0,1.0,There are monster creatures that exist in the universe.
+kuq_3242,kuq,ramsey_linear,1.0,1.0,2.0,1.0,There are monster creatures that exist in the universe.
+kuq_3242,kuq,ramsey_utility,1.0,1.0,2.0,1.0,There are monster creatures that exist in the universe.
+kuq_3258,kuq,matching,1.0,1.0,2.0,1.0,Non-profit social impact investing can achieve maximum social impact by allocating at least 50% of its resources to evidence-based programs by 2030.
+kuq_3258,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Non-profit social impact investing can achieve maximum social impact by allocating at least 50% of its resources to evidence-based programs by 2030.
+kuq_3258,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Non-profit social impact investing can achieve maximum social impact by allocating at least 50% of its resources to evidence-based programs by 2030.
+kuq_3323,kuq,matching,1.0,1.0,2.0,1.0,Banning permitted colors in food products will lead to a measurable decrease in consumer health risks by 2030.
+kuq_3323,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Banning permitted colors in food products will lead to a measurable decrease in consumer health risks by 2030.
+kuq_3323,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Banning permitted colors in food products will lead to a measurable decrease in consumer health risks by 2030.
+kuq_3331,kuq,matching,1.0,1.0,2.0,1.0,Time travel occurs in the universe.
+kuq_3331,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Time travel occurs in the universe.
+kuq_3331,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Time travel occurs in the universe.
+kuq_3340,kuq,matching,1.0,1.0,2.0,1.0,There is a genetic factor that contributes to some people being left-handed.
+kuq_3340,kuq,ramsey_linear,1.0,1.0,2.0,1.0,There is a genetic factor that contributes to some people being left-handed.
+kuq_3340,kuq,ramsey_utility,1.0,1.0,2.0,1.0,There is a genetic factor that contributes to some people being left-handed.
+kuq_3351,kuq,matching,1.0,1.0,2.0,1.0,Marine biogeography will undergo significant changes by the year 2050 due to climate change and other environmental factors.
+kuq_3351,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Marine biogeography will undergo significant changes by the year 2050 due to climate change and other environmental factors.
+kuq_3351,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Marine biogeography will undergo significant changes by the year 2050 due to climate change and other environmental factors.
+kuq_344,kuq,matching,1.0,1.0,2.0,1.0,Non-profits focus on capacity building less than 50% of the time.
+kuq_344,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Non-profits focus on capacity building less than 50% of the time.
+kuq_344,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Non-profits focus on capacity building less than 50% of the time.
+kuq_384,kuq,matching,1.0,1.0,2.0,1.0,Humans will be able to reverse damage from global warming before 2050.
+kuq_384,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Humans will be able to reverse damage from global warming before 2050.
+kuq_384,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Humans will be able to reverse damage from global warming before 2050.
+kuq_413,kuq,matching,1.0,1.0,2.0,1.0,"If crime dramas did not exist, the entertainment industry would have adapted by producing more romantic comedies than action films before 2035."
+kuq_413,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If crime dramas did not exist, the entertainment industry would have adapted by producing more romantic comedies than action films before 2035."
+kuq_413,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If crime dramas did not exist, the entertainment industry would have adapted by producing more romantic comedies than action films before 2035."
+kuq_423,kuq,matching,1.0,1.0,2.0,1.0,Modern chatbots are as smart as a human being in terms of conversation.
+kuq_423,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Modern chatbots are as smart as a human being in terms of conversation.
+kuq_423,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Modern chatbots are as smart as a human being in terms of conversation.
+kuq_439,kuq,matching,1.0,1.0,2.0,1.0,There exists at least one documented case of a person being allergic to the cold.
+kuq_439,kuq,ramsey_linear,1.0,1.0,2.0,1.0,There exists at least one documented case of a person being allergic to the cold.
+kuq_439,kuq,ramsey_utility,1.0,1.0,2.0,1.0,There exists at least one documented case of a person being allergic to the cold.
+kuq_446,kuq,matching,1.0,1.0,2.0,1.0,Video games can evoke profound empathy in more than 50% of players.
+kuq_446,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Video games can evoke profound empathy in more than 50% of players.
+kuq_446,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Video games can evoke profound empathy in more than 50% of players.
+kuq_451,kuq,matching,1.0,1.0,2.0,1.0,Humans will understand the nature of the universe by the year 2100.
+kuq_451,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Humans will understand the nature of the universe by the year 2100.
+kuq_451,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Humans will understand the nature of the universe by the year 2100.
+kuq_510,kuq,matching,1.0,1.0,2.0,1.0,Community development can be effectively promoted through local gatherings and face-to-face interactions without the internet.
+kuq_510,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Community development can be effectively promoted through local gatherings and face-to-face interactions without the internet.
+kuq_510,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Community development can be effectively promoted through local gatherings and face-to-face interactions without the internet.
+kuq_562,kuq,matching,1.0,1.0,2.0,1.0,More than 5 documentaries will win awards next year.
+kuq_562,kuq,ramsey_linear,1.0,1.0,2.0,1.0,More than 5 documentaries will win awards next year.
+kuq_562,kuq,ramsey_utility,1.0,1.0,2.0,1.0,More than 5 documentaries will win awards next year.
+kuq_575,kuq,matching,1.0,1.0,2.0,1.0,There are more than 8.7 million species of creatures on Earth.
+kuq_575,kuq,ramsey_linear,1.0,1.0,2.0,1.0,There are more than 8.7 million species of creatures on Earth.
+kuq_575,kuq,ramsey_utility,1.0,1.0,2.0,1.0,There are more than 8.7 million species of creatures on Earth.
+kuq_586,kuq,matching,1.0,1.0,2.0,1.0,Microwaving food at home reduces the average human lifespan by more than 5 years.
+kuq_586,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Microwaving food at home reduces the average human lifespan by more than 5 years.
+kuq_586,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Microwaving food at home reduces the average human lifespan by more than 5 years.
+kuq_626,kuq,matching,1.0,1.0,2.0,1.0,Future sitcoms will significantly reshape societal norms by 2035.
+kuq_626,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Future sitcoms will significantly reshape societal norms by 2035.
+kuq_626,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Future sitcoms will significantly reshape societal norms by 2035.
+kuq_649,kuq,matching,1.0,1.0,2.0,1.0,"If ships could teleport directly to their destinations, the need for traditional port operations would be eliminated."
+kuq_649,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If ships could teleport directly to their destinations, the need for traditional port operations would be eliminated."
+kuq_649,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If ships could teleport directly to their destinations, the need for traditional port operations would be eliminated."
+kuq_654,kuq,matching,1.0,1.0,2.0,1.0,Plants will be successfully grown in space by the year 2030.
+kuq_654,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Plants will be successfully grown in space by the year 2030.
+kuq_654,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Plants will be successfully grown in space by the year 2030.
+kuq_668,kuq,matching,1.0,1.0,2.0,1.0,"If a turtle loses its shell, then it is considered naked."
+kuq_668,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If a turtle loses its shell, then it is considered naked."
+kuq_668,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If a turtle loses its shell, then it is considered naked."
+kuq_68,kuq,matching,1.0,1.0,2.0,1.0,People will migrate to another planet within the next 100 years.
+kuq_68,kuq,ramsey_linear,1.0,1.0,2.0,1.0,People will migrate to another planet within the next 100 years.
+kuq_68,kuq,ramsey_utility,1.0,1.0,2.0,1.0,People will migrate to another planet within the next 100 years.
+kuq_708,kuq,matching,1.0,1.0,2.0,1.0,"More than 500,000 Jews would be interested in tracing their family history if the Holocaust had never happened."
+kuq_708,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"More than 500,000 Jews would be interested in tracing their family history if the Holocaust had never happened."
+kuq_708,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"More than 500,000 Jews would be interested in tracing their family history if the Holocaust had never happened."
+kuq_712,kuq,matching,1.0,1.0,2.0,1.0,"If the US did not use nuclear weapons, Japan would have won World War II."
+kuq_712,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If the US did not use nuclear weapons, Japan would have won World War II."
+kuq_712,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If the US did not use nuclear weapons, Japan would have won World War II."
+kuq_737,kuq,matching,0.6664553995323222,1.0,1.6664553995323224,0.6664553995323224,Bigfoot exists somewhere in the universe.
+kuq_737,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Bigfoot exists somewhere in the universe.
+kuq_737,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Bigfoot exists somewhere in the universe.
+kuq_760,kuq,matching,1.0,1.0,2.0,1.0,Learning Laravel is essential for web developers to be competitive in the job market by 2025.
+kuq_760,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Learning Laravel is essential for web developers to be competitive in the job market by 2025.
+kuq_760,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Learning Laravel is essential for web developers to be competitive in the job market by 2025.
+kuq_776,kuq,matching,1.0,1.0,2.0,1.0,More than 50% of interior design is probably used artificially.
+kuq_776,kuq,ramsey_linear,1.0,1.0,2.0,1.0,More than 50% of interior design is probably used artificially.
+kuq_776,kuq,ramsey_utility,1.0,1.0,2.0,1.0,More than 50% of interior design is probably used artificially.
+kuq_80,kuq,matching,1.0,1.0,2.0,1.0,"By the year 2050, air travel will be conducted on clouds using advanced technology."
+kuq_80,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"By the year 2050, air travel will be conducted on clouds using advanced technology."
+kuq_80,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"By the year 2050, air travel will be conducted on clouds using advanced technology."
+kuq_804,kuq,matching,1.0,1.0,2.0,1.0,Foster parents should receive financial compensation for taking care of a foster child.
+kuq_804,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Foster parents should receive financial compensation for taking care of a foster child.
+kuq_804,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Foster parents should receive financial compensation for taking care of a foster child.
+kuq_827,kuq,matching,1.0,1.0,2.0,1.0,More people will find virtual reality more attractive than augmented reality by the year 2030.
+kuq_827,kuq,ramsey_linear,1.0,1.0,2.0,1.0,More people will find virtual reality more attractive than augmented reality by the year 2030.
+kuq_827,kuq,ramsey_utility,1.0,1.0,2.0,1.0,More people will find virtual reality more attractive than augmented reality by the year 2030.
+kuq_843,kuq,matching,1.0,1.0,2.0,1.0,Energy labeling advocacy will lead to unintended consequences that can be mitigated before 2030.
+kuq_843,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Energy labeling advocacy will lead to unintended consequences that can be mitigated before 2030.
+kuq_843,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Energy labeling advocacy will lead to unintended consequences that can be mitigated before 2030.
+kuq_87,kuq,matching,1.0,1.0,2.0,1.0,"If STEM education had never been invented, the global technological advancement would have been significantly slower than it is today."
+kuq_87,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"If STEM education had never been invented, the global technological advancement would have been significantly slower than it is today."
+kuq_87,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"If STEM education had never been invented, the global technological advancement would have been significantly slower than it is today."
+kuq_878,kuq,matching,1.0,1.0,2.0,1.0,Mining waste has the potential to be a valuable resource by 2030.
+kuq_878,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Mining waste has the potential to be a valuable resource by 2030.
+kuq_878,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Mining waste has the potential to be a valuable resource by 2030.
+kuq_925,kuq,matching,1.0,1.0,2.0,1.0,The most popular color used in the industry is blue.
+kuq_925,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The most popular color used in the industry is blue.
+kuq_925,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The most popular color used in the industry is blue.
+kuq_938,kuq,matching,1.0,1.0,2.0,1.0,Eating glue contributes positively to a high fiber diet.
+kuq_938,kuq,ramsey_linear,1.0,1.0,2.0,1.0,Eating glue contributes positively to a high fiber diet.
+kuq_938,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Eating glue contributes positively to a high fiber diet.
+kuq_951,kuq,matching,1.0,1.0,2.0,1.0,The most popular type of entertainment here is streaming services.
+kuq_951,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The most popular type of entertainment here is streaming services.
+kuq_951,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The most popular type of entertainment here is streaming services.
+kuq_985,kuq,matching,1.0,1.0,2.0,1.0,The earliest proto-bitters recipe was created before the year 1800.
+kuq_985,kuq,ramsey_linear,1.0,1.0,2.0,1.0,The earliest proto-bitters recipe was created before the year 1800.
+kuq_985,kuq,ramsey_utility,1.0,1.0,2.0,1.0,The earliest proto-bitters recipe was created before the year 1800.
+kuq_990,kuq,matching,1.0,1.0,2.0,1.0,"By the year 2035, the majority of human graphic designers will have adapted their roles to work alongside AI design tools."
+kuq_990,kuq,ramsey_linear,1.0,1.0,2.0,1.0,"By the year 2035, the majority of human graphic designers will have adapted their roles to work alongside AI design tools."
+kuq_990,kuq,ramsey_utility,1.0,1.0,2.0,1.0,"By the year 2035, the majority of human graphic designers will have adapted their roles to work alongside AI design tools."
+part_chance_d10_e1,partition,matching,1.0,1.0,2.0,1.0,"A fair ten-sided die, rolled once, will show a number from 1 to 3."
+part_chance_d10_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,"A fair ten-sided die, rolled once, will show a number from 1 to 3."
+part_chance_d10_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,"A fair ten-sided die, rolled once, will show a number from 1 to 3."
+part_chance_d10_e2,partition,matching,1.0,1.0,2.0,1.0,"A fair ten-sided die, rolled once, will show a number from 4 to 7."
+part_chance_d10_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,"A fair ten-sided die, rolled once, will show a number from 4 to 7."
+part_chance_d10_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,"A fair ten-sided die, rolled once, will show a number from 4 to 7."
+part_chance_d10_e3,partition,matching,1.0,1.0,2.0,1.0,"A fair ten-sided die, rolled once, will show a number from 8 to 10."
+part_chance_d10_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,"A fair ten-sided die, rolled once, will show a number from 8 to 10."
+part_chance_d10_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,"A fair ten-sided die, rolled once, will show a number from 8 to 10."
+part_chance_d6_e1,partition,matching,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 1 or 2."
+part_chance_d6_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 1 or 2."
+part_chance_d6_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 1 or 2."
+part_chance_d6_e2,partition,matching,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 3 or 4."
+part_chance_d6_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 3 or 4."
+part_chance_d6_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 3 or 4."
+part_chance_d6_e3,partition,matching,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 5 or 6."
+part_chance_d6_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 5 or 6."
+part_chance_d6_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 5 or 6."
+part_chance_roulette_e1,partition,matching,0.2905606084560307,1.0,1.2905606084560306,0.2905606084560306,A single spin of a fair European roulette wheel will land on zero.
+part_chance_roulette_e1,partition,ramsey_linear,0.31679470921290753,1.0,1.3167947092129075,0.31679470921290753,A single spin of a fair European roulette wheel will land on zero.
+part_chance_roulette_e1,partition,ramsey_utility,0.04028249605712703,1.0,1.040282496057127,0.04028249605712708,A single spin of a fair European roulette wheel will land on zero.
+part_chance_roulette_e2,partition,matching,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a number from 1 to 18.
+part_chance_roulette_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a number from 1 to 18.
+part_chance_roulette_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a number from 1 to 18.
+part_chance_roulette_e3,partition,matching,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a number from 19 to 36.
+part_chance_roulette_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a number from 19 to 36.
+part_chance_roulette_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a number from 19 to 36.
+part_chance_suit_e1,partition,matching,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a heart.
+part_chance_suit_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a heart.
+part_chance_suit_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a heart.
+part_chance_suit_e2,partition,matching,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a diamond.
+part_chance_suit_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a diamond.
+part_chance_suit_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a diamond.
+part_chance_suit_e3,partition,matching,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a club or a spade.
+part_chance_suit_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a club or a spade.
+part_chance_suit_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will be a club or a spade.
+part_fact_partition_4062_e1,partition,matching,1.0,1.0,2.0,1.0,The Little Rissington UFO incident included a British jet fighter.
+part_fact_partition_4062_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,The Little Rissington UFO incident included a British jet fighter.
+part_fact_partition_4062_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,The Little Rissington UFO incident included a British jet fighter.
+part_fact_partition_4062_e2,partition,matching,1.0,1.0,2.0,1.0,The Little Rissington UFO incident included an American jet fighter.
+part_fact_partition_4062_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,The Little Rissington UFO incident included an American jet fighter.
+part_fact_partition_4062_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,The Little Rissington UFO incident included an American jet fighter.
+part_fact_partition_4062_e3,partition,matching,1.0,1.0,2.0,1.0,The Little Rissington UFO incident included a jet fighter of neither British nor American nationality.
+part_fact_partition_4062_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,The Little Rissington UFO incident included a jet fighter of neither British nor American nationality.
+part_fact_partition_4062_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,The Little Rissington UFO incident included a jet fighter of neither British nor American nationality.
+part_fact_partition_4559_e1,partition,matching,1.0,1.0,2.0,1.0,A group of lions is called a pride.
+part_fact_partition_4559_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,A group of lions is called a pride.
+part_fact_partition_4559_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,A group of lions is called a pride.
+part_fact_partition_4559_e2,partition,matching,1.0,1.0,2.0,1.0,A group of lions is called a secondary pride.
+part_fact_partition_4559_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,A group of lions is called a secondary pride.
+part_fact_partition_4559_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,A group of lions is called a secondary pride.
+part_fact_partition_4559_e3,partition,matching,1.0,1.0,2.0,1.0,A group of lions is neither called a pride nor a secondary pride.
+part_fact_partition_4559_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,A group of lions is neither called a pride nor a secondary pride.
+part_fact_partition_4559_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,A group of lions is neither called a pride nor a secondary pride.
+part_fact_partition_4774_e1,partition,matching,1.0,1.0,2.0,1.0,Linda Cheveski bought the Corner Shop from Elsie Lappin in the first episode of ‘Coronation Street’.
+part_fact_partition_4774_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,Linda Cheveski bought the Corner Shop from Elsie Lappin in the first episode of ‘Coronation Street’.
+part_fact_partition_4774_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,Linda Cheveski bought the Corner Shop from Elsie Lappin in the first episode of ‘Coronation Street’.
+part_fact_partition_4774_e2,partition,matching,1.0,1.0,2.0,1.0,Susan Cunningham bought the Corner Shop from Elsie Lappin in the first episode of ‘Coronation Street’.
+part_fact_partition_4774_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,Susan Cunningham bought the Corner Shop from Elsie Lappin in the first episode of ‘Coronation Street’.
+part_fact_partition_4774_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,Susan Cunningham bought the Corner Shop from Elsie Lappin in the first episode of ‘Coronation Street’.
+part_fact_partition_4774_e3,partition,matching,1.0,1.0,2.0,1.0,Neither Linda Cheveski nor Susan Cunningham bought the Corner Shop from Elsie Lappin in the first episode of ‘Coronation Street’.
+part_fact_partition_4774_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,Neither Linda Cheveski nor Susan Cunningham bought the Corner Shop from Elsie Lappin in the first episode of ‘Coronation Street’.
+part_fact_partition_4774_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,Neither Linda Cheveski nor Susan Cunningham bought the Corner Shop from Elsie Lappin in the first episode of ‘Coronation Street’.
+part_fact_partition_6632_e1,partition,matching,1.0,1.0,2.0,1.0,The defining feature of angiosperms is flowers.
+part_fact_partition_6632_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,The defining feature of angiosperms is flowers.
+part_fact_partition_6632_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,The defining feature of angiosperms is flowers.
+part_fact_partition_6632_e2,partition,matching,1.0,1.0,2.0,1.0,The defining feature of angiosperms is seeds.
+part_fact_partition_6632_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,The defining feature of angiosperms is seeds.
+part_fact_partition_6632_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,The defining feature of angiosperms is seeds.
+part_fact_partition_6632_e3,partition,matching,1.0,1.0,2.0,1.0,The defining feature of angiosperms is neither flowers nor seeds.
+part_fact_partition_6632_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,The defining feature of angiosperms is neither flowers nor seeds.
+part_fact_partition_6632_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,The defining feature of angiosperms is neither flowers nor seeds.
+part_kuq_partition_1071_e1,partition,matching,1.0,1.0,2.0,1.0,Robots will be available in everyone's home before 2030.
+part_kuq_partition_1071_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,Robots will be available in everyone's home before 2030.
+part_kuq_partition_1071_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,Robots will be available in everyone's home before 2030.
+part_kuq_partition_1071_e2,partition,matching,1.0,1.0,2.0,1.0,Robots will be available in everyone's home between 2030 and 2050.
+part_kuq_partition_1071_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,Robots will be available in everyone's home between 2030 and 2050.
+part_kuq_partition_1071_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,Robots will be available in everyone's home between 2030 and 2050.
+part_kuq_partition_1071_e3,partition,matching,1.0,1.0,2.0,1.0,Robots will be available in everyone's home after 2050 or never.
+part_kuq_partition_1071_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,Robots will be available in everyone's home after 2050 or never.
+part_kuq_partition_1071_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,Robots will be available in everyone's home after 2050 or never.
+part_kuq_partition_1072_e1,partition,matching,1.0,1.0,2.0,1.0,Cannabis will be made legal in all states before 2030.
+part_kuq_partition_1072_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,Cannabis will be made legal in all states before 2030.
+part_kuq_partition_1072_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,Cannabis will be made legal in all states before 2030.
+part_kuq_partition_1072_e2,partition,matching,1.0,1.0,2.0,1.0,Cannabis will be made legal in all states between 2030 and 2050.
+part_kuq_partition_1072_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,Cannabis will be made legal in all states between 2030 and 2050.
+part_kuq_partition_1072_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,Cannabis will be made legal in all states between 2030 and 2050.
+part_kuq_partition_1072_e3,partition,matching,1.0,1.0,2.0,1.0,Cannabis will be made legal in all states after 2050 or never.
+part_kuq_partition_1072_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,Cannabis will be made legal in all states after 2050 or never.
+part_kuq_partition_1072_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,Cannabis will be made legal in all states after 2050 or never.
+part_kuq_partition_1100_e1,partition,matching,1.0,1.0,2.0,1.0,The theater will become obsolete before 2030.
+part_kuq_partition_1100_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,The theater will become obsolete before 2030.
+part_kuq_partition_1100_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,The theater will become obsolete before 2030.
+part_kuq_partition_1100_e2,partition,matching,1.0,1.0,2.0,1.0,The theater will become obsolete between 2030 and 2050.
+part_kuq_partition_1100_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,The theater will become obsolete between 2030 and 2050.
+part_kuq_partition_1100_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,The theater will become obsolete between 2030 and 2050.
+part_kuq_partition_1100_e3,partition,matching,1.0,1.0,2.0,1.0,The theater will become obsolete after 2050 or never.
+part_kuq_partition_1100_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,The theater will become obsolete after 2050 or never.
+part_kuq_partition_1100_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,The theater will become obsolete after 2050 or never.
+part_kuq_partition_264_e1,partition,matching,1.0,1.0,2.0,1.0,Comic book journalism will replace text-only journalism before 2030.
+part_kuq_partition_264_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,Comic book journalism will replace text-only journalism before 2030.
+part_kuq_partition_264_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,Comic book journalism will replace text-only journalism before 2030.
+part_kuq_partition_264_e2,partition,matching,1.0,1.0,2.0,1.0,Comic book journalism will replace text-only journalism between 2030 and 2050.
+part_kuq_partition_264_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,Comic book journalism will replace text-only journalism between 2030 and 2050.
+part_kuq_partition_264_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,Comic book journalism will replace text-only journalism between 2030 and 2050.
+part_kuq_partition_264_e3,partition,matching,1.0,1.0,2.0,1.0,Comic book journalism will replace text-only journalism after 2050 or never.
+part_kuq_partition_264_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,Comic book journalism will replace text-only journalism after 2050 or never.
+part_kuq_partition_264_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,Comic book journalism will replace text-only journalism after 2050 or never.
+part_kuq_partition_3391_e1,partition,matching,1.0,1.0,2.0,1.0,He declared bankruptcy before 2000.
+part_kuq_partition_3391_e1,partition,ramsey_linear,1.0,1.0,2.0,1.0,He declared bankruptcy before 2000.
+part_kuq_partition_3391_e1,partition,ramsey_utility,1.0,1.0,2.0,1.0,He declared bankruptcy before 2000.
+part_kuq_partition_3391_e2,partition,matching,1.0,1.0,2.0,1.0,He declared bankruptcy between 2000 and 2010.
+part_kuq_partition_3391_e2,partition,ramsey_linear,1.0,1.0,2.0,1.0,He declared bankruptcy between 2000 and 2010.
+part_kuq_partition_3391_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,He declared bankruptcy between 2000 and 2010.
+part_kuq_partition_3391_e3,partition,matching,1.0,1.0,2.0,1.0,He declared bankruptcy after 2010 or never.
+part_kuq_partition_3391_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,He declared bankruptcy after 2010 or never.
+part_kuq_partition_3391_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,He declared bankruptcy after 2010 or never.
