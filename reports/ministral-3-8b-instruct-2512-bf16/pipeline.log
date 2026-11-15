@@ -1,0 +1,21 @@
+=== report: mistralai/Ministral-3-8B-Instruct-2512-BF16 (run ministral-3-8b-instruct-2512-bf16) from results_8B ===
+Gate check: ministral-3-8b-instruct-2512-bf16
+
+matching: 5 propositions | dominance at the top of the grid 0% (mean p 0.87, want < 0.5) | curves crossing 0.5 0% | mean |order gap| 0.07 | outside A/B 0.1%
+ramsey: 5 propositions | dominance at the top of the grid 0% (mean p 0.71, want < 0.5) | curves crossing 0.5 0% | mean |order gap| 0.15 | outside A/B 0.1%
+stage1: dominance respected in 90% of single-order prompts
+
+Per proposition:
+  matching  chance    never_below  crossing  1.00  p at top 0.92  chance_00_p
+  matching  fact      never_below  crossing  1.00  p at top 0.83  fact_4830_p
+  matching  forecast  never_below  crossing  1.00  p at top 0.90  fc_kalshi_KXYOUTHUN-26DEC04-T7.5_p
+  matching  kuq       never_below  crossing  1.00  p at top 0.77  kuq_423_p
+  matching  partition never_below  crossing  1.00  p at top 0.96  part_chance_d6_e1_p
+  ramsey    chance    never_below  crossing  1.00  p at top 0.71  chance_00_p
+  ramsey    fact      never_below  crossing  1.00  p at top 0.61  fact_4830_p
+  ramsey    forecast  never_below  crossing  1.00  p at top 0.90  fc_kalshi_KXYOUTHUN-26DEC04-T7.5_p
+  ramsey    kuq       never_below  crossing  1.00  p at top 0.68  kuq_423_p
+  ramsey    partition never_below  crossing  1.00  p at top 0.66  part_chance_d6_e1_p
+
+FAIL: the bet on the statement still wins at the top of the matching grid; matching curves don't cross 0.5. Don't run the full files; copy results/ back and look first.
+Report card: reports\ministral-3-8b-instruct-2512-bf16\report.md  ->  NOT CERTIFIED: see the failed checks

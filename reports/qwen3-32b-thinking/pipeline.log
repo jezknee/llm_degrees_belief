@@ -1,0 +1,51 @@
+=== report: Qwen/Qwen3-32B (run qwen3-32b-thinking) from results ===
+No smoke results for qwen3-32b-thinking; the gate uses the matching results instead.
+Gate check: qwen3-32b-thinking
+
+matching: 40 propositions | dominance at the top of the grid 85% (mean p 0.19, want < 0.5) | curves crossing 0.5 70% | mean |order gap| 0.06 | outside A/B 2.9%
+stage1: dominance respected in 100% of single-order prompts
+
+Per proposition:
+  matching  chance    clean        crossing  0.05  p at top 0.08  chance_02_n
+  matching  chance    clean        crossing  0.86  p at top 0.08  chance_02_p
+  matching  chance    clean        crossing  0.65  p at top 0.09  chance_07_n
+  matching  chance    clean        crossing  0.35  p at top 0.08  chance_07_p
+  matching  chance    clean        crossing  0.65  p at top 0.09  chance_17_n
+  matching  chance    clean        crossing  0.35  p at top 0.08  chance_17_p
+  matching  chance    clean        crossing  0.95  p at top 0.11  chance_18_n
+  matching  chance    clean        crossing  0.05  p at top 0.11  chance_18_p
+  matching  fact      clean        crossing  0.04  p at top 0.08  fact_4928_n
+  matching  fact      never_above  crossing  0.00  p at top 0.08  fact_4928_p
+  matching  fact      never_below  crossing  1.00  p at top 0.85  fact_5250_n
+  matching  fact      multiple     crossing  0.60  p at top 0.08  fact_5250_p
+  matching  fact      never_above  crossing  0.00  p at top 0.08  fact_5506_n
+  matching  fact      never_below  crossing  1.00  p at top 0.58  fact_5506_p
+  matching  fact      multiple     crossing  0.20  p at top 0.25  fact_6614_n
+  matching  fact      never_below  crossing  1.00  p at top 0.90  fact_6614_p
+  matching  forecast  clean        crossing  0.44  p at top 0.25  fc_kalshi_KXLLM1-26DEC31-GOOG_n
+  matching  forecast  clean        crossing  0.08  p at top 0.08  fc_kalshi_KXLLM1-26DEC31-GOOG_p
+  matching  forecast  clean        crossing  0.75  p at top 0.08  fc_kalshi_SENATEIA-26-D_n
+  matching  forecast  clean        crossing  0.05  p at top 0.08  fc_kalshi_SENATEIA-26-D_p
+  matching  forecast  multiple     crossing  0.18  p at top 0.08  fc_metaculus_43274_n
+  matching  forecast  clean        crossing  0.15  p at top 0.17  fc_metaculus_43274_p
+  matching  forecast  clean        crossing  0.07  p at top 0.08  fc_metaculus_43315_n
+  matching  forecast  clean        crossing  0.07  p at top 0.19  fc_metaculus_43315_p
+  matching  kuq       never_below  crossing  1.00  p at top 0.50  kuq_1713_n
+  matching  kuq       never_above  crossing  0.00  p at top 0.08  kuq_1713_p
+  matching  kuq       never_above  crossing  0.00  p at top 0.08  kuq_1949_n
+  matching  kuq       never_below  crossing  1.00  p at top 0.51  kuq_1949_p
+  matching  kuq       clean        crossing  0.05  p at top 0.08  kuq_2085_n
+  matching  kuq       clean        crossing  0.05  p at top 0.08  kuq_2085_p
+  matching  kuq       never_above  crossing  0.00  p at top 0.08  kuq_87_n
+  matching  kuq       clean        crossing  0.88  p at top 0.17  kuq_87_p
+  matching  partition clean        crossing  0.66  p at top 0.08  part_chance_d10_e1_n
+  matching  partition clean        crossing  0.26  p at top 0.08  part_chance_d10_e1_p
+  matching  partition clean        crossing  0.55  p at top 0.10  part_chance_roulette_e2_n
+  matching  partition clean        crossing  0.45  p at top 0.10  part_chance_roulette_e2_p
+  matching  partition never_below  crossing  1.00  p at top 0.58  part_fact_partition_4559_e2_n
+  matching  partition never_above  crossing  0.00  p at top 0.08  part_fact_partition_4559_e2_p
+  matching  partition clean        crossing  0.05  p at top 0.08  part_kuq_partition_1071_e3_n
+  matching  partition multiple     crossing  0.27  p at top 0.09  part_kuq_partition_1071_e3_p
+
+FAIL: matching curves don't cross 0.5. Don't run the full files; copy results/ back and look first.
+Report card: reports\qwen3-32b-thinking\report.md  ->  NOT CERTIFIED: see the failed checks

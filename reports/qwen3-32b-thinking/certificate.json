@@ -1,0 +1,106 @@
+{
+  "model": "Qwen/Qwen3-32B",
+  "run": "qwen3-32b-thinking",
+  "thinking": true,
+  "date": "2026-11-14",
+  "certified": false,
+  "stopped": null,
+  "gate": {
+    "methods": {
+      "matching": {
+        "propositions": 40,
+        "share_dominance_at_top": 0.85,
+        "mean_p_at_top": 0.18718749999999998,
+        "share_crossing": 0.7,
+        "mean_abs_order_gap": 0.06134469696969698,
+        "mean_mass_outside": 0.028787878787878772
+      }
+    },
+    "stage1_dominance": 1.0,
+    "reasons": [
+      "matching curves don't cross 0.5"
+    ],
+    "pass": false
+  },
+  "certification": {
+    "estimate": "ramsey_linear_pair",
+    "checks": {
+      "gate_passed": {
+        "value": false,
+        "pass": false
+      },
+      "chance_corr": {
+        "value": 0.997027710075853,
+        "min": 0.7,
+        "n": 6,
+        "pass": true
+      },
+      "chance_mae": {
+        "value": 0.014758508508508532,
+        "max": 0.2,
+        "n": 6,
+        "pass": true
+      },
+      "partition_coherence_p": {
+        "value": null,
+        "min": 0.05,
+        "n": 0,
+        "pass": false
+      }
+    },
+    "described": {
+      "fact_accuracy": {
+        "value": 1.0,
+        "n": 3,
+        "note": "share of facts where the true version gets the higher credence; describes the model's knowledge, not the measure, so it is not a certification check"
+      },
+      "incoherence_sure_loss": {
+        "unit": "partitions",
+        "value": null,
+        "n": 0,
+        "note": "mean |sum of a partition's cells - 1|: the sure loss per \u00a31 a Dutch book could extract from an agent acting on these numbers (degree of incoherence)"
+      },
+      "partitions_above_1": {
+        "unit": "partitions",
+        "value": null,
+        "n": 0,
+        "note": "no partitions"
+      },
+      "partitions_within_2sd": {
+        "unit": "partitions",
+        "value": null,
+        "n": 0,
+        "note": "no partitions"
+      }
+    },
+    "passed": false
+  },
+  "config": {
+    "model": "Qwen/Qwen3-32B",
+    "thinking": true,
+    "vllm": {
+      "dtype": "auto",
+      "max_model_len": 4096,
+      "gpu_memory_utilization": 0.95
+    },
+    "reasoning": {
+      "samples": 5,
+      "max_tokens": 3000,
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "top_k": 20,
+      "claims": 20,
+      "every": 2
+    },
+    "backend": "vllm",
+    "top_k": 20,
+    "certify": {
+      "estimate": "ramsey_linear_pair",
+      "min_chance_corr": 0.7,
+      "max_chance_mae": 0.2,
+      "partition_alpha": 0.05
+    },
+    "neutral": "auto",
+    "gate_min_share": 0.8
+  }
+}

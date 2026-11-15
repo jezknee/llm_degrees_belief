@@ -1,0 +1,41 @@
+=== report: Qwen/Qwen3-32B (run qwen3-32b) from results ===
+Gate check: qwen3-32b
+
+matching: 5 propositions | dominance at the top of the grid 80% (mean p 0.27, want < 0.5) | curves crossing 0.5 100% | mean |order gap| 0.45 | outside A/B 0.0%
+ramsey: 5 propositions | dominance at the top of the grid 100% (mean p 0.20, want < 0.5) | curves crossing 0.5 100% | mean |order gap| 0.25 | outside A/B 0.0%
+stage1: dominance respected in 90% of single-order prompts
+
+Per proposition:
+  matching  chance    multiple     crossing  0.53  p at top 0.65  chance_00_p
+  matching  fact      clean        crossing  0.99  p at top 0.48  fact_4830_p
+  matching  forecast  clean        crossing  0.05  p at top 0.01  fc_kalshi_KXYOUTHUN-26DEC04-T7.5_p
+  matching  kuq       clean        crossing  0.05  p at top 0.01  kuq_423_p
+  matching  partition clean        crossing  0.19  p at top 0.20  part_chance_d6_e1_p
+  ramsey    chance    clean        crossing  0.96  p at top 0.22  chance_00_p
+  ramsey    fact      clean        crossing  1.00  p at top 0.48  fact_4830_p
+  ramsey    forecast  clean        crossing  0.05  p at top 0.02  fc_kalshi_KXYOUTHUN-26DEC04-T7.5_p
+  ramsey    kuq       multiple     crossing  0.07  p at top 0.25  kuq_423_p
+  ramsey    partition multiple     crossing  0.35  p at top 0.01  part_chance_d6_e1_p
+
+PASS: worth running the full files.
+=== report: Qwen/Qwen3-32B (run qwen3-32b) from results ===
+Gate check: qwen3-32b
+
+matching: 5 propositions | dominance at the top of the grid 80% (mean p 0.27, want < 0.5) | curves crossing 0.5 100% | mean |order gap| 0.45 | outside A/B 0.0%
+ramsey: 5 propositions | dominance at the top of the grid 100% (mean p 0.20, want < 0.5) | curves crossing 0.5 100% | mean |order gap| 0.25 | outside A/B 0.0%
+stage1: dominance respected in 90% of single-order prompts
+
+Per proposition:
+  matching  chance    multiple     crossing  0.53  p at top 0.65  chance_00_p
+  matching  fact      clean        crossing  0.99  p at top 0.48  fact_4830_p
+  matching  forecast  clean        crossing  0.05  p at top 0.01  fc_kalshi_KXYOUTHUN-26DEC04-T7.5_p
+  matching  kuq       clean        crossing  0.05  p at top 0.01  kuq_423_p
+  matching  partition clean        crossing  0.19  p at top 0.20  part_chance_d6_e1_p
+  ramsey    chance    clean        crossing  0.96  p at top 0.22  chance_00_p
+  ramsey    fact      clean        crossing  1.00  p at top 0.48  fact_4830_p
+  ramsey    forecast  clean        crossing  0.05  p at top 0.02  fc_kalshi_KXYOUTHUN-26DEC04-T7.5_p
+  ramsey    kuq       multiple     crossing  0.07  p at top 0.25  kuq_423_p
+  ramsey    partition multiple     crossing  0.35  p at top 0.01  part_chance_d6_e1_p
+
+PASS: worth running the full files.
+Report card: reports\qwen3-32b\report.md  ->  NOT CERTIFIED: see the failed checks
