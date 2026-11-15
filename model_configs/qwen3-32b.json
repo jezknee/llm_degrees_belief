@@ -1,0 +1,5 @@
+{
+  "model": "Qwen/Qwen3-32B",
+  "thinking": false,
+  "vllm": {"dtype": "auto", "max_model_len": 4096, "gpu_memory_utilization": 0.92}
+}

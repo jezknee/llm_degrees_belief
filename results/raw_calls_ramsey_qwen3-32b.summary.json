@@ -1,0 +1,18 @@
+{
+  "rows": 26796,
+  "by_method": {
+    "ramsey": {
+      "rows": 26796,
+      "mean_mass_outside": 0.0003,
+      "max_mass_outside": 0.0134,
+      "rows_missing_A_or_B": 0,
+      "top_tokens": {
+        "'A'": 14441,
+        "'B'": 12355
+      },
+      "order_gap": 0.0599,
+      "propositions": 638,
+      "share_falling": 0.975
+    }
+  }
+}

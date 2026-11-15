@@ -1,0 +1,7 @@
+{
+  "model": "Qwen/Qwen3-32B",
+  "thinking": true,
+  "vllm": {"dtype": "auto", "max_model_len": 4096, "gpu_memory_utilization": 0.95},
+  "reasoning": {"samples": 5, "max_tokens": 3000, "temperature": 0.6, "top_p": 0.95, "top_k": 20,
+                "claims": 20, "partitions": "all", "every": 2}
+}

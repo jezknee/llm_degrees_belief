@@ -8,7 +8,7 @@ chance_01,chance,ramsey_utility,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled
 chance_02,chance,matching,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 2."
 chance_02,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 2."
 chance_02,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled once, will show more than 2."
-chance_03,chance,matching,0.2902763656909553,1.0,1.2902763656909553,0.2902763656909553,"A fair coin, tossed 2 times, will land heads every time."
+chance_03,chance,matching,0.2902763656909552,1.0,1.2902763656909553,0.2902763656909553,"A fair coin, tossed 2 times, will land heads every time."
 chance_03,chance,ramsey_linear,1.0,1.0,2.0,1.0,"A fair coin, tossed 2 times, will land heads every time."
 chance_03,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair coin, tossed 2 times, will land heads every time."
 chance_04,chance,matching,1.0,1.0,2.0,1.0,A card drawn at random from a shuffled 52-card deck will not be a spade.
@@ -44,7 +44,7 @@ chance_13,chance,ramsey_utility,1.0,1.0,2.0,1.0,"A fair twenty-sided die, rolled
 chance_14,chance,matching,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a non-zero even number.
 chance_14,chance,ramsey_linear,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a non-zero even number.
 chance_14,chance,ramsey_utility,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a non-zero even number.
-chance_15,chance,matching,1.0,0.3257167122054118,1.3257167122054119,0.3257167122054119,"Two fair six-sided dice, rolled together, will total more than 3."
+chance_15,chance,matching,1.0,0.32571671220541176,1.3257167122054119,0.3257167122054119,"Two fair six-sided dice, rolled together, will total more than 3."
 chance_15,chance,ramsey_linear,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will total more than 3."
 chance_15,chance,ramsey_utility,1.0,1.0,2.0,1.0,"Two fair six-sided dice, rolled together, will total more than 3."
 chance_16,chance,matching,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a red number.
@@ -117,11 +117,11 @@ fact_4160,fact,matching,1.0,1.0,2.0,1.0,Mozart composed thirty symphonies.
 fact_4160,fact,ramsey_linear,1.0,1.0,2.0,1.0,Mozart composed thirty symphonies.
 fact_4160,fact,ramsey_utility,1.0,1.0,2.0,1.0,Mozart composed thirty symphonies.
 fact_4207,fact,matching,1.0,1.0,2.0,1.0,Robert Shaw played Police Chief Martin Brody in the 1978 film 'Jaws 2'.
-fact_4207,fact,ramsey_linear,0.0750000000000001,1.0,1.0750000000000002,0.07500000000000018,Robert Shaw played Police Chief Martin Brody in the 1978 film 'Jaws 2'.
-fact_4207,fact,ramsey_utility,0.009536735041411594,1.0,1.0095367350414115,0.009536735041411504,Robert Shaw played Police Chief Martin Brody in the 1978 film 'Jaws 2'.
+fact_4207,fact,ramsey_linear,0.07500000000000005,1.0,1.075,0.07499999999999996,Robert Shaw played Police Chief Martin Brody in the 1978 film 'Jaws 2'.
+fact_4207,fact,ramsey_utility,0.009536735041411587,1.0,1.0095367350414115,0.009536735041411504,Robert Shaw played Police Chief Martin Brody in the 1978 film 'Jaws 2'.
 fact_4325,fact,matching,1.0,1.0,2.0,1.0,The liquid inside a coconut is soda.
-fact_4325,fact,ramsey_linear,0.04552334938447795,1.0,1.045523349384478,0.045523349384477996,The liquid inside a coconut is soda.
-fact_4325,fact,ramsey_utility,0.005788588283698309,1.0,1.0057885882836983,0.005788588283698326,The liquid inside a coconut is soda.
+fact_4325,fact,ramsey_linear,0.04552334938447794,1.0,1.045523349384478,0.045523349384477996,The liquid inside a coconut is soda.
+fact_4325,fact,ramsey_utility,0.005788588283698308,1.0,1.0057885882836983,0.005788588283698326,The liquid inside a coconut is soda.
 fact_4473,fact,matching,1.0,1.0,2.0,1.0,"The discovery of the Earth-like planet with the greatest potential for harbouring life found so far, announced in late September 2010, is HD 40307 g."
 fact_4473,fact,ramsey_linear,1.0,1.0,2.0,1.0,"The discovery of the Earth-like planet with the greatest potential for harbouring life found so far, announced in late September 2010, is HD 40307 g."
 fact_4473,fact,ramsey_utility,1.0,1.0,2.0,1.0,"The discovery of the Earth-like planet with the greatest potential for harbouring life found so far, announced in late September 2010, is HD 40307 g."
@@ -165,7 +165,7 @@ fact_5200,fact,ramsey_utility,1.0,1.0,2.0,1.0,The roots of 'commensal' come from
 fact_5250,fact,matching,1.0,1.0,2.0,1.0,The first vehicle to reach outer space was the Vostok 1.
 fact_5250,fact,ramsey_linear,1.0,1.0,2.0,1.0,The first vehicle to reach outer space was the Vostok 1.
 fact_5250,fact,ramsey_utility,1.0,1.0,2.0,1.0,The first vehicle to reach outer space was the Vostok 1.
-fact_5429,fact,matching,0.3332945217476162,1.0,1.3332945217476162,0.3332945217476162,The World Bank backed a structural reform program.
+fact_5429,fact,matching,0.33329452174761615,1.0,1.3332945217476162,0.3332945217476162,The World Bank backed a structural reform program.
 fact_5429,fact,ramsey_linear,1.0,1.0,2.0,1.0,The World Bank backed a structural reform program.
 fact_5429,fact,ramsey_utility,1.0,1.0,2.0,1.0,The World Bank backed a structural reform program.
 fact_5444,fact,matching,1.0,1.0,2.0,1.0,Dopamine plays a large role in drug abuse.
@@ -244,7 +244,7 @@ fc_kalshi_HOUSEMI10-26-D,forecast,ramsey_utility,1.0,1.0,2.0,1.0,Christina Hines
 fc_kalshi_KX1SONGJUSTINBIEBER-DEC2726,forecast,matching,1.0,1.0,2.0,1.0,"Justin Bieber has a #1 song on the Billboard Hot 100 by the Billboard issue for the week of Dec 27, 2026."
 fc_kalshi_KX1SONGJUSTINBIEBER-DEC2726,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Justin Bieber has a #1 song on the Billboard Hot 100 by the Billboard issue for the week of Dec 27, 2026."
 fc_kalshi_KX1SONGJUSTINBIEBER-DEC2726,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Justin Bieber has a #1 song on the Billboard Hot 100 by the Billboard issue for the week of Dec 27, 2026."
-fc_kalshi_KXAPTROT-26DEC1708-T2250,forecast,matching,0.04999999919526814,0.2625189063280629,0.31251890552333106,0.6874810944766689,"The CIF Rotterdam 88.5% APT price (SMM-WU-APT-003) will be above $2,250/MTU on Dec 17, 2026."
+fc_kalshi_KXAPTROT-26DEC1708-T2250,forecast,matching,0.04999999919526813,0.26251890632806285,0.312518905523331,0.6874810944766689,"The CIF Rotterdam 88.5% APT price (SMM-WU-APT-003) will be above $2,250/MTU on Dec 17, 2026."
 fc_kalshi_KXAPTROT-26DEC1708-T2250,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"The CIF Rotterdam 88.5% APT price (SMM-WU-APT-003) will be above $2,250/MTU on Dec 17, 2026."
 fc_kalshi_KXAPTROT-26DEC1708-T2250,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The CIF Rotterdam 88.5% APT price (SMM-WU-APT-003) will be above $2,250/MTU on Dec 17, 2026."
 fc_kalshi_KXCBDSWISS-26DEC10-H25,forecast,matching,0.32533507704557074,1.0,1.3253350770455707,0.32533507704557074,The Swiss National Bank will hike the primary policy rate by 1-25bps at the December monetary policy assessment on 2026-12-10.
@@ -262,7 +262,7 @@ fc_kalshi_KXCPICOREYOY-26NOV-T2.7,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The ra
 fc_kalshi_KXCPIYOY-26NOV-T3.9,forecast,matching,1.0,1.0,2.0,1.0,The rate of CPI inflation will be above 3.9% for the year ending in November 2026.
 fc_kalshi_KXCPIYOY-26NOV-T3.9,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The rate of CPI inflation will be above 3.9% for the year ending in November 2026.
 fc_kalshi_KXCPIYOY-26NOV-T3.9,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The rate of CPI inflation will be above 3.9% for the year ending in November 2026.
-fc_kalshi_KXCPIYOY-26NOV-T4.0,forecast,matching,0.675,1.0,1.675,0.675,The rate of CPI inflation will be above 4.0% for the year ending in November 2026.
+fc_kalshi_KXCPIYOY-26NOV-T4.0,forecast,matching,0.6749999999999999,1.0,1.6749999999999998,0.6749999999999998,The rate of CPI inflation will be above 4.0% for the year ending in November 2026.
 fc_kalshi_KXCPIYOY-26NOV-T4.0,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The rate of CPI inflation will be above 4.0% for the year ending in November 2026.
 fc_kalshi_KXCPIYOY-26NOV-T4.0,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The rate of CPI inflation will be above 4.0% for the year ending in November 2026.
 fc_kalshi_KXCRYPTOSTRUCTURE-27JAN-28,forecast,matching,1.0,1.0,2.0,1.0,"A crypto market structure bill that establishes a comprehensive regulatory framework for digital assets, delineates regulatory authority between federal agencies, and creates definitions for digital assets has become law before Jan 1, 2028."
@@ -355,7 +355,7 @@ fc_kalshi_KXUSDX-26-T104,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"The U.S. dolla
 fc_kalshi_KXYOUTHUN-26DEC04-T7.5,forecast,matching,1.0,1.0,2.0,1.0,The unemployment rate for ages 16 to 24 (seasonally adjusted) for 2026 is below 7.5% in any Employment Situation release published in calendar year 2026.
 fc_kalshi_KXYOUTHUN-26DEC04-T7.5,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The unemployment rate for ages 16 to 24 (seasonally adjusted) for 2026 is below 7.5% in any Employment Situation release published in calendar year 2026.
 fc_kalshi_KXYOUTHUN-26DEC04-T7.5,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The unemployment rate for ages 16 to 24 (seasonally adjusted) for 2026 is below 7.5% in any Employment Situation release published in calendar year 2026.
-fc_kalshi_SENATEFLS-26-R,forecast,matching,0.3301089822644484,1.0,1.3301089822644485,0.3301089822644485,"A representative of the Republican party is sworn in as a Senator of Florida pursuant to the Class III (special election) held on November 3, 2026."
+fc_kalshi_SENATEFLS-26-R,forecast,matching,0.33010898226444835,1.0,1.3301089822644483,0.3301089822644483,"A representative of the Republican party is sworn in as a Senator of Florida pursuant to the Class III (special election) held on November 3, 2026."
 fc_kalshi_SENATEFLS-26-R,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"A representative of the Republican party is sworn in as a Senator of Florida pursuant to the Class III (special election) held on November 3, 2026."
 fc_kalshi_SENATEFLS-26-R,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A representative of the Republican party is sworn in as a Senator of Florida pursuant to the Class III (special election) held on November 3, 2026."
 fc_kalshi_SENATEIA-26-D,forecast,matching,1.0,1.0,2.0,1.0,A representative of the Democratic party is sworn in as a Senator of Iowa for the term beginning in 2027.
@@ -454,7 +454,7 @@ fc_metaculus_45423,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Waymo has achieved a
 fc_metaculus_45806,forecast,matching,1.0,1.0,2.0,1.0,"Voting in a national presidential election takes place inside South Sudan on at least one officially designated polling day before January 1, 2027."
 fc_metaculus_45806,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Voting in a national presidential election takes place inside South Sudan on at least one officially designated polling day before January 1, 2027."
 fc_metaculus_45806,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Voting in a national presidential election takes place inside South Sudan on at least one officially designated polling day before January 1, 2027."
-fc_metaculus_45855,forecast,matching,0.31675268808538165,1.0,1.3167526880853817,0.3167526880853817,"At least 100 United States ground troops are located within the internationally recognized borders of Iran for more than 5 consecutive days before December 1, 2026."
+fc_metaculus_45855,forecast,matching,0.3167526880853816,1.0,1.3167526880853817,0.3167526880853817,"At least 100 United States ground troops are located within the internationally recognized borders of Iran for more than 5 consecutive days before December 1, 2026."
 fc_metaculus_45855,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"At least 100 United States ground troops are located within the internationally recognized borders of Iran for more than 5 consecutive days before December 1, 2026."
 fc_metaculus_45855,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"At least 100 United States ground troops are located within the internationally recognized borders of Iran for more than 5 consecutive days before December 1, 2026."
 fc_metaculus_45856,forecast,matching,1.0,1.0,2.0,1.0,"On a single day after September 30, 2026 and before December 1, 2026, 48 or more ships transit through the Strait of Hormuz."
@@ -469,7 +469,7 @@ fc_metaculus_7819,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"A terrorist attack th
 fc_metaculus_8602,forecast,matching,1.0,1.0,2.0,1.0,The combination of semaglutide and cagrilintide is approved for the treatment of obesity by the FDA or EMA by 2027-01-01.
 fc_metaculus_8602,forecast,ramsey_linear,1.0,1.0,2.0,1.0,The combination of semaglutide and cagrilintide is approved for the treatment of obesity by the FDA or EMA by 2027-01-01.
 fc_metaculus_8602,forecast,ramsey_utility,1.0,1.0,2.0,1.0,The combination of semaglutide and cagrilintide is approved for the treatment of obesity by the FDA or EMA by 2027-01-01.
-fc_polymarket_0x0fcfcfc35d71424c0693c717d2e3bc9b8992910835d124d80cd2f01498f1d3dc,forecast,matching,0.3333333333333333,1.0,1.3333333333333333,0.33333333333333326,"Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and December 31, 2027."
+fc_polymarket_0x0fcfcfc35d71424c0693c717d2e3bc9b8992910835d124d80cd2f01498f1d3dc,forecast,matching,0.33333333333333326,1.0,1.3333333333333333,0.33333333333333326,"Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and December 31, 2027."
 fc_polymarket_0x0fcfcfc35d71424c0693c717d2e3bc9b8992910835d124d80cd2f01498f1d3dc,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and December 31, 2027."
 fc_polymarket_0x0fcfcfc35d71424c0693c717d2e3bc9b8992910835d124d80cd2f01498f1d3dc,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and December 31, 2027."
 fc_polymarket_0x1bed80a6572846b8733ae9d11213e3fa50c00633e9dff7e54b659661e2155fae,forecast,matching,1.0,1.0,2.0,1.0,"At least one Binance 1-minute candle for Solana (SOL/USDT) from the creation of this market through 11:59 PM ET on December 31, 2026, has a final 'High' price equal to or above $90 or a final 'Low' price equal to or below $90."
@@ -511,7 +511,7 @@ fc_polymarket_0x60b8efcdc90f3e209a0c325d5bff56145d83aed9e064714aa941aa2c4552644a
 fc_polymarket_0x654a72888c510cea03e517f65e199003d322294d3669c902cb31d59433dc5b89,forecast,matching,0.44999999700704085,1.0,1.449999997007041,0.44999999700704096,"Chang Chi-kai will be elected as the Mayor of Chiayi City in the election held on November 28, 2026."
 fc_polymarket_0x654a72888c510cea03e517f65e199003d322294d3669c902cb31d59433dc5b89,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Chang Chi-kai will be elected as the Mayor of Chiayi City in the election held on November 28, 2026."
 fc_polymarket_0x654a72888c510cea03e517f65e199003d322294d3669c902cb31d59433dc5b89,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Chang Chi-kai will be elected as the Mayor of Chiayi City in the election held on November 28, 2026."
-fc_polymarket_0x6693ebfeb4a1476a79f7c1581b59da9186ff138f6664a4f5b9817e0974839733,forecast,matching,0.0499999982065924,1.0,1.0499999982065924,0.0499999982065924,"Iran will target the United Arab Emirates through a qualifying military action by November 30, 2026."
+fc_polymarket_0x6693ebfeb4a1476a79f7c1581b59da9186ff138f6664a4f5b9817e0974839733,forecast,matching,0.04999999820659238,1.0,1.0499999982065924,0.0499999982065924,"Iran will target the United Arab Emirates through a qualifying military action by November 30, 2026."
 fc_polymarket_0x6693ebfeb4a1476a79f7c1581b59da9186ff138f6664a4f5b9817e0974839733,forecast,ramsey_linear,1.0,1.0,2.0,1.0,"Iran will target the United Arab Emirates through a qualifying military action by November 30, 2026."
 fc_polymarket_0x6693ebfeb4a1476a79f7c1581b59da9186ff138f6664a4f5b9817e0974839733,forecast,ramsey_utility,1.0,1.0,2.0,1.0,"Iran will target the United Arab Emirates through a qualifying military action by November 30, 2026."
 fc_polymarket_0x6c783a56758368cb7ebdd383a368ab39728d3475d36a561626176657faaeb564,forecast,matching,1.0,1.0,2.0,1.0,"One or more IAEA officials physically visited the Isfahan Nuclear Technology Center, Fordow Fuel Enrichment Plant, or Natanz Nuclear Facility in Iran by December 31, 2027."
@@ -658,7 +658,7 @@ kuq_1330,kuq,ramsey_utility,1.0,1.0,2.0,1.0,Modular design will be incorporated 
 kuq_1345,kuq,matching,1.0,1.0,2.0,1.0,AI gaming programs will be able to comprehend player's emotions by the year 2030.
 kuq_1345,kuq,ramsey_linear,1.0,1.0,2.0,1.0,AI gaming programs will be able to comprehend player's emotions by the year 2030.
 kuq_1345,kuq,ramsey_utility,1.0,1.0,2.0,1.0,AI gaming programs will be able to comprehend player's emotions by the year 2030.
-kuq_1371,kuq,matching,0.675,1.0,1.675,0.675,My great-grandfather was involved in the Salem Witch Trials.
+kuq_1371,kuq,matching,0.6749999999999999,1.0,1.6749999999999998,0.6749999999999998,My great-grandfather was involved in the Salem Witch Trials.
 kuq_1371,kuq,ramsey_linear,1.0,1.0,2.0,1.0,My great-grandfather was involved in the Salem Witch Trials.
 kuq_1371,kuq,ramsey_utility,1.0,1.0,2.0,1.0,My great-grandfather was involved in the Salem Witch Trials.
 kuq_1482,kuq,matching,1.0,1.0,2.0,1.0,Organizations provide assistance during disaster relief efforts more than 50% of the time.
@@ -853,7 +853,7 @@ part_chance_d6_e2,partition,ramsey_utility,1.0,1.0,2.0,1.0,"A fair six-sided die
 part_chance_d6_e3,partition,matching,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 5 or 6."
 part_chance_d6_e3,partition,ramsey_linear,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 5 or 6."
 part_chance_d6_e3,partition,ramsey_utility,1.0,1.0,2.0,1.0,"A fair six-sided die, rolled once, will show 5 or 6."
-part_chance_roulette_e1,partition,matching,0.29056060845603077,1.0,1.2905606084560308,0.2905606084560308,A single spin of a fair European roulette wheel will land on zero.
+part_chance_roulette_e1,partition,matching,0.2905606084560307,1.0,1.2905606084560306,0.2905606084560306,A single spin of a fair European roulette wheel will land on zero.
 part_chance_roulette_e1,partition,ramsey_linear,0.31679470921290753,1.0,1.3167947092129075,0.31679470921290753,A single spin of a fair European roulette wheel will land on zero.
 part_chance_roulette_e1,partition,ramsey_utility,0.04028249605712703,1.0,1.040282496057127,0.04028249605712708,A single spin of a fair European roulette wheel will land on zero.
 part_chance_roulette_e2,partition,matching,1.0,1.0,2.0,1.0,A single spin of a fair European roulette wheel will land on a number from 1 to 18.

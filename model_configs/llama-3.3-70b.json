@@ -1,0 +1,6 @@
+{
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "thinking": false,
+  "thinking_switch": null,
+  "vllm": {"dtype": "bfloat16", "max_model_len": 4096, "gpu_memory_utilization": 0.92, "tensor_parallel_size": 2}
+}

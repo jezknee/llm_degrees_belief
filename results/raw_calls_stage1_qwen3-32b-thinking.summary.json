@@ -1,0 +1,22 @@
+{
+  "rows": 230,
+  "by_method": {
+    "stage1": {
+      "rows": 230,
+      "mean_mass_outside": 0.0014,
+      "max_mass_outside": 0.1667,
+      "rows_missing_A_or_B": 0,
+      "top_tokens": {
+        "'A'": 155,
+        "'B'": 75
+      },
+      "order_gap": 0.2751,
+      "dominance_correct": 1.0
+    }
+  },
+  "samples_per_prompt": 5,
+  "sample_status": {
+    "ok": 1148,
+    "truncated": 2
+  }
+}

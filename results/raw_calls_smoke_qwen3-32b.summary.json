@@ -1,0 +1,31 @@
+{
+  "rows": 420,
+  "by_method": {
+    "matching": {
+      "rows": 210,
+      "mean_mass_outside": 0.0004,
+      "max_mass_outside": 0.0032,
+      "rows_missing_A_or_B": 0,
+      "top_tokens": {
+        "'A'": 160,
+        "'B'": 50
+      },
+      "order_gap": 0.4302,
+      "propositions": 5,
+      "share_falling": 1.0
+    },
+    "ramsey": {
+      "rows": 210,
+      "mean_mass_outside": 0.0003,
+      "max_mass_outside": 0.0023,
+      "rows_missing_A_or_B": 0,
+      "top_tokens": {
+        "'B'": 129,
+        "'A'": 81
+      },
+      "order_gap": -0.1407,
+      "propositions": 5,
+      "share_falling": 1.0
+    }
+  }
+}

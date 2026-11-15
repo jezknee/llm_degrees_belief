@@ -1,0 +1,116 @@
+{
+  "model": "Qwen/Qwen3-32B",
+  "run": "qwen3-32b",
+  "thinking": false,
+  "date": "2026-11-14",
+  "certified": false,
+  "status": "failed",
+  "stopped": null,
+  "gate": {
+    "methods": {
+      "matching": {
+        "propositions": 5,
+        "share_dominance_at_top": 0.8,
+        "mean_p_at_top": 0.2691259539765989,
+        "share_crossing": 1.0,
+        "mean_abs_order_gap": 0.4489098390775216,
+        "mean_mass_outside": 0.0003576059933551049
+      },
+      "ramsey": {
+        "propositions": 5,
+        "share_dominance_at_top": 1.0,
+        "mean_p_at_top": 0.19633629459805063,
+        "share_crossing": 1.0,
+        "mean_abs_order_gap": 0.2505939655724255,
+        "mean_mass_outside": 0.00027939206493017744
+      }
+    },
+    "stage1_dominance": 0.9,
+    "reasons": [],
+    "pass": true
+  },
+  "certification": {
+    "estimate": "ramsey_linear_pair",
+    "checks": {
+      "gate_passed": {
+        "value": true,
+        "pass": true
+      },
+      "chance_corr": {
+        "value": 0.8344521554641694,
+        "min": 0.7,
+        "n": 42,
+        "pass": true
+      },
+      "chance_mae": {
+        "value": 0.13580838234087825,
+        "max": 0.2,
+        "n": 42,
+        "pass": true
+      },
+      "partition_coherence_p": {
+        "value": 1.5424158709905403e-16,
+        "min": 0.05,
+        "n": 13,
+        "pass": false
+      }
+    },
+    "described": {
+      "fact_accuracy": {
+        "value": 0.7,
+        "n": 50,
+        "note": "share of facts where the true version gets the higher credence; describes the model's knowledge, not the measure, so it is not a certification check"
+      },
+      "incoherence_sure_loss": {
+        "unit": "partitions",
+        "value": 0.4354263806343337,
+        "n": 13,
+        "note": "mean |sum of a partition's cells - 1|: the sure loss per \u00a31 a Dutch book could extract from an agent acting on these numbers (degree of incoherence)"
+      },
+      "partitions_above_1": {
+        "unit": "partitions",
+        "value": 0.0224609375,
+        "n": 13,
+        "note": "11 of 13 partition sums are above 1; two-sided sign-test p-value shown (under coherence, sums scatter evenly either side of 1; no error model needed)"
+      },
+      "partitions_within_2sd": {
+        "unit": "partitions",
+        "value": 0.7692307692307693,
+        "n": 13,
+        "note": "share of partitions whose sum is within 2 measurement-error SDs of 1 (pooled chi-squared 112.2 on 13 df)"
+      }
+    },
+    "status": "failed",
+    "passed": false,
+    "not_tested": []
+  },
+  "config": {
+    "model": "Qwen/Qwen3-32B",
+    "thinking": false,
+    "vllm": {
+      "dtype": "auto",
+      "max_model_len": 4096,
+      "gpu_memory_utilization": 0.92
+    },
+    "backend": "vllm",
+    "top_k": 20,
+    "reasoning": {
+      "samples": 5,
+      "max_tokens": 3000,
+      "temperature": 0.6,
+      "top_p": 0.95,
+      "top_k": 20,
+      "claims": 20,
+      "partitions": "all",
+      "every": 2
+    },
+    "certify": {
+      "estimate": "ramsey_linear_pair",
+      "min_chance_corr": 0.7,
+      "max_chance_mae": 0.2,
+      "partition_alpha": 0.05
+    },
+    "neutral": "auto",
+    "gate_min_share": 0.8
+  }
+}

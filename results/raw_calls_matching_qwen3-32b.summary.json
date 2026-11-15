@@ -1,0 +1,18 @@
+{
+  "rows": 26796,
+  "by_method": {
+    "matching": {
+      "rows": 26796,
+      "mean_mass_outside": 0.0005,
+      "max_mass_outside": 0.0349,
+      "rows_missing_A_or_B": 0,
+      "top_tokens": {
+        "'A'": 22796,
+        "'B'": 4000
+      },
+      "order_gap": 0.5845,
+      "propositions": 638,
+      "share_falling": 1.0
+    }
+  }
+}

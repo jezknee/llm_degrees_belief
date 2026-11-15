@@ -10,6 +10,8 @@ Credence = where the order-averaged choice curve crosses 0.5. Censored curves co
 | ramsey_linear | 636 | 0% | 99% | 61% | 1.97 | 0.97 |
 | ramsey_utility | 636 | 0% | 99% | 61% | 1.97 | 0.97 |
 
+Pair-corrected estimates, b*(P) = (b(P) - b(not P) + 1) / 2, sum to 1 by construction; they appear below with the suffix _pair.
+
 ## Calibration on the anchors
 
 | Estimate | Chance: MAE vs true chance | Chance: correlation | Facts: Brier | Facts: accuracy | Forecasts: MAE vs crowd | Forecasts: correlation |
@@ -17,23 +19,38 @@ Credence = where the order-averaged choice curve crosses 0.5. Censored curves co
 | matching | 0.45 | 0.33 | 0.47 | 0.53 | 0.47 | 0.12 |
 | ramsey_linear | 0.48 | 0.16 | 0.47 | 0.53 | 0.50 | n/a |
 | ramsey_utility | 0.48 | 0.16 | 0.47 | 0.53 | 0.50 | n/a |
+| matching_pair | 0.21 | 0.44 | 0.26 | 0.52 | 0.23 | 0.17 |
+| ramsey_linear_pair | 0.24 | 0.23 | 0.26 | 0.52 | 0.22 | n/a |
+| ramsey_utility_pair | 0.24 | 0.23 | 0.26 | 0.52 | 0.22 | n/a |
 
 ## Do the methods agree?
 
-| Tier | Compared with | Propositions | Correlation | Mean difference (Ramsey - matching) |
-| --- | --- | --- | --- | --- |
-| all | ramsey_linear | 636 | 0.22 | 0.03 |
-| all | ramsey_utility | 636 | 0.23 | 0.03 |
-| chance | ramsey_linear | 60 | -0.05 | 0.02 |
-| chance | ramsey_utility | 60 | -0.05 | 0.02 |
-| fact | ramsey_linear | 98 | 0.55 | -0.02 |
-| fact | ramsey_utility | 98 | 0.55 | -0.02 |
-| forecast | ramsey_linear | 240 | n/a | 0.07 |
-| forecast | ramsey_utility | 240 | n/a | 0.07 |
-| kuq | ramsey_linear | 160 | n/a | 0.01 |
-| kuq | ramsey_utility | 160 | n/a | 0.01 |
-| partition | ramsey_linear | 78 | 1.00 | 0.00 |
-| partition | ramsey_utility | 78 | 1.00 | -0.00 |
+| Tier | Compared | With | Propositions | Correlation | Mean difference (Ramsey - matching) |
+| --- | --- | --- | --- | --- | --- |
+| all | matching | ramsey_linear | 636 | 0.22 | 0.03 |
+| all | matching | ramsey_utility | 636 | 0.23 | 0.03 |
+| all | matching_pair | ramsey_linear_pair | 634 | 0.25 | -0.00 |
+| all | matching_pair | ramsey_utility_pair | 634 | 0.26 | -0.00 |
+| chance | matching | ramsey_linear | 60 | -0.05 | 0.02 |
+| chance | matching | ramsey_utility | 60 | -0.05 | 0.02 |
+| chance | matching_pair | ramsey_linear_pair | 60 | 0.00 | 0.00 |
+| chance | matching_pair | ramsey_utility_pair | 60 | 0.00 | 0.00 |
+| fact | matching | ramsey_linear | 98 | 0.55 | -0.02 |
+| fact | matching | ramsey_utility | 98 | 0.55 | -0.02 |
+| fact | matching_pair | ramsey_linear_pair | 96 | 0.58 | 0.00 |
+| fact | matching_pair | ramsey_utility_pair | 96 | 0.58 | 0.00 |
+| forecast | matching | ramsey_linear | 240 | n/a | 0.07 |
+| forecast | matching | ramsey_utility | 240 | n/a | 0.07 |
+| forecast | matching_pair | ramsey_linear_pair | 240 | n/a | 0.00 |
+| forecast | matching_pair | ramsey_utility_pair | 240 | n/a | 0.00 |
+| kuq | matching | ramsey_linear | 160 | n/a | 0.01 |
+| kuq | matching | ramsey_utility | 160 | n/a | 0.01 |
+| kuq | matching_pair | ramsey_linear_pair | 160 | n/a | 0.00 |
+| kuq | matching_pair | ramsey_utility_pair | 160 | n/a | 0.00 |
+| partition | matching | ramsey_linear | 78 | 1.00 | 0.00 |
+| partition | matching | ramsey_utility | 78 | 1.00 | -0.00 |
+| partition | matching_pair | ramsey_linear_pair | 78 | 1.00 | -0.00 |
+| partition | matching_pair | ramsey_utility_pair | 78 | 1.00 | -0.00 |
 
 ## Where do Ramsey curves fall?
 

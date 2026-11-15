@@ -17,6 +17,8 @@ rises p should fall; the credence is where it crosses 0.5 (linear interpolation)
     ramsey     certainty equivalent c*, then
                credence_linear  = c*/1000               (if utility were linear in money)
                credence_utility = u(c*)                 (Ramsey's own definition, using utility_scale.py)
+    pair-corrected (suffix _pair), for each of the three:  b*(P) = (b(P) - b(not P) + 1) / 2
+               removes any bias that a statement and its negation share; b*(P) + b*(not P) = 1
 
 A curve that never falls below 0.5 is censored at the top (credence 1, status
 "never_below"); one that never rises above it, at the bottom (0, "never_above").
@@ -26,7 +28,7 @@ Outputs, in data/analysis/<run>/ (all plot-ready, one row per thing named):
 
     curves.csv              proposition x method x grid value: p in each order and their mean
     fits.csv                proposition x method: crossing, status, both orders, area and logistic estimates
-    propositions.csv        proposition: text, tier, references, and every method's credence side by side
+    propositions.csv        proposition: text, tier, references, and every estimate side by side (look one up with lookup.py)
     coherence.csv           claim x estimate: b(P), b(not-P), their sum and the Dutch-book loss
     partitions.csv          partition x estimate: the three cells' credences and their sum
     utility_curve.csv       u(x) at £10 steps, from the measured utility points
@@ -54,7 +56,12 @@ import stage1_analysis as sa
 
 PRIZE = 1000
 GRID_SCALE = {"matching": 100.0, "ramsey": float(PRIZE)}  # grid value -> 0..1
-ESTIMATES = ["matching", "ramsey_linear", "ramsey_utility"]
+BASE_ESTIMATES = ["matching", "ramsey_linear", "ramsey_utility"]
+# Pair-corrected: b*(P) = (b(P) - b(not P) + 1) / 2. Removes any bias shared by a statement and its
+# negation (for example a general pull towards, or away from, bets on statements). b*(P) + b*(not P) = 1
+# by construction, so these are not tested for coherence; they are tested for calibration.
+PAIR_ESTIMATES = [f"{e}_pair" for e in BASE_ESTIMATES]
+ESTIMATES = BASE_ESTIMATES + PAIR_ESTIMATES
 SEED = 20261114
 
 
@@ -224,7 +231,16 @@ def propositions_table(fits: pd.DataFrame, claims: pd.DataFrame, u) -> pd.DataFr
     out["ramsey_utility"] = u(out["ramsey_ce"]) if u else np.nan
     out.loc[out["ramsey_ce"].isna(), "ramsey_utility"] = np.nan
     out["truth_value"] = out["truth"].map({"true": 1.0, "false": 0.0})
+    for est in BASE_ESTIMATES:
+        out[f"{est}_pair"] = pair_corrected(out, est)
     return out
+
+
+def pair_corrected(props: pd.DataFrame, est: str) -> pd.Series:
+    """(b(P) - b(not P) + 1) / 2 for every proposition whose partner (same claim, other neg) has an estimate."""
+    partner = props.set_index(["claim_id", "neg"])[est]
+    other = [partner.get((cid, 1 - neg), np.nan) for cid, neg in zip(props["claim_id"], props["neg"])]
+    return (props[est] - pd.Series(other, index=props.index, dtype=float) + 1) / 2
 
 
 # ---------------------------------------------------------------------------
@@ -238,7 +254,7 @@ def coherence_table(props: pd.DataFrame) -> pd.DataFrame:
         if sorted(g["neg"]) != [0, 1]:
             continue
         p, n = g[g["neg"] == 0].iloc[0], g[g["neg"] == 1].iloc[0]
-        for est in ESTIMATES:
+        for est in BASE_ESTIMATES:
             if pd.isna(p[est]) or pd.isna(n[est]):
                 continue
             s = p[est] + n[est]
@@ -273,8 +289,8 @@ def _corr(a: pd.Series, b: pd.Series) -> float:
 
 def summary_by_tier(props: pd.DataFrame, fits: pd.DataFrame, coh: pd.DataFrame) -> pd.DataFrame:
     rows = []
-    status_col = {"matching": "matching_status", "ramsey_linear": "ramsey_status", "ramsey_utility": "ramsey_status"}
-    method_of = {"matching": "matching", "ramsey_linear": "ramsey", "ramsey_utility": "ramsey"}
+    status_col = {e: "matching_status" if e.startswith("matching") else "ramsey_status" for e in ESTIMATES}
+    method_of = {e: "matching" if e.startswith("matching") else "ramsey" for e in ESTIMATES}
     for est in ESTIMATES:
         f = fits[fits["method"] == method_of[est]]
         for tier in ["all"] + sorted(props["tier"].unique()):
@@ -309,18 +325,21 @@ def summary_by_tier(props: pd.DataFrame, fits: pd.DataFrame, coh: pd.DataFrame) 
 
 
 def agreement_table(props: pd.DataFrame) -> pd.DataFrame:
+    """Matching vs each Ramsey estimate, raw and pair-corrected."""
+    comparisons = [("matching", "ramsey_linear"), ("matching", "ramsey_utility"),
+                   ("matching_pair", "ramsey_linear_pair"), ("matching_pair", "ramsey_utility_pair")]
     rows = []
     for tier in ["all"] + sorted(props["tier"].unique()):
         g = props if tier == "all" else props[props["tier"] == tier]
-        for other in ("ramsey_linear", "ramsey_utility"):
-            both = g[g["matching"].notna() & g[other].notna()]
+        for base, other in comparisons:
+            both = g[g[base].notna() & g[other].notna()]
             clean = both[(both["matching_status"] == "clean") & (both["ramsey_status"] == "clean")]
-            rows.append(dict(tier=tier, compared_with=other, propositions=len(both), both_clean=len(clean),
-                             corr=_corr(both["matching"], both[other]),
-                             corr_both_clean=_corr(clean["matching"], clean[other]),
-                             mean_difference=float((both[other] - both["matching"]).mean()) if len(both) else np.nan,
-                             mean_abs_difference=float((both[other] - both["matching"]).abs().mean())
-                             if len(both) else np.nan))
+            diff = both[other] - both[base]
+            rows.append(dict(tier=tier, compared=base, compared_with=other, propositions=len(both),
+                             both_clean=len(clean), corr=_corr(both[base], both[other]),
+                             corr_both_clean=_corr(clean[base], clean[other]),
+                             mean_difference=float(diff.mean()) if len(both) else np.nan,
+                             mean_abs_difference=float(diff.abs().mean()) if len(both) else np.nan))
     return pd.DataFrame(rows)
 
 
@@ -375,10 +394,11 @@ def report(run: str, out: dict) -> str:
              "of the grid (see status).", "", "## Well-defined and coherent?", "",
              "| Estimate | Propositions | Clean crossing | Censored | Curves falling | Mean b(P)+b(not P) | "
              "Mean Dutch-book loss |", "| --- | --- | --- | --- | --- | --- | --- |"]
-    for r in s[s["tier"] == "all"].itertuples():
+    for r in s[(s["tier"] == "all") & s["estimate"].isin(BASE_ESTIMATES)].itertuples():
         lines.append(f"| {r.estimate} | {r.propositions} | {r.share_clean:.0%} | {r.share_censored:.0%} | "
                      f"{r.share_falling:.0%} | {f2(r.mean_sum_p_not_p)} | {f2(r.mean_dutch_book_loss)} |")
-    lines += ["", "## Calibration on the anchors", "",
+    lines += ["", "Pair-corrected estimates, b*(P) = (b(P) - b(not P) + 1) / 2, sum to 1 by construction; "
+              "they appear below with the suffix _pair.", "", "## Calibration on the anchors", "",
               "| Estimate | Chance: MAE vs true chance | Chance: correlation | Facts: Brier | Facts: accuracy | "
               "Forecasts: MAE vs crowd | Forecasts: correlation |", "| --- | --- | --- | --- | --- | --- | --- |"]
     for est in ESTIMATES:
@@ -391,10 +411,11 @@ def report(run: str, out: dict) -> str:
                      f"{f2(fa.brier_truth if fa is not None else None)} | "
                      f"{f2(fa.accuracy_truth if fa is not None else None)} | "
                      f"{f2(fc.mae_human if fc is not None else None)} | {f2(fc.corr_human if fc is not None else None)} |")
-    lines += ["", "## Do the methods agree?", "", "| Tier | Compared with | Propositions | Correlation | "
-              "Mean difference (Ramsey - matching) |", "| --- | --- | --- | --- | --- |"]
+    lines += ["", "## Do the methods agree?", "", "| Tier | Compared | With | Propositions | Correlation | "
+              "Mean difference (Ramsey - matching) |", "| --- | --- | --- | --- | --- | --- |"]
     for r in a.itertuples():
-        lines.append(f"| {r.tier} | {r.compared_with} | {r.propositions} | {f2(r.corr)} | {f2(r.mean_difference)} |")
+        lines.append(f"| {r.tier} | {r.compared} | {r.compared_with} | {r.propositions} | {f2(r.corr)} | "
+                     f"{f2(r.mean_difference)} |")
     lines += ["", "## Where do Ramsey curves fall?", "", "| Matching credence | Propositions | Ramsey falling | "
               "Ramsey never below 0.5 | Mean certainty equivalent |", "| --- | --- | --- | --- | --- |"]
     for r in out["ramsey_by_matching"].itertuples():
@@ -503,13 +524,14 @@ def analyse(claims: pd.DataFrame, matching: pd.DataFrame | None, ramsey: pd.Data
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--root", default=".", help="project folder")
+    ap.add_argument("--results", help="results folder (default: <root>/results), e.g. results_8B")
     ap.add_argument("--run", help="run name (default: the only non-fake one)")
     ap.add_argument("--out-dir", help="default: data/analysis/<run>")
     ap.add_argument("--figures", action="store_true", help="also save PNG figures (needs matplotlib)")
     args = ap.parse_args(argv)
 
     root = Path(args.root)
-    results = root / "results"
+    results = Path(args.results) if args.results else root / "results"
     run = sa.run_name(sa.find_run(results, args.run, prefix="matching"), prefix="matching")
     out = analyse(load_claims(root / "data" / "claims.csv"), load_method(results, "matching", run),
                   load_method(results, "ramsey", run), load_utility(results, run))

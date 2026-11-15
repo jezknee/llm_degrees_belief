@@ -1,0 +1,7 @@
+{
+  "model": "mistralai/Ministral-3-8B-Instruct-2512-BF16",
+  "name": "ministral-3-8b-instruct-2512-bf16",
+  "thinking": false,
+  "thinking_switch": null,
+  "vllm": {"max_model_len": 4096, "tokenizer_mode": "mistral", "config_format": "mistral", "load_format": "mistral"}
+}

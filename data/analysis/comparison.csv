@@ -1,0 +1,130 @@
+run,section,check,value
+ministral-3-8b-instruct-2512-bf16,Stage 1,Neutral event N,die
+ministral-3-8b-instruct-2512-bf16,Stage 1,Ticket scale (script's verdict),measured
+ministral-3-8b-instruct-2512-bf16,Stage 1,"Dominance, orders averaged",5 of 5
+ministral-3-8b-instruct-2512-bf16,Stage 1,"Dominance, single orders",9 of 10
+ministral-3-8b-instruct-2512-bf16,Stage 1,Tickets vs equal stated chance (mean p),0.711503127857674
+ministral-3-8b-instruct-2512-bf16,Stage 1,Transitivity: cyclic triples,0 of 20
+ministral-3-8b-instruct-2512-bf16,Stage 1,Sure amount chosen over a bet,0.0
+ministral-3-8b-instruct-2512-bf16,Stage 1,Pairs agreeing with expected value,0.4107142857142857
+ministral-3-8b-instruct-2512-bf16,Utility scale,"m(1/2), £",993.9
+ministral-3-8b-instruct-2512-bf16,Utility scale,Points found,6 of 6
+ministral-3-8b-instruct-2512-bf16,Utility scale,Power-curve rho (1 = linear),123.257
+ministral-3-8b-instruct-2512-bf16,Matching,Clean crossing,0.0031347962382445
+ministral-3-8b-instruct-2512-bf16,Matching,Censored (never crosses),0.938871473354232
+ministral-3-8b-instruct-2512-bf16,Matching,Mean b(P) + b(not P),1.9150326138374685
+ministral-3-8b-instruct-2512-bf16,Matching,Chance claims: correlation with true chance,0.3264656410793152
+ministral-3-8b-instruct-2512-bf16,Matching,Chance claims: mean absolute error,0.451715953042671
+ministral-3-8b-instruct-2512-bf16,Matching,Facts: accuracy,0.53
+ministral-3-8b-instruct-2512-bf16,Matching,Forecasts: correlation with crowd,0.1182926513328942
+ministral-3-8b-instruct-2512-bf16,"Ramsey, linear utility",Clean crossing,0.0
+ministral-3-8b-instruct-2512-bf16,"Ramsey, linear utility",Censored (never crosses),0.9858934169278996
+ministral-3-8b-instruct-2512-bf16,"Ramsey, linear utility",Mean b(P) + b(not P),1.9739591459984904
+ministral-3-8b-instruct-2512-bf16,"Ramsey, linear utility",Chance claims: correlation with true chance,0.1649120247033744
+ministral-3-8b-instruct-2512-bf16,"Ramsey, linear utility",Chance claims: mean absolute error,0.4811187221765968
+ministral-3-8b-instruct-2512-bf16,"Ramsey, linear utility",Facts: accuracy,0.5306122448979592
+ministral-3-8b-instruct-2512-bf16,"Ramsey, linear utility",Forecasts: correlation with crowd,
+ministral-3-8b-instruct-2512-bf16,"Ramsey, measured utility",Clean crossing,0.0
+ministral-3-8b-instruct-2512-bf16,"Ramsey, measured utility",Censored (never crosses),0.9858934169278996
+ministral-3-8b-instruct-2512-bf16,"Ramsey, measured utility",Mean b(P) + b(not P),1.9719076903297863
+ministral-3-8b-instruct-2512-bf16,"Ramsey, measured utility",Chance claims: correlation with true chance,0.1644885480019708
+ministral-3-8b-instruct-2512-bf16,"Ramsey, measured utility",Chance claims: mean absolute error,0.4830517312023793
+ministral-3-8b-instruct-2512-bf16,"Ramsey, measured utility",Facts: accuracy,0.5306122448979592
+ministral-3-8b-instruct-2512-bf16,"Ramsey, measured utility",Forecasts: correlation with crowd,
+ministral-3-8b-instruct-2512-bf16,"Matching, pair-corrected",Chance claims: correlation with true chance,0.4442243460197662
+ministral-3-8b-instruct-2512-bf16,"Matching, pair-corrected",Chance claims: mean absolute error,0.2074300094540226
+ministral-3-8b-instruct-2512-bf16,"Matching, pair-corrected",Facts: accuracy,0.52
+ministral-3-8b-instruct-2512-bf16,"Matching, pair-corrected",Forecasts: correlation with crowd,0.1691617517622848
+ministral-3-8b-instruct-2512-bf16,"Ramsey, pair-corrected",Chance claims: correlation with true chance,0.2293011792996155
+ministral-3-8b-instruct-2512-bf16,"Ramsey, pair-corrected",Chance claims: mean absolute error,0.2410912908991656
+ministral-3-8b-instruct-2512-bf16,"Ramsey, pair-corrected",Facts: accuracy,0.5208333333333334
+ministral-3-8b-instruct-2512-bf16,"Ramsey, pair-corrected",Forecasts: correlation with crowd,
+ministral-3-8b-instruct-2512-bf16,"Ramsey (measured utility), pair-corrected",Chance claims: correlation with true chance,0.2287120491090499
+ministral-3-8b-instruct-2512-bf16,"Ramsey (measured utility), pair-corrected",Chance claims: mean absolute error,0.243024299924948
+ministral-3-8b-instruct-2512-bf16,"Ramsey (measured utility), pair-corrected",Facts: accuracy,0.5208333333333334
+ministral-3-8b-instruct-2512-bf16,"Ramsey (measured utility), pair-corrected",Forecasts: correlation with crowd,
+qwen3-32b,Stage 1,Neutral event N,disc
+qwen3-32b,Stage 1,Ticket scale (script's verdict),k/100
+qwen3-32b,Stage 1,"Dominance, orders averaged",5 of 5
+qwen3-32b,Stage 1,"Dominance, single orders",9 of 10
+qwen3-32b,Stage 1,Tickets vs equal stated chance (mean p),0.592385309761107
+qwen3-32b,Stage 1,Transitivity: cyclic triples,0 of 20
+qwen3-32b,Stage 1,Sure amount chosen over a bet,1.0
+qwen3-32b,Stage 1,Pairs agreeing with expected value,0.42857142857142855
+qwen3-32b,Utility scale,"m(1/2), £",4.4
+qwen3-32b,Utility scale,Points found,4 of 6
+qwen3-32b,Utility scale,Power-curve rho (1 = linear),0.091
+qwen3-32b,Matching,Clean crossing,0.5940438871473355
+qwen3-32b,Matching,Censored (never crosses),0.0031347962382445
+qwen3-32b,Matching,Mean b(P) + b(not P),0.4268617456946875
+qwen3-32b,Matching,Chance claims: correlation with true chance,0.593220922983143
+qwen3-32b,Matching,Chance claims: mean absolute error,0.2414397817379669
+qwen3-32b,Matching,Facts: accuracy,0.54
+qwen3-32b,Matching,Forecasts: correlation with crowd,-0.0398979925299219
+qwen3-32b,"Ramsey, linear utility",Clean crossing,0.5266457680250783
+qwen3-32b,"Ramsey, linear utility",Censored (never crosses),0.0893416927899686
+qwen3-32b,"Ramsey, linear utility",Mean b(P) + b(not P),0.6777559891651337
+qwen3-32b,"Ramsey, linear utility",Chance claims: correlation with true chance,0.7275932965605026
+qwen3-32b,"Ramsey, linear utility",Chance claims: mean absolute error,0.2231690228144834
+qwen3-32b,"Ramsey, linear utility",Facts: accuracy,0.63
+qwen3-32b,"Ramsey, linear utility",Forecasts: correlation with crowd,-0.0711673406845764
+qwen3-32b,"Ramsey, measured utility",Clean crossing,0.5266457680250783
+qwen3-32b,"Ramsey, measured utility",Censored (never crosses),0.0893416927899686
+qwen3-32b,"Ramsey, measured utility",Mean b(P) + b(not P),1.614854150335499
+qwen3-32b,"Ramsey, measured utility",Chance claims: correlation with true chance,0.7275932965605025
+qwen3-32b,"Ramsey, measured utility",Chance claims: mean absolute error,0.4158885506850786
+qwen3-32b,"Ramsey, measured utility",Facts: accuracy,0.56
+qwen3-32b,"Ramsey, measured utility",Forecasts: correlation with crowd,-0.008635072725132
+qwen3-32b,"Matching, pair-corrected",Chance claims: correlation with true chance,0.7482531509427333
+qwen3-32b,"Matching, pair-corrected",Chance claims: mean absolute error,0.1656602174053684
+qwen3-32b,"Matching, pair-corrected",Facts: accuracy,0.66
+qwen3-32b,"Matching, pair-corrected",Forecasts: correlation with crowd,-0.0727649564984597
+qwen3-32b,"Ramsey, pair-corrected",Chance claims: correlation with true chance,0.8157977155812796
+qwen3-32b,"Ramsey, pair-corrected",Chance claims: mean absolute error,0.1378338248240729
+qwen3-32b,"Ramsey, pair-corrected",Facts: accuracy,0.7
+qwen3-32b,"Ramsey, pair-corrected",Forecasts: correlation with crowd,-0.1375903413402567
+qwen3-32b,"Ramsey (measured utility), pair-corrected",Chance claims: correlation with true chance,0.81579771558128
+qwen3-32b,"Ramsey (measured utility), pair-corrected",Chance claims: mean absolute error,0.2010978359483959
+qwen3-32b,"Ramsey (measured utility), pair-corrected",Facts: accuracy,0.7
+qwen3-32b,"Ramsey (measured utility), pair-corrected",Forecasts: correlation with crowd,-0.0136320230985245
+qwen3-32b-thinking,Stage 1,Neutral event N,disc
+qwen3-32b-thinking,Stage 1,Ticket scale (script's verdict),k/100
+qwen3-32b-thinking,Stage 1,"Dominance, orders averaged",5 of 5
+qwen3-32b-thinking,Stage 1,"Dominance, single orders",10 of 10
+qwen3-32b-thinking,Stage 1,Tickets vs equal stated chance (mean p),0.8316666666666667
+qwen3-32b-thinking,Stage 1,Transitivity: cyclic triples,0 of 20
+qwen3-32b-thinking,Stage 1,Sure amount chosen over a bet,0.5384615384615384
+qwen3-32b-thinking,Stage 1,Pairs agreeing with expected value,1.0
+qwen3-32b-thinking,Matching,Clean crossing,0.6
+qwen3-32b-thinking,Matching,Censored (never crosses),0.3
+qwen3-32b-thinking,Matching,Mean b(P) + b(not P),0.7874768850385199
+qwen3-32b-thinking,Matching,Chance claims: correlation with true chance,0.99673189329603
+qwen3-32b-thinking,Matching,Chance claims: mean absolute error,0.0253785664782848
+qwen3-32b-thinking,Matching,Facts: accuracy,0.5
+qwen3-32b-thinking,Matching,Forecasts: correlation with crowd,0.0924587771073977
+qwen3-32b-thinking,"Ramsey, linear utility",Clean crossing,0.6
+qwen3-32b-thinking,"Ramsey, linear utility",Censored (never crosses),0.275
+qwen3-32b-thinking,"Ramsey, linear utility",Mean b(P) + b(not P),0.7344861808596285
+qwen3-32b-thinking,"Ramsey, linear utility",Chance claims: correlation with true chance,0.9965621398479156
+qwen3-32b-thinking,"Ramsey, linear utility",Chance claims: mean absolute error,0.0255161411411411
+qwen3-32b-thinking,"Ramsey, linear utility",Facts: accuracy,0.7142857142857143
+qwen3-32b-thinking,"Ramsey, linear utility",Forecasts: correlation with crowd,-0.1005595650163437
+qwen3-32b-thinking,"Ramsey, measured utility",Clean crossing,
+qwen3-32b-thinking,"Ramsey, measured utility",Censored (never crosses),
+qwen3-32b-thinking,"Ramsey, measured utility",Mean b(P) + b(not P),
+qwen3-32b-thinking,"Ramsey, measured utility",Chance claims: correlation with true chance,
+qwen3-32b-thinking,"Ramsey, measured utility",Chance claims: mean absolute error,
+qwen3-32b-thinking,"Ramsey, measured utility",Facts: accuracy,
+qwen3-32b-thinking,"Ramsey, measured utility",Forecasts: correlation with crowd,
+qwen3-32b-thinking,"Matching, pair-corrected",Chance claims: correlation with true chance,0.9986308080404172
+qwen3-32b-thinking,"Matching, pair-corrected",Chance claims: mean absolute error,0.0144235102985095
+qwen3-32b-thinking,"Matching, pair-corrected",Facts: accuracy,0.75
+qwen3-32b-thinking,"Matching, pair-corrected",Forecasts: correlation with crowd,0.1089811343454917
+qwen3-32b-thinking,"Ramsey, pair-corrected",Chance claims: correlation with true chance,0.998769997803654
+qwen3-32b-thinking,"Ramsey, pair-corrected",Chance claims: mean absolute error,0.0130161411411412
+qwen3-32b-thinking,"Ramsey, pair-corrected",Facts: accuracy,0.8333333333333334
+qwen3-32b-thinking,"Ramsey, pair-corrected",Forecasts: correlation with crowd,-0.1210133746513317
+qwen3-32b-thinking,"Ramsey (measured utility), pair-corrected",Chance claims: correlation with true chance,
+qwen3-32b-thinking,"Ramsey (measured utility), pair-corrected",Chance claims: mean absolute error,
+qwen3-32b-thinking,"Ramsey (measured utility), pair-corrected",Facts: accuracy,
+qwen3-32b-thinking,"Ramsey (measured utility), pair-corrected",Forecasts: correlation with crowd,

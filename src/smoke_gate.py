@@ -92,9 +92,11 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--run", required=True, help="model short name, as in results/raw_calls_smoke_<run>.csv")
     ap.add_argument("--results", default="results")
+    ap.add_argument("--file", default="smoke", help="which results to check: smoke (default), or e.g. matching "
+                    "for a cut-down reasoning run")
     args = ap.parse_args(argv)
     results = Path(args.results)
-    smoke_path = results / f"raw_calls_smoke_{args.run}.csv"
+    smoke_path = results / f"raw_calls_{args.file}_{args.run}.csv"
     if not smoke_path.exists():
         sys.exit(f"{smoke_path} not found; run the smoke test first")
     stage1_path = results / f"raw_calls_stage1_{args.run}.csv"

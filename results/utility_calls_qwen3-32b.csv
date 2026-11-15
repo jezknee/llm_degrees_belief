@@ -1,0 +1,1189 @@
+prompt_id,template_version,method,step,item_id,prop_id,claim_id,neg,tier,grid_value,grid_unit,order,target_label,expected_label,run_id,model,backend,input_file,timestamp,lp_A,lp_B,a_missing,b_missing,top_token,top_logprob,p_A,p_B,p_target,mass_outside,level,utility,lo_amount,hi_amount,system,user
+utility_L1_u0.5000_m0000_tf,v1,utility,level1,u0.5000,,,,,0,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-1.9102262258529663,-0.1602262407541275,0,0,B,-0.1602262407541275,0.1480471999111614,0.8519528000888386,0.1480471999111614,2.0881077849033147e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £0 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0000_ts,v1,utility,level1,u0.5000,,,,,0,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-2.578892230987549,-0.078892283141613,0,0,B,-0.078892283141613,0.07585818367743737,0.9241418163225626,0.9241418163225626,2.5448895126789495e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £0 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0050_tf,v1,utility,level1,u0.5000,,,,,50,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-1.501936674118042,-0.25193673372268677,0,0,B,-0.25193673372268677,0.22270014914315836,0.7772998508568416,0.22270014914315836,7.6390741730048e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £50 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0050_ts,v1,utility,level1,u0.5000,,,,,50,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.03806092217564583,-3.2880609035491943,0,0,A,-0.03806092217564583,0.9626731119865553,0.03732688801344475,0.03732688801344475,1.9549601499302405e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £50 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0100_tf,v1,utility,level1,u0.5000,,,,,100,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-4.264189720153809,-0.01418977603316307,0,0,B,-0.01418977603316307,0.014063627818059764,0.9859363721819402,0.014063627818059764,2.6317969467837266e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £100 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0100_ts,v1,utility,level1,u0.5000,,,,,100,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.002481478499248624,-6.002481460571289,0,0,A,-0.002481478499248624,0.9975273767991457,0.0024726232008542848,0.0024726232008542848,5.7933004078414285e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £100 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0150_tf,v1,utility,level1,u0.5000,,,,,150,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-5.006739139556885,-0.006739149335771799,0,0,B,-0.006739149335771799,0.006692850989295451,0.9933071490107046,0.006692850989295451,2.3800497968684553e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £150 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0150_ts,v1,utility,level1,u0.5000,,,,,150,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0015372138004750013,-6.501537322998047,0,0,A,-0.0015372138004750013,0.9984988179069424,0.001501182093057607,0.001501182093057607,3.490319551546772e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £150 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0200_tf,v1,utility,level1,u0.5000,,,,,200,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-5.753201007843018,-0.0032010050490498543,0,0,B,-0.0032010050490498543,0.00317268283364894,0.9968273171663511,0.00317268283364894,2.327831556003801e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £200 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0200_ts,v1,utility,level1,u0.5000,,,,,200,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0005731132114306092,-7.50057315826416,0,0,A,-0.0005731132114306092,0.9994472213879668,0.0005527786120331779,0.0005527786120331779,2.0181557323639687e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £200 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0250_tf,v1,utility,level1,u0.5000,,,,,250,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-2.8120057582855225,-0.06200570985674858,0,0,B,-0.06200570985674858,0.060086647438932404,0.9399133525610676,0.060086647438932404,3.812303677130924e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £250 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0250_ts,v1,utility,level1,u0.5000,,,,,250,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.00019429226813372225,-8.625194549560547,0,0,A,-0.00019429226813372225,0.9998204720768361,0.00017952792316389132,0.00017952792316389132,1.4748119148588756e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £250 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0300_tf,v1,utility,level1,u0.5000,,,,,300,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-5.255250930786133,-0.0052507114596664906,0,0,B,-0.0052507114596664906,0.0052201245546233815,0.9947798754453766,0.0052201245546233815,1.6914309786453252e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £300 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0300_ts,v1,utility,level1,u0.5000,,,,,300,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0001282609737245366,-9.000127792358398,0,0,A,-0.0001282609737245366,0.9998766053661963,0.0001233946338037306,0.0001233946338037306,4.8587143730571825e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £300 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0350_tf,v1,utility,level1,u0.5000,,,,,350,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-6.002486705780029,-0.00248659192584455,0,0,B,-0.00248659192584455,0.002472622875812386,0.9975273771241876,0.002472622875812386,1.0907010150718044e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £350 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0350_ts,v1,utility,level1,u0.5000,,,,,350,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.00016080040950328112,-8.750161170959473,0,0,A,-0.00016080040950328112,0.9998415638395967,0.0001584361604033413,0.0001584361604033413,2.3516940004242315e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £350 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0400_tf,v1,utility,level1,u0.5000,,,,,400,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-4.264187812805176,-0.014188013039529324,0,0,B,-0.014188013039529324,0.014063629819663541,0.9859363701803364,0.014063629819663541,2.455299057324556e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £400 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0400_ts,v1,utility,level1,u0.5000,,,,,400,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.000161038784426637,-8.750161170959473,0,0,A,-0.000161038784426637,0.9998415638018354,0.00015843619816457988,0.00015843619816457988,2.590030567684032e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £400 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0450_tf,v1,utility,level1,u0.5000,,,,,450,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-4.51107120513916,-0.011071204207837582,0,0,B,-0.011071204207837582,0.010986942620473216,0.9890130573795268,0.010986942620473216,2.3459094307343165e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £450 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0450_ts,v1,utility,level1,u0.5000,,,,,450,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.00012492353562265635,-9.00012493133545,0,0,A,-0.00012492353562265635,0.999876605424976,0.00012339457502397178,0.00012339457502397178,1.5213457045248902e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £450 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0500_tf,v1,utility,level1,u0.5000,,,,,500,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-4.5110602378845215,-0.011060122400522232,0,0,B,-0.011060122400522232,0.010986941375717586,0.9890130586242825,0.010986941375717586,1.237874412707285e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £500 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0500_ts,v1,utility,level1,u0.5000,,,,,500,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-9.846202738117427e-05,-9.25009822845459,0,0,A,-9.846202738117427e-05,0.9999038975620558,9.610243794422324e-05,9.610243794422324e-05,2.3549685288504207e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £500 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0550_tf,v1,utility,level1,u0.5000,,,,,550,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-5.255251884460449,-0.005251778755337,0,0,B,-0.005251778755337,0.005220125144644887,0.9947798748553551,0.005220125144644887,1.798099372785078e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £550 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0550_ts,v1,utility,level1,u0.5000,,,,,550,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-9.667406266089529e-05,-9.250096321105957,0,0,A,-9.667406266089529e-05,0.9999038975505837,9.610244941626878e-05,9.610244941626878e-05,5.669949476594383e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £550 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0600_tf,v1,utility,level1,u0.5000,,,,,600,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-6.0024919509887695,-0.00249182409606874,0,0,B,-0.00249182409606874,0.0024726228436527686,0.9975273771563472,0.0024726228436527686,1.6139141858717565e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £600 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0600_ts,v1,utility,level1,u0.5000,,,,,600,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-9.715084888739511e-05,-9.250097274780273,0,0,A,-9.715084888739511e-05,0.9999038975964095,9.610240359048117e-05,9.610240359048117e-05,1.0438266202505986e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £600 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0650_tf,v1,utility,level1,u0.5000,,,,,650,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-6.751184463500977,-0.0011842388194054365,0,0,B,-0.0011842388194054365,0.0011695100025954496,0.9988304899974045,0.0011695100025954496,1.4044307696137182e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £650 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0650_ts,v1,utility,level1,u0.5000,,,,,650,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.00015877417172305286,-8.750158309936523,0,0,A,-0.00015877417172305286,0.9998415637073574,0.00015843629264256087,0.00015843629264256087,3.253266722680337e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £650 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0700_tf,v1,utility,level1,u0.5000,,,,,700,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.000919342041016,-0.0009192770230583847,0,0,B,-0.0009192770230583847,0.0009110511352199255,0.9990889488647801,0.0009110511352199255,7.810598016022574e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £700 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0700_ts,v1,utility,level1,u0.5000,,,,,700,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0002044230350293219,-8.500204086303711,0,0,A,-0.0002044230350293219,0.9997965729534585,0.00020342704654152666,0.00020342704654152666,9.75293924065923e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £700 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0750_tf,v1,utility,level1,u0.5000,,,,,750,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-6.751179218292236,-0.001179118873551488,0,0,B,-0.001179118873551488,0.0011695101489203282,0.9988304898510797,0.0011695101489203282,8.92427414644903e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £750 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0750_ts,v1,utility,level1,u0.5000,,,,,750,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.00015960850578267127,-8.75015926361084,0,0,A,-0.00015960850578267127,0.9998415637262622,0.00015843627373779423,0.00015843627373779423,1.1596790202572649e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £750 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0800_tf,v1,utility,level1,u0.5000,,,,,800,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.250718593597412,-0.0007188120507635176,0,0,B,-0.0007188120507635176,0.000709670554020462,0.9992903294459795,0.000709670554020462,8.889521882271545e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £800 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0800_ts,v1,utility,level1,u0.5000,,,,,800,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.593343616463244e-05,-9.500076293945312,0,0,A,-7.593343616463244e-05,0.9999251537994701,7.484620052988777e-05,7.484620052988777e-05,1.084433930098605e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £800 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0850_tf,v1,utility,level1,u0.5000,,,,,850,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.250718593597412,-0.0007185738068073988,0,0,B,-0.0007185738068073988,0.0007096703850657492,0.9992903296149342,0.0007096703850657492,8.651449088903362e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £850 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0850_ts,v1,utility,level1,u0.5000,,,,,850,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.00012385078298393637,-9.000123977661133,0,0,A,-0.00012385078298393637,0.9998766054396678,0.00012339456033216845,0.00012339456033216845,4.4860881609487535e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £850 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0900_tf,v1,utility,level1,u0.5000,,,,,900,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.250718116760254,-0.0007180972606875002,0,0,B,-0.0007180972606875002,0.0007096703852721438,0.9992903296147279,0.0007096703852721438,8.174906771740709e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £900 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0900_ts,v1,utility,level1,u0.5000,,,,,900,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.00015901254664640874,-8.75015926361084,0,0,A,-0.00015901254664640874,0.9998415638206688,0.00015843617933120058,0.00015843617933120058,5.638148189435199e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £900 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0910_tf,v1,utility,level1,u0.5000,,,,,910,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-8.00034236907959,-0.00034278715611435473,0,0,B,-0.00034278715611435473,0.00033535027062150767,0.9996646497293785,0.00033535027062150767,7.380615779650768e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £910 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0910_ts,v1,utility,level1,u0.5000,,,,,910,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.00033682872890494764,-8.000336647033691,0,0,A,-0.00033682872890494764,0.9996646498086225,0.00033535019137753697,0.00033535019137753697,1.4222940661889893e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £910 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0920_tf,v1,utility,level1,u0.5000,,,,,920,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-6.251948833465576,-0.001948602613992989,0,0,B,-0.001948602613992989,0.0019267342193947708,0.9980732657806052,0.0019267342193947708,2.0009654367436625e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £920 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0920_ts,v1,utility,level1,u0.5000,,,,,920,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0005538121913559735,-7.500553607940674,0,0,A,-0.0005538121913559735,0.9994472212502333,0.0005527787497666692,0.0005527787497666692,8.806027019803153e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £920 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0930_tf,v1,utility,level1,u0.5000,,,,,930,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.250717639923096,-0.0007177399238571525,0,0,B,-0.0007177399238571525,0.0007096704700178084,0.9992903295299822,0.0007096704700178084,7.817487993611039e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £930 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0930_ts,v1,utility,level1,u0.5000,,,,,930,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0003358753747306764,-8.000335693359375,0,0,A,-0.0003358753747306764,0.9996646498085151,0.00033535019148489553,0.00033535019148489553,4.6894068606029293e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £930 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0940_tf,v1,utility,level1,u0.5000,,,,,940,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.000920295715332,-0.0009202298242598772,0,0,B,-0.0009202298242598772,0.0009110511344251979,0.9990889488655748,0.0009110511344251979,8.763392117083768e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £940 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0940_ts,v1,utility,level1,u0.5000,,,,,940,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0005534547381103039,-7.500553607940674,0,0,A,-0.0005534547381103039,0.9994472214477167,0.0005527785522833062,0.0005527785522833062,5.233472996080124e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £940 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0950_tf,v1,utility,level1,u0.5000,,,,,950,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.750435829162598,-0.0004357342259027064,0,0,B,-0.0004357342259027064,0.00043055704046654985,0.9995694429595334,0.00043055704046654985,5.084456213610977e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £950 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0950_ts,v1,utility,level1,u0.5000,,,,,950,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0003357561945449561,-8.000335693359375,0,0,A,-0.0003357561945449561,0.9996646498484688,0.0003353501515311885,0.0003353501515311885,3.498005162194673e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £950 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0960_tf,v1,utility,level1,u0.5000,,,,,960,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.500563621520996,-0.0005638201837427914,0,0,B,-0.0005638201837427914,0.0005527787466794285,0.9994472212533205,0.0005527787466794285,1.0888539284881205e-05,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £960 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0960_ts,v1,utility,level1,u0.5000,,,,,960,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0003359945258125663,-8.000335693359375,0,0,A,-0.0003359945258125663,0.9996646497685712,0.0003353502314288326,0.0003353502314288326,5.880517476297697e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £960 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0970_tf,v1,utility,level1,u0.5000,,,,,970,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-8.00033950805664,-0.00033968876232393086,0,0,B,-0.00033968876232393086,0.00033535019104583594,0.9996646498089542,0.00033535019104583594,4.282319659321132e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £970 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0970_ts,v1,utility,level1,u0.5000,,,,,970,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0005534547381103039,-7.500553607940674,0,0,A,-0.0005534547381103039,0.9994472214477167,0.0005527785522833062,0.0005527785522833062,5.233472996080124e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £970 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0980_tf,v1,utility,level1,u0.5000,,,,,980,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.000916481018066,-0.000916418619453907,0,0,B,-0.000916418619453907,0.0009110511376041085,0.9990889488623959,0.0009110511376041085,4.952210265862789e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £980 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0980_ts,v1,utility,level1,u0.5000,,,,,980,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.00043132537393830717,-7.750431537628174,0,0,A,-0.00043132537393830717,0.9995694430100236,0.000430556989976405,0.000430556989976405,6.75667458760465e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £980 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0990_tf,v1,utility,level1,u0.5000,,,,,990,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-7.750433921813965,-0.00043406602344475687,0,0,B,-0.00043406602344475687,0.0004305571433882987,0.9995694428566118,0.0004305571433882987,3.4161578804647874e-06,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £990 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m0990_ts,v1,utility,level1,u0.5000,,,,,990,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-0.0003357561945449561,-8.000335693359375,0,0,A,-0.0003357561945449561,0.9996646498484688,0.0003353501515311885,0.0003353501515311885,3.498005162194673e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £990 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m1000_tf,v1,utility,level1,u0.5000,,,,,1000,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-12.125005722045898,-5.602820692729438e-06,0,0,B,-5.602820692729438e-06,5.422218323554549e-06,0.9999945777816764,5.422218323554549e-06,1.805876526095318e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £1000 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L1_u0.5000_m1000_ts,v1,utility,level1,u0.5000,,,,,1000,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:29,-1.680836794548668e-05,-11.000017166137695,0,0,A,-1.680836794548668e-05,0.999983298584127,1.670141587295504e-05,1.670141587295504e-05,1.0681259665634713e-07,1,0.5,0,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0000_tf,v1,utility,level2,u0.2500,,,,,0,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-2.3502111434936523,-0.10021121799945831,0,0,B,-0.10021121799945831,0.09534947132582736,0.9046505286741726,0.09534947132582736,4.65196780163879e-06,2,0.25,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £0 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0000_ts,v1,utility,level2,u0.2500,,,,,0,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-5.255236625671387,-0.0052368370816111565,0,0,B,-0.0052368370816111565,0.005220126791385588,0.9947798732086144,0.9947798732086144,3.0378216658855095e-06,2,0.25,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £0 for certain.
+Option B: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0001_tf,v1,utility,level2,u0.2500,,,,,1,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-1.7014358043670654,-0.201435849070549,0,0,B,-0.201435849070549,0.1824255304737224,0.8175744695262777,0.1824255304737224,2.2562678199000707e-05,2,0.25,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £1 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0001_ts,v1,utility,level2,u0.2500,,,,,1,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.004097756464034319,-5.504097938537598,0,0,A,-0.004097756464034319,0.9959298630221521,0.00407013697784786,0.00407013697784786,1.9313748015226118e-05,2,0.25,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1 for certain.
+Option B: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0002_tf,v1,utility,level2,u0.2500,,,,,2,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.529789686203003,-0.02978975884616375,0,0,B,-0.02978975884616375,0.02931223281827398,0.970687767181726,0.02931223281827398,3.9337670463601704e-05,2,0.25,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £2 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0002_ts,v1,utility,level2,u0.2500,,,,,2,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.0019359909929335117,-6.251935958862305,0,0,A,-0.0019359909929335117,0.9980732652748846,0.0019267347251153977,0.0019267347251153977,7.397699443911776e-06,2,0.25,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £2 for certain.
+Option B: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0003_tf,v1,utility,level2,u0.2500,,,,,3,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-5.504095077514648,-0.004095263313502073,0,0,B,-0.004095263313502073,0.004070138469045171,0.9959298615309549,0.004070138469045171,1.681914526097117e-05,2,0.25,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £3 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0003_ts,v1,utility,level2,u0.2500,,,,,3,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.0015093612018972635,-6.501509189605713,0,0,A,-0.0015093612018972635,0.9984988174860525,0.0015011825139474855,0.0015011825139474855,7.050759689097852e-06,2,0.25,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £3 for certain.
+Option B: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0004_tf,v1,utility,level2,u0.2500,,,,,4,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-10.750021934509277,-2.2291887944447808e-05,0,0,B,-2.2291887944447808e-05,2.1444956084718052e-05,0.9999785550439153,2.1444956084718052e-05,8.467015549795676e-07,2,0.25,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £4 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.2500_m0004_ts,v1,utility,level2,u0.2500,,,,,4,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-2.777537883957848e-05,-10.500027656555176,0,0,A,-2.777537883957848e-05,0.9999724643056137,2.7535694386293663e-05,2.7535694386293663e-05,2.3930531045657233e-07,2,0.25,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 for certain.
+Option B: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0004_tf,v1,utility,level2,u0.7500,,,,,4,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.0024757706560194492,-6.002475738525391,0,0,A,-0.0024757706560194492,0.9975273767641147,0.002472623235885263,0.9975273767641147,8.543883833755928e-08,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £4 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0004_ts,v1,utility,level2,u0.7500,,,,,4,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.011052104644477367,-4.511052131652832,0,0,A,-0.011052104644477367,0.9890130576628858,0.01098694233711417,0.01098694233711417,4.3600831176604515e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0054_tf,v1,utility,level2,u0.7500,,,,,54,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-1.1369999647140503,-0.3869999945163727,0,0,B,-0.3869999945163727,0.32082130731838393,0.6791786926816161,0.32082130731838393,0.0001289705228397775,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £54 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0054_ts,v1,utility,level2,u0.7500,,,,,54,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.10022707283496857,-2.350227117538452,0,0,A,-0.10022707283496857,0.904650538956921,0.09534946104307895,0.09534946104307895,2.0517970178102196e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £54 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0104_tf,v1,utility,level2,u0.7500,,,,,104,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-5.006744384765625,-0.006744596175849438,0,0,B,-0.006744596175849438,0.006692852329752154,0.9933071476702479,0.006692852329752154,2.9245844126002396e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £104 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0104_ts,v1,utility,level2,u0.7500,,,,,104,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.3873177766799927,-1.1373177766799927,0,0,A,-0.3873177766799927,0.679178699175393,0.320821300824607,0.320821300824607,0.0004466707779849921,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £104 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0153_tf,v1,utility,level2,u0.7500,,,,,153,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-2.3503975868225098,-0.10039766132831573,0,0,B,-0.10039766132831573,0.09534947132582736,0.9046505286741726,0.09534947132582736,0.0001910770499342629,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £153 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0153_ts,v1,utility,level2,u0.7500,,,,,153,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.10049749910831451,-2.3504974842071533,0,0,A,-0.10049749910831451,0.9046505338155469,0.09534946618445306,0.09534946618445306,0.000290896452169509,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £153 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0203_tf,v1,utility,level2,u0.7500,,,,,203,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-2.578946828842163,-0.07894692569971085,0,0,B,-0.07894692569971085,0.07585818681131791,0.924141813188682,0.07585818681131791,5.71824247465047e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £203 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0203_ts,v1,utility,level2,u0.7500,,,,,203,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.008722302503883839,-4.758722305297852,0,0,A,-0.008722302503883839,0.9914225146100476,0.0085774853899524,0.0085774853899524,0.00010781295343920139,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £203 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0253_tf,v1,utility,level2,u0.7500,,,,,253,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-1.5020372867584229,-0.25203725695610046,0,0,B,-0.25203725695610046,0.22270013366638422,0.7772998663336158,0.22270013366638422,0.0001081763962204052,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £253 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0253_ts,v1,utility,level2,u0.7500,,,,,253,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.008801357820630074,-4.758801460266113,0,0,A,-0.008801357820630074,0.9914225154574753,0.008577484542524716,0.008577484542524716,0.00018685747714564105,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £253 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0303_tf,v1,utility,level2,u0.7500,,,,,303,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.529784679412842,-0.029784783720970154,0,0,B,-0.029784783720970154,0.029312233719238127,0.9706877662807619,0.029312233719238127,3.4361800465232406e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £303 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0303_ts,v1,utility,level2,u0.7500,,,,,303,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.005258894059807062,-5.255259037017822,0,0,A,-0.005258894059807062,0.9947798750488048,0.005220124951195171,0.005220124951195171,2.5096339404395707e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £303 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0353_tf,v1,utility,level2,u0.7500,,,,,353,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-2.578944206237793,-0.07894416898488998,0,0,B,-0.07894416898488998,0.07585817740967664,0.9241418225903234,0.07585817740967664,5.443603658294993e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £353 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0353_ts,v1,utility,level2,u0.7500,,,,,353,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.003186626825481653,-5.7531867027282715,0,0,A,-0.003186626825481653,0.9968273173975662,0.0031726826024337518,0.0031726826024337518,8.900555277024935e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £353 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0402_tf,v1,utility,level2,u0.7500,,,,,402,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.2880802154541016,-0.03808020055294037,0,0,B,-0.03808020055294037,0.03732688680867723,0.9626731131913228,0.03732688680867723,3.882866751891978e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £402 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0402_ts,v1,utility,level2,u0.7500,,,,,402,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.001936228945851326,-6.251936435699463,0,0,A,-0.001936228945851326,0.9980732657342642,0.0019267342657357522,0.0019267342657357522,7.636110835984589e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £402 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0452_tf,v1,utility,level2,u0.7500,,,,,452,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.048654794692993,-0.04865477979183197,0,0,B,-0.04865477979183197,0.04742587250438209,0.9525741274956179,0.04742587250438209,6.742665151160399e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £452 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0452_ts,v1,utility,level2,u0.7500,,,,,452,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.005245493724942207,-5.255245685577393,0,0,A,-0.005245493724942207,0.9947798753027074,0.005220124697292605,0.005220124697292605,1.169650628829455e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £452 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0502_tf,v1,utility,level2,u0.7500,,,,,502,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.288081645965576,-0.03808169439435005,0,0,B,-0.03808169439435005,0.037326889084349245,0.9626731109156508,0.037326889084349245,4.03200859949715e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £502 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0502_ts,v1,utility,level2,u0.7500,,,,,502,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.0032056395430117846,-5.7532057762146,0,0,A,-0.0032056395430117846,0.9968273175897546,0.0031726824102453755,0.0031726824102453755,2.7913115639099928e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £502 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0552_tf,v1,utility,level2,u0.7500,,,,,552,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.529804229736328,-0.02980433776974678,0,0,B,-0.02980433776974678,0.029312233825233916,0.970687766174766,0.029312233825233916,5.3914876966376646e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £552 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0552_ts,v1,utility,level2,u0.7500,,,,,552,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.006736070849001408,-5.0067362785339355,0,0,A,-0.006736070849001408,0.9933071504564163,0.006692849543583734,0.006692849543583734,2.072353515214509e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £552 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0602_tf,v1,utility,level2,u0.7500,,,,,602,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.773296356201172,-0.023296458646655083,0,0,B,-0.023296458646655083,0.02297737220986642,0.9770226277901336,0.02297737220986642,5.099062023627976e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £602 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0602_ts,v1,utility,level2,u0.7500,,,,,602,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.0031876962166279554,-5.753187656402588,0,0,A,-0.0031876962166279554,0.9968273170315983,0.0031726829684016744,0.0031726829684016744,9.969569204293371e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £602 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0651_tf,v1,utility,level2,u0.7500,,,,,651,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-4.018203258514404,-0.018203342333436012,0,0,B,-0.018203342333436012,0.01798621144256255,0.9820137885574375,0.01798621144256255,5.341148159554443e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £651 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0651_ts,v1,utility,level2,u0.7500,,,,,651,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.00318068522028625,-5.753180503845215,0,0,A,-0.00318068522028625,0.9968273165838948,0.0031726834161052153,0.0031726834161052153,2.9581690552671347e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £651 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0701_tf,v1,utility,level2,u0.7500,,,,,701,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-5.255250453948975,-0.005250592716038227,0,0,B,-0.005250592716038227,0.005220126414158598,0.9947798735858414,0.005220126414158598,1.6793698897843434e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £701 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0701_ts,v1,utility,level2,u0.7500,,,,,701,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.01106259785592556,-4.5110626220703125,0,0,A,-0.01106259785592556,0.9890130576325259,0.010986942367474106,0.010986942367474106,1.4853163064487696e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £701 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0751_tf,v1,utility,level2,u0.7500,,,,,751,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-4.511074066162109,-0.011074034497141838,0,0,B,-0.011074034497141838,0.010986942286514374,0.9890130577134856,0.010986942286514374,2.628965087025925e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £751 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0751_ts,v1,utility,level2,u0.7500,,,,,751,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.004094313830137253,-5.504094123840332,0,0,A,-0.004094313830137253,0.9959298615139665,0.004070138486033548,0.004070138486033548,1.5869660357381576e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £751 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0801_tf,v1,utility,level2,u0.7500,,,,,801,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-5.006742477416992,-0.006742583122104406,0,0,B,-0.006742583122104406,0.006692851627018468,0.9933071483729815,0.006692851627018468,2.723355467770805e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £801 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0801_ts,v1,utility,level2,u0.7500,,,,,801,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.011085941456258297,-4.5110859870910645,0,0,A,-0.011085941456258297,0.9890130578652852,0.01098694213471485,0.01098694213471485,3.819637955115862e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £801 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0851_tf,v1,utility,level2,u0.7500,,,,,851,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-4.264193058013916,-0.014192949049174786,0,0,B,-0.014192949049174786,0.014063625532357729,0.9859363744676423,0.014063625532357729,2.9493215175757648e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £851 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0851_ts,v1,utility,level2,u0.7500,,,,,851,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.0024807651061564684,-6.002480983734131,0,0,A,-0.0024807651061564684,0.9975273773826131,0.0024726226173868993,0.0024726226173868993,5.0804961047035135e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £851 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0900_tf,v1,utility,level2,u0.7500,,,,,900,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.048616886138916,-0.04861696809530258,0,0,B,-0.04861696809530258,0.04742587688008271,0.9525741231199173,0.04742587688008271,2.9612196257522427e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £900 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0900_ts,v1,utility,level2,u0.7500,,,,,900,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.00248540285974741,-6.002485275268555,0,0,A,-0.00248540285974741,0.9975273765286603,0.0024726234713396966,0.0024726234713396966,9.717359318095475e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £900 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0910_tf,v1,utility,level2,u0.7500,,,,,910,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-5.255250930786133,-0.005250830203294754,0,0,B,-0.005250830203294754,0.005220125171244219,0.9947798748287557,0.005220125171244219,1.703243155315448e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £910 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0910_ts,v1,utility,level2,u0.7500,,,,,910,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.0019356340635567904,-6.2519354820251465,0,0,A,-0.0019356340635567904,0.9980732650442993,0.0019267349557007263,0.0019267349557007263,7.040541614933282e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £910 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0920_tf,v1,utility,level2,u0.7500,,,,,920,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-4.264186859130859,-0.014186837710440159,0,0,B,-0.014186837710440159,0.014063626746233342,0.9859363732537667,0.014063626746233342,2.338080684871624e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £920 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0920_ts,v1,utility,level2,u0.7500,,,,,920,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.0052490513771772385,-5.2552490234375,0,0,A,-0.0052490513771772385,0.9947798741613544,0.005220125838645617,0.005220125838645617,1.5252963257994523e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £920 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0930_tf,v1,utility,level2,u0.7500,,,,,930,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-4.264178276062012,-0.014178493060171604,0,0,B,-0.014178493060171604,0.014063630052107869,0.9859363699478921,0.014063630052107869,1.5032963889050066e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £930 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0930_ts,v1,utility,level2,u0.7500,,,,,930,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.0015088851796463132,-6.501508712768555,0,0,A,-0.0015088851796463132,0.998498817484831,0.0015011825151689528,0.0015011825151689528,6.574739457865242e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £930 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0940_tf,v1,utility,level2,u0.7500,,,,,940,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.2880754470825195,-0.03807538375258446,0,0,B,-0.03807538375258446,0.03732688506845755,0.9626731149315424,0.03732688506845755,3.401385022649972e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £940 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0940_ts,v1,utility,level2,u0.7500,,,,,940,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.002481716452166438,-6.002481937408447,0,0,A,-0.002481716452166438,0.997527377388356,0.0024726226116440486,0.0024726226116440486,6.031842585962899e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £940 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0950_tf,v1,utility,level2,u0.7500,,,,,950,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.5297679901123047,-0.02976788952946663,0,0,B,-0.02976788952946663,0.029312227889470563,0.9706877721105295,0.029312227889470563,1.7474052480315194e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £950 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0950_ts,v1,utility,level2,u0.7500,,,,,950,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.003185438457876444,-5.753185272216797,0,0,A,-0.003185438457876444,0.9968273166317579,0.0031726833682420574,0.0031726833682420574,7.711429303114414e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £950 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0960_tf,v1,utility,level2,u0.7500,,,,,960,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-2.811995029449463,-0.061995066702365875,0,0,B,-0.061995066702365875,0.06008665227791172,0.9399133477220882,0.06008665227791172,2.747508331801818e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £960 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0960_ts,v1,utility,level2,u0.7500,,,,,960,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.0031914988067001104,-5.7531914710998535,0,0,A,-0.0031914988067001104,0.9968273170698887,0.0031726829301113035,0.0031726829301113035,1.3772152548274796e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £960 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0970_tf,v1,utility,level2,u0.7500,,,,,970,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.2880759239196777,-0.03807584196329117,0,0,B,-0.03807584196329117,0.03732688439914231,0.9626731156008577,0.03732688439914231,3.447274048617999e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £970 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0970_ts,v1,utility,level2,u0.7500,,,,,970,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.004088615067303181,-5.504088401794434,0,0,A,-0.004088615067303181,0.995929861419587,0.004070138580413052,0.004070138580413052,1.01708769587594e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £970 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0980_tf,v1,utility,level2,u0.7500,,,,,980,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.2880733013153076,-0.03807320073246956,0,0,B,-0.03807320073246956,0.03732688372982708,0.9626731162701729,0.03732688372982708,3.1832292472278034e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £980 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0980_ts,v1,utility,level2,u0.7500,,,,,980,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.00525581045076251,-5.255255699157715,0,0,A,-0.00525581045076251,0.9947798737285105,0.005220126271489489,0.005220126271489489,2.201147579961038e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £980 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0990_tf,v1,utility,level2,u0.7500,,,,,990,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-3.048614263534546,-0.04861435294151306,0,0,B,-0.04861435294151306,0.04742587721667508,0.9525741227833249,0.04742587721667508,2.699676314810162e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £990 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m0990_ts,v1,utility,level2,u0.7500,,,,,990,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.005249762907624245,-5.255249977111816,0,0,A,-0.005249762907624245,0.9947798754187773,0.005220124581222674,0.005220124581222674,1.596574660001071e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £990 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m1000_tf,v1,utility,level2,u0.7500,,,,,1000,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-5.753189563751221,-0.003189597511664033,0,0,B,-0.003189597511664033,0.003172682949256541,0.9968273170507435,0.003172682949256541,1.1870862683727168e-05,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £1000 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L2_u0.7500_m1000_ts,v1,utility,level2,u0.7500,,,,,1000,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:30,-0.000125281119835563,-9.00012493133545,0,0,A,-0.000125281119835563,0.9998766053808575,0.00012339461914245842,0.00012339461914245842,1.8788851856577082e-06,2,0.75,4,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0000_tf,v1,utility,level3,u0.3750,,,,,0,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-2.1269330978393555,-0.12693308293819427,0,0,B,-0.12693308293819427,0.11920292045759122,0.8807970795424088,0.11920292045759122,5.0736586126864935e-06,3,0.375,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £0 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0000_ts,v1,utility,level3,u0.3750,,,,,0,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-5.504080772399902,-0.00408066064119339,0,0,B,-0.00408066064119339,0.004070137262874213,0.9959298627371258,0.9959298627371258,2.2178230365543783e-06,3,0.375,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £0 for certain.
+Option B: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0001_tf,v1,utility,level3,u0.3750,,,,,1,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-1.7014358043670654,-0.201435849070549,0,0,B,-0.201435849070549,0.1824255304737224,0.8175744695262777,0.1824255304737224,2.2562678199000707e-05,3,0.375,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £1 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0001_ts,v1,utility,level3,u0.3750,,,,,1,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.004097756464034319,-5.504097938537598,0,0,A,-0.004097756464034319,0.9959298630221521,0.00407013697784786,0.00407013697784786,1.9313748015226118e-05,3,0.375,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1 for certain.
+Option B: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0002_tf,v1,utility,level3,u0.3750,,,,,2,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-3.529789686203003,-0.02978975884616375,0,0,B,-0.02978975884616375,0.02931223281827398,0.970687767181726,0.02931223281827398,3.9337670463601704e-05,3,0.375,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £2 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0002_ts,v1,utility,level3,u0.3750,,,,,2,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0019359909929335117,-6.251935958862305,0,0,A,-0.0019359909929335117,0.9980732652748846,0.0019267347251153977,0.0019267347251153977,7.397699443911776e-06,3,0.375,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £2 for certain.
+Option B: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0003_tf,v1,utility,level3,u0.3750,,,,,3,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-5.504095077514648,-0.004095263313502073,0,0,B,-0.004095263313502073,0.004070138469045171,0.9959298615309549,0.004070138469045171,1.681914526097117e-05,3,0.375,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £3 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0003_ts,v1,utility,level3,u0.3750,,,,,3,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0015093612018972635,-6.501509189605713,0,0,A,-0.0015093612018972635,0.9984988174860525,0.0015011825139474855,0.0015011825139474855,7.050759689097852e-06,3,0.375,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £3 for certain.
+Option B: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0004_tf,v1,utility,level3,u0.3750,,,,,4,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-10.750021934509277,-2.2291887944447808e-05,0,0,B,-2.2291887944447808e-05,2.1444956084718052e-05,0.9999785550439153,2.1444956084718052e-05,8.467015549795676e-07,3,0.375,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+Option B: You receive £4 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.3750_m0004_ts,v1,utility,level3,u0.3750,,,,,4,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-2.777537883957848e-05,-10.500027656555176,0,0,A,-2.777537883957848e-05,0.9999724643056137,2.7535694386293663e-05,2.7535694386293663e-05,2.3930531045657233e-07,3,0.375,0,4,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 for certain.
+Option B: You receive £4 if the disc lands ZOJ side up, and £0 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0004_tf,v1,utility,level3,u0.6250,,,,,4,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.693162202835083,-0.693162202835083,0,0,A,-0.693162202835083,0.5,0.5,0.5,1.5022162303868214e-05,3,0.625,4,5,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £5 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £4 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0004_ts,v1,utility,level3,u0.6250,,,,,4,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0009124883217737079,-7.000912666320801,0,0,A,-0.0009124883217737079,0.9990889489676178,0.0009110510323822041,0.0009110510323822041,1.0220296433605114e-06,3,0.625,4,5,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £4 for certain.
+Option B: You receive £5 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0005_tf,v1,utility,level3,u0.6250,,,,,5,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-3.7732486724853516,-0.023248707875609398,0,0,B,-0.023248707875609398,0.02297737070451605,0.977022629295484,0.02297737070451605,3.242684751825209e-06,3,0.625,4,5,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £5 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+Option B: You receive £5 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.6250_m0005_ts,v1,utility,level3,u0.6250,,,,,5,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0031797345727682114,-5.753179550170898,0,0,A,-0.0031797345727682114,0.9968273165743222,0.0031726834256777803,0.0031726834256777803,2.0075142944664393e-06,3,0.625,4,5,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £5 for certain.
+Option B: You receive £5 if the disc lands ZOJ side up, and £4 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0005_tf,v1,utility,level3,u0.8750,,,,,5,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.20141343772411346,-1.7014133930206299,0,0,A,-0.20141343772411346,0.8175744695262775,0.18242553047372245,0.8175744695262775,1.5158629296241344e-07,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £5 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0005_ts,v1,utility,level3,u0.8750,,,,,5,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.02326221764087677,-3.7732622623443604,0,0,A,-0.02326221764087677,0.9770226310935413,0.02297736890645874,0.02297736890645874,1.6754155267806325e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £5 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0055_tf,v1,utility,level3,u0.8750,,,,,55,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-2.8120150566101074,-0.06201500818133354,0,0,B,-0.06201500818133354,0.0600866474389324,0.9399133525610676,0.0600866474389324,4.742096364818149e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £55 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0055_ts,v1,utility,level3,u0.8750,,,,,55,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.38690218329429626,-1.1369022130966187,0,0,A,-0.38690218329429626,0.6791787056691698,0.3208212943308302,0.3208212943308302,3.1186254314752304e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £55 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0104_tf,v1,utility,level3,u0.8750,,,,,104,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.511065483093262,-0.011065545491874218,0,0,B,-0.011065545491874218,0.01098694330863086,0.9890130566913692,0.01098694330863086,1.779979929206199e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £104 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0104_ts,v1,utility,level3,u0.8750,,,,,104,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.8260383605957031,-0.5760383605957031,0,0,B,-0.5760383605957031,0.4378234991142019,0.5621765008857982,0.5621765008857982,9.893582238817977e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £104 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0154_tf,v1,utility,level3,u0.8750,,,,,154,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-3.773280382156372,-0.023280270397663116,0,0,B,-0.023280270397663116,0.022977367401108627,0.9770226325988913,0.022977367401108627,3.480798734711854e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £154 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0154_ts,v1,utility,level3,u0.8750,,,,,154,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.03813367709517479,-3.2881336212158203,0,0,A,-0.03813367709517479,0.9626731106479247,0.03732688935207529,0.03732688935207529,9.229906176877467e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £154 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0204_tf,v1,utility,level3,u0.8750,,,,,204,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-2.5789947509765625,-0.07899472862482071,0,0,B,-0.07899472862482071,0.07585817845430338,0.9241418215456966,0.07585817845430338,0.00010499051594348163,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £204 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0204_ts,v1,utility,level3,u0.8750,,,,,204,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.006751582026481628,-5.006751537322998,0,0,A,-0.006751582026481628,0.9933071487785238,0.006692851221476226,0.006692851221476226,3.623258175389221e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £204 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0254_tf,v1,utility,level3,u0.8750,,,,,254,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-3.288088798522949,-0.038088809698820114,0,0,B,-0.038088809698820114,0.03732688774571863,0.9626731122542813,0.03732688774571863,4.7436468731620884e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £254 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0254_ts,v1,utility,level3,u0.8750,,,,,254,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.005253794603049755,-5.255253791809082,0,0,A,-0.005253794603049755,0.9947798742919328,0.00522012570806718,0.00522012570806718,1.9996236794384004e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £254 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0304_tf,v1,utility,level3,u0.8750,,,,,304,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-3.5297725200653076,-0.02977263368666172,0,0,B,-0.02977263368666172,0.029312233984227592,0.9706877660157724,0.029312233984227592,2.221183685913175e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £304 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0304_ts,v1,utility,level3,u0.8750,,,,,304,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.004088496323674917,-5.504088401794434,0,0,A,-0.004088496323674917,0.9959298619009228,0.004070138099077192,0.004070138099077192,1.005261782927036e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £304 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0353_tf,v1,utility,level3,u0.8750,,,,,353,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-3.529780387878418,-0.029780501499772072,0,0,B,-0.029780501499772072,0.029312233984227592,0.9706877660157724,0.029312233984227592,3.0079444260366905e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £353 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0353_ts,v1,utility,level3,u0.8750,,,,,353,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.005239089950919151,-5.255239009857178,0,0,A,-0.005239089950919151,0.9947798738905247,0.005220126109475309,0.005220126109475309,5.291367077386866e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £353 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0403_tf,v1,utility,level3,u0.8750,,,,,403,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-3.773261070251465,-0.0232610534876585,0,0,B,-0.0232610534876585,0.02297736953368805,0.977022630466312,0.02297736953368805,1.5589378906000206e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £403 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0403_ts,v1,utility,level3,u0.8750,,,,,403,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0052443076856434345,-5.255244255065918,0,0,A,-0.0052443076856434345,0.9947798740331939,0.0052201259668060995,0.0052201259668060995,1.0509203996811323e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £403 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0453_tf,v1,utility,level3,u0.8750,,,,,453,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-2.8120129108428955,-0.062012992799282074,0,0,B,-0.062012992799282074,0.06008665480259673,0.9399133451974033,0.06008665480259673,4.5397841085370594e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £453 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0453_ts,v1,utility,level3,u0.8750,,,,,453,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.003182824235409498,-5.753182888031006,0,0,A,-0.003182824235409498,0.9968273173592758,0.0031726826407242337,0.0031726826407242337,5.097953408084166e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £453 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0502_tf,v1,utility,level3,u0.8750,,,,,502,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.018163681030273,-0.0181638915091753,0,0,B,-0.0181638915091753,0.017986213679718942,0.982013786320281,0.017986213679718942,1.3959708209831945e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £502 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0502_ts,v1,utility,level3,u0.8750,,,,,502,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.001176023157313466,-6.751175880432129,0,0,A,-0.001176023157313466,0.9988304895682212,0.0011695104317788196,0.0011695104317788196,5.828297555798834e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £502 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0552_tf,v1,utility,level3,u0.8750,,,,,552,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.018207550048828,-0.01820732094347477,0,0,B,-0.01820732094347477,0.017986205915471454,0.9820137940845286,0.017986205915471454,5.7395499216794654e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £552 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0552_ts,v1,utility,level3,u0.8750,,,,,552,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0019345632754266262,-6.25193452835083,0,0,A,-0.0019345632754266262,0.9980732652695118,0.001926734730488211,0.001926734730488211,5.969986096476809e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £552 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0602_tf,v1,utility,level3,u0.8750,,,,,602,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-5.006734848022461,-0.006734649650752544,0,0,B,-0.006734649650752544,0.006692849605498625,0.9933071503945013,0.006692849605498625,1.9302303014723243e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £602 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0602_ts,v1,utility,level3,u0.8750,,,,,602,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0024787436705082655,-6.00247859954834,0,0,A,-0.0024787436705082655,0.9975273764878865,0.0024726235121135254,0.0024726235121135254,3.058171741732174e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £602 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0652_tf,v1,utility,level3,u0.8750,,,,,652,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.264199256896973,-0.014199413359165192,0,0,B,-0.014199413359165192,0.014063629212725592,0.9859363707872744,0.014063629212725592,3.595358088859246e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £652 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0652_ts,v1,utility,level3,u0.8750,,,,,652,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0031789029017090797,-5.75317907333374,0,0,A,-0.0031789029017090797,0.996827317696526,0.003172682303474006,0.003172682303474006,1.1769703333053272e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £652 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0702_tf,v1,utility,level3,u0.8750,,,,,702,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.758630752563477,-0.008630595169961452,0,0,B,-0.008630595169961452,0.008577484075251463,0.9914225159247485,0.008577484075251463,1.6112628016595743e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £702 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0702_ts,v1,utility,level3,u0.8750,,,,,702,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.004085171967744827,-5.504085063934326,0,0,A,-0.004085171967744827,0.9959298618461826,0.004070138153817404,0.004070138153817404,6.728234828501378e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £702 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0751_tf,v1,utility,level3,u0.8750,,,,,751,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-5.504100322723389,-0.004100368358194828,0,0,B,-0.004100368358194828,0.00407013790088009,0.9959298620991199,0.00407013790088009,2.19246615352775e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £751 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0751_ts,v1,utility,level3,u0.8750,,,,,751,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.00524098752066493,-5.2552409172058105,0,0,A,-0.00524098752066493,0.9947798739413053,0.005220126058694707,0.005220126058694707,7.188976028693617e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £751 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0801_tf,v1,utility,level3,u0.8750,,,,,801,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-6.501511096954346,-0.0015112657565623522,0,0,B,-0.0015112657565623522,0.0015011825097595013,0.9984988174902405,0.0015011825097595013,8.955303306246165e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £801 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0801_ts,v1,utility,level3,u0.8750,,,,,801,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.006726953200995922,-5.0067267417907715,0,0,A,-0.006726953200995922,0.9933071476702479,0.006692852329752141,0.006692852329752141,1.1603229622569877e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £801 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0851_tf,v1,utility,level3,u0.8750,,,,,851,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-5.753193378448486,-0.003193400101736188,0,0,B,-0.003193400101736188,0.003172682910966125,0.9968273170890338,0.003172682910966125,1.5673438797825234e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £851 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0851_ts,v1,utility,level3,u0.8750,,,,,851,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.002478981390595436,-6.002479076385498,0,0,A,-0.002478981390595436,0.9975273770776709,0.002472622922329082,0.002472622922329082,3.2964823181158565e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £851 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0900_tf,v1,utility,level3,u0.8750,,,,,900,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.018166542053223,-0.01816658489406109,0,0,B,-0.01816658489406109,0.017986210718776718,0.9820137892812233,0.017986210718776718,1.6656066993192553e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £900 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0900_ts,v1,utility,level3,u0.8750,,,,,900,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0015075758565217257,-6.501507759094238,0,0,A,-0.0015075758565217257,0.9984988180179233,0.0015011819820767158,0.0015011819820767158,5.2659579754532615e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £900 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0910_tf,v1,utility,level3,u0.8750,,,,,910,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-6.002490043640137,-0.0024901593569666147,0,0,B,-0.0024901593569666147,0.002472623442051427,0.9975273765579485,0.002472623442051427,1.4473828365169084e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £910 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0910_ts,v1,utility,level3,u0.8750,,,,,910,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0024831434711813927,-6.002483367919922,0,0,A,-0.0024831434711813927,0.9975273773969701,0.002472622603029939,0.002472622603029939,7.458860610598528e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £910 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0920_tf,v1,utility,level3,u0.8750,,,,,920,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-5.006725311279297,-0.006725532468408346,0,0,B,-0.006725532468408346,0.006692852394762764,0.9933071476052372,0.006692852394762764,1.0182447062967448e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £920 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0920_ts,v1,utility,level3,u0.8750,,,,,920,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.003184844274073839,-5.753184795379639,0,0,A,-0.003184844274073839,0.9968273170028804,0.0031726829971195913,0.0031726829971195913,7.1176222069535555e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £920 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0930_tf,v1,utility,level3,u0.8750,,,,,930,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-5.006725311279297,-0.006725413724780083,0,0,B,-0.006725413724780083,0.006692851605348268,0.9933071483946517,0.006692851605348268,1.0064499362250068e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £930 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0930_ts,v1,utility,level3,u0.8750,,,,,930,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.001508409040980041,-6.5015082359313965,0,0,A,-0.001508409040980041,0.998498817483784,0.0015011825162160042,0.0015011825162160042,6.098602760129523e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £930 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0940_tf,v1,utility,level3,u0.8750,,,,,940,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.0181684494018555,-0.018168339505791664,0,0,B,-0.018168339505791664,0.01798620802102977,0.9820137919789702,0.01798620802102977,1.8413395066807503e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £940 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0940_ts,v1,utility,level3,u0.8750,,,,,940,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0019320646533742547,-6.251932144165039,0,0,A,-0.0019320646533742547,0.9980732654895752,0.001926734510424799,0.001926734510424799,3.4715963267428762e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £940 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0950_tf,v1,utility,level3,u0.8750,,,,,950,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.511058330535889,-0.011058353818953037,0,0,B,-0.011058353818953037,0.010986942883592308,0.9890130571164077,0.010986942883592308,1.0608658277289074e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £950 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0950_ts,v1,utility,level3,u0.8750,,,,,950,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0019334923708811402,-6.251933574676514,0,0,A,-0.0019334923708811402,0.9980732654949481,0.0019267345050518747,0.0019267345050518747,4.899313241213399e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £950 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0960_tf,v1,utility,level3,u0.8750,,,,,960,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.511062145233154,-0.011062362231314182,0,0,B,-0.011062362231314182,0.010986944988545284,0.9890130550114548,0.010986944988545284,1.4614891775233119e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £960 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0960_ts,v1,utility,level3,u0.8750,,,,,960,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.0024801704566925764,-6.0024800300598145,0,0,A,-0.0024801704566925764,0.9975273764970749,0.0024726235029250976,0.0024726235029250976,4.484961755979455e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £960 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0970_tf,v1,utility,level3,u0.8750,,,,,970,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.758627891540527,-0.008627994917333126,0,0,B,-0.008627994917333126,0.008577486292819306,0.9914225137071807,0.008577486292819306,1.3510177181208505e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £970 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0970_ts,v1,utility,level3,u0.8750,,,,,970,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.002481121802702546,-6.002480983734131,0,0,A,-0.002481121802702546,0.9975273765028178,0.002472623497182247,0.002472623497182247,5.436308803674628e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £970 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0980_tf,v1,utility,level3,u0.8750,,,,,980,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.2641777992248535,-0.014177670702338219,0,0,B,-0.014177670702338219,0.014063625261172767,0.9859363747388272,0.014063625261172767,1.421547728497341e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £980 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0980_ts,v1,utility,level3,u0.8750,,,,,980,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.003185557434335351,-5.753185749053955,0,0,A,-0.003185557434335351,0.9968273177635343,0.003172682236465718,0.003172682236465718,7.83154020700394e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £980 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0990_tf,v1,utility,level3,u0.8750,,,,,990,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-4.018162250518799,-0.01816236972808838,0,0,B,-0.01816236972808838,0.017986212067650338,0.9820137879323496,0.017986212067650338,1.2439588782831024e-05,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £990 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m0990_ts,v1,utility,level3,u0.8750,,,,,990,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-0.001932421582750976,-6.251932621002197,0,0,A,-0.001932421582750976,0.9980732657201605,0.0019267342798394704,0.0019267342798394704,3.828755430257402e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £990 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m1000_tf,v1,utility,level3,u0.8750,,,,,1000,gbp,target_first,A,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-6.5015082359313965,-0.001508170971646905,0,0,B,-0.001508170971646905,0.0015011821593669612,0.998498817840633,0.0015011821593669612,5.860892233977566e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+Option B: You receive £1000 for certain.
+
+Which option do you choose? Answer with a single letter: A or B."
+utility_L3_u0.8750_m1000_ts,v1,utility,level3,u0.8750,,,,,1000,gbp,target_second,B,,qwen3-32b,Qwen/Qwen3-32B,vllm,utility_scale,2026-11-14T11:44:31,-7.676783570786938e-05,-9.500076293945312,0,0,A,-7.676783570786938e-05,0.9999251537370231,7.484626297693531e-05,7.484626297693531e-05,1.9187697688494154e-06,3,0.875,5,1000,"You will be offered a choice between two options. Choose the one you prefer. Answer with a single letter, A or B, and nothing else.","A disc with the nonsense syllable ZOJ on one side and ZEJ on the other will be tossed once.
+
+Option A: You receive £1000 for certain.
+Option B: You receive £1000 if the disc lands ZOJ side up, and £5 if the disc lands ZEJ side up.
+
+Which option do you choose? Answer with a single letter: A or B."

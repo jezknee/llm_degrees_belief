@@ -1,0 +1,24 @@
+{
+  "rows": 880,
+  "by_method": {
+    "matching": {
+      "rows": 880,
+      "mean_mass_outside": 0.0288,
+      "max_mass_outside": 0.6667,
+      "rows_missing_A_or_B": 0,
+      "top_tokens": {
+        "'A'": 436,
+        "'B'": 433,
+        "'<no answer>'": 11
+      },
+      "order_gap": 0.0068,
+      "propositions": 40,
+      "share_falling": 0.895
+    }
+  },
+  "samples_per_prompt": 5,
+  "sample_status": {
+    "ok": 4248,
+    "truncated": 152
+  }
+}

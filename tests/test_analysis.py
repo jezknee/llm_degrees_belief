@@ -176,3 +176,33 @@ def test_real_results_analyse_cleanly(run):
     assert props["matching"].notna().mean() > 0.95
     assert props["matching"].between(0, 1).all()
     assert out["fits"].groupby("method").size().min() == len(props)
+
+
+# --- Pair-corrected credences and lookup ---------------------------------------------------
+
+
+def test_pair_correction_removes_a_shared_bias():
+    props = pd.DataFrame({"claim_id": ["a", "a", "b"], "neg": [0, 1, 0],
+                          "matching": [0.30, 0.10, 0.5]})  # true belief 0.6 / 0.4, both shifted down by 0.3
+    got = an.pair_corrected(props, "matching")
+    assert got.iloc[0] == pytest.approx(0.6) and got.iloc[1] == pytest.approx(0.4)
+    assert math.isnan(got.iloc[2])  # no negation to compare with
+
+
+def test_pair_estimates_are_written_and_sum_to_one(project):
+    props = read(project, "propositions")
+    for est in an.BASE_ESTIMATES:
+        wide = props.pivot(index="claim_id", columns="neg", values=f"{est}_pair")
+        assert np.allclose(wide[0] + wide[1], 1)
+    s = read(project, "summary_by_tier")
+    assert set(an.PAIR_ESTIMATES) <= set(s["estimate"])
+
+
+def test_lookup_finds_and_describes(project, capsys):
+    import lookup
+    assert lookup.main(["capital of Australia", "--root", str(project)]) == 0
+    out = capsys.readouterr().out
+    assert "2 proposition(s)" in out and "Betting quotient (Ramsey, pair-corrected)" in out and "in fact true" in out
+    assert "No certificate" in out
+    assert lookup.main(["die", "--root", str(project), "--tier", "chance"]) == 0
+    assert "true chance 17%" in capsys.readouterr().out
